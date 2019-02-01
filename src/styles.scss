@@ -2,6 +2,15 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Source+Sans+Pro');
 
+*, a {
+  -webkit-tap-highlight-color: transparent;
+  outline: none!important;
+}
+
+html, body {
+  background-color: $background;
+}
+
 h1, h2, button {
   font-family: 'Nunito Sans', sans-serif;
 }
@@ -10,4 +19,18 @@ h1, h2, button {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.title {
+  text-align: center;
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
 
+.content {
+  padding: 20px 15px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none!important;
+}

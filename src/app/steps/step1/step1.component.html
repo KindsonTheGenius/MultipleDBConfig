@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row content">
+    <div class="col-12 d-flex justify-content-center flex-column">
+      <h2 class="title">Wo soll der Teppich abgeholt werden?</h2>
+      <div class="form">
+        <input id="typeahead-basic" type="text" class="form-control" placeholder="Postleitzahl" [(ngModel)]="d.zip"
+               [ngbTypeahead]="search" (change)="validate()" (keyup)="validate()"/>
+      </div>
+    </div>
+  </div>
+</div>

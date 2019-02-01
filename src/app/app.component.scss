@@ -1,0 +1,16 @@
+.controls {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 5px;
+
+  background-color: #fff;
+  border-top: 2px solid #D5D3D3;
+
+  .btn {
+    padding: 12px 37px;
+  }
+}

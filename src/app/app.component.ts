@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {StepService} from './steps/step.service';
 
 @Component({
   selector: 'lnk-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'jl-clean';
+  constructor(public s: StepService) {}
 }
