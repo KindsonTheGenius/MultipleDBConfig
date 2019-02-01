@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Source+Sans+Pro');
+
+h1, h2, button {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
