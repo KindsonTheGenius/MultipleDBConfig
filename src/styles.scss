@@ -30,7 +30,7 @@ h1, h2, button {
   padding: 20px 15px;
 }
 
-.btn:focus {
+.btn:focus, input {
   outline: none;
   box-shadow: none!important;
 }

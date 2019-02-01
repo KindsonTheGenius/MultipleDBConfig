@@ -1,3 +1,14 @@
-<p>
-  step2 works!
-</p>
+<div class="container">
+  <div class="row content">
+    <div class="col-12 d-flex justify-content-center flex-column">
+      <h2 class="title">Bitte wählen sie den genauen Ort aus:</h2>
+      <div class="form">
+        <div class="selections">
+          <div class="city" *ngFor="let city of this.cities">
+            {{city.zip}} + {{city.city}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,6 +1,6 @@
 <router-outlet></router-outlet>
 
 <div class="controls">
-  <button type="button" class="btn btn-secondary" *ngIf="step > 1" (click)="s.previousStep()">Zurück</button>
+  <button type="button" class="btn btn-secondary" *ngIf="s.step > 1" (click)="s.previousStep()">Zurück</button>
   <button type="button" class="btn btn-primary" [disabled]="!s.stepValid" (click)="s.nextStep()">Weiter</button>
 </div>

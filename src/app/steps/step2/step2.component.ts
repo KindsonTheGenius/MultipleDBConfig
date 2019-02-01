@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {StepService} from '../step.service';
+import {DataService} from '../data.service';
 
 @Component({
   selector: 'pl-step2',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Step2Component implements OnInit {
 
-  constructor() { }
+  public cities = [];
+
+  constructor(public s: StepService, public d: DataService) { }
 
   ngOnInit() {
+    this.cities = this.s.tours.filter(b => {
+      return b.zip == this.d.zip;
+    });
+
+    if (this.cities.length < 2) {
+      this.s.nextStep();
+    }
   }
 
 }

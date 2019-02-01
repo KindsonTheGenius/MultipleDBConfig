@@ -1,0 +1,14 @@
+@import "../../../variables";
+
+.selections {
+  background-color: #fff;
+
+  border-top: 1px solid $border-color;
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+
+  .city {
+    padding: 10px 10px;
+    border-bottom: 1px solid $border-color;
+  }
+}
