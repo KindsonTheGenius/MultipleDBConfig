@@ -4,9 +4,43 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DataService {
+  private _zip: number;
+  private _city: string;
 
-  public zip: number;
-  public city: string;
+  constructor() {
+    this.load();
+  }
 
-  constructor() { }
+  get zip(): number {
+    return this._zip;
+  }
+
+  set zip(value: number) {
+    this._zip = value;
+    this.save();
+  }
+
+  get city(): string {
+    return this._city;
+  }
+
+  set city(value: string) {
+    this._city = value;
+    this.save();
+  }
+
+  public save() {
+    localStorage.setItem('data', JSON.stringify({
+      zip: this.zip,
+      city: this.city,
+    }))
+  }
+
+  public load() {
+    const data = JSON.parse(localStorage.getItem('data'));
+    if (data) {
+      this.zip = data.zip;
+      this.city = data.city;
+    }
+  }
 }

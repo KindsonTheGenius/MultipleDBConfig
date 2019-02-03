@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {StepService} from '../step.service';
 import {Observable} from 'rxjs';
 import {debounceTime, distinctUntilChanged, map} from 'rxjs/operators';
@@ -9,9 +9,11 @@ import {DataService} from '../data.service';
   templateUrl: './step1.component.html',
   styleUrls: ['./step1.component.scss']
 })
-export class Step1Component implements OnInit {
+export class Step1Component implements OnInit, AfterViewInit {
 
-  constructor(public s: StepService, public d: DataService) { }
+  constructor(public s: StepService, public d: DataService) {
+    this.s.step = 1;
+  }
 
   ngOnInit() {
 
@@ -19,6 +21,10 @@ export class Step1Component implements OnInit {
 
   validate() {
     this.s.stepValid = this.d.zip.toString().length === 5;
+  }
+
+  ngAfterViewInit() {
+    this.validate();
   }
 
   search = (text$: Observable<string>) =>

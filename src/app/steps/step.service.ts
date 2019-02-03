@@ -61,6 +61,7 @@ export class StepService {
   nextStep() {
     if (this.step < 4) {
       this.step++;
+      this.stepValid = false;
       this.routeStep();
     }
   }
@@ -68,6 +69,7 @@ export class StepService {
   previousStep() {
     if (this.step > 0) {
       this.step--;
+      this.stepValid = true;
       this.routeStep();
     }
   }
