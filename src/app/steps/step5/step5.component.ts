@@ -17,7 +17,7 @@ export class Step5Component implements AfterViewInit {
   }
 
   validate() {
-    this.s.stepValid = this.addressForm.valid;
+    this.s.stepValid = this.addressForm.valid && this.d.street !== undefined && this.d.streetNumber !== undefined;
   }
 
   ngAfterViewInit() {

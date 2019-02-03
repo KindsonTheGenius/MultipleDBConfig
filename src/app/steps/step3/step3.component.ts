@@ -14,7 +14,7 @@ moment.locale('de');
 })
 export class Step3Component implements OnInit, AfterViewInit {
 
-  private tour: any;
+  public tour: any;
   public futureDates: any[];
 
   constructor(public s: StepService, public d: DataService) {

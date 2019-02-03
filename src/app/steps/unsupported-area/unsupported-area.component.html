@@ -1,3 +1,13 @@
-<p>
-  unsupported-area works!
-</p>
+<div class="container">
+  <div class="row content">
+    <div class="col-12 d-flex justify-content-center flex-column">
+      <h2 class="title">Entschuldigung!</h2>
+      <h5 class="text-center">Es tut uns leid, aber Ihre eingegebene Postleitzahl liegt noch nicht in unserem Service-Gebiet.</h5>
+    </div>
+  </div>
+</div>
+
+<div class="controls custom-controls" style="z-index: 100">
+  <a [routerLink]="'/zip'" class="btn btn-secondary">Zurück</a>
+  <a href="https://jl-clean.de/" class="btn btn-primary">Schließen</a>
+</div>

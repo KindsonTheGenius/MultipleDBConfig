@@ -35,6 +35,7 @@ h1, h2, button {
 
 .content {
   padding: 20px 15px;
+  padding-bottom: 102px;
 }
 
 .btn:focus, input {
@@ -68,4 +69,32 @@ h1, h2, button {
 
 input[type=radio] {
   margin-right: 7px;
+}
+
+.controls {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 5px;
+
+  background-color: #fff;
+  border-top: 2px solid $border-color;
+
+  .btn {
+    padding: 12px 37px;
+  }
+}
+
+.controls.custom-controls {
+  z-index: 100;
+}
+
+
+small a {
+  color: $text;
+  text-decoration: underline;
+  opacity: 0.9;
 }

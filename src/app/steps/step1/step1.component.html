@@ -3,8 +3,10 @@
     <div class="col-12 d-flex justify-content-center flex-column">
       <h2 class="title">Wo soll der Teppich abgeholt werden?</h2>
       <div class="form">
-        <input id="typeahead-basic" type="text" class="form-control" placeholder="Postleitzahl" [(ngModel)]="d.zip"
-               [ngbTypeahead]="search" (change)="validate()" (keyup)="validate()"/>
+        <form>
+          <input id="typeahead-basic" type="text" class="form-control" placeholder="Postleitzahl" [(ngModel)]="d.zip" name="zip" #name="ngModel"
+                 [ngbTypeahead]="search" (change)="validate()" (keyup)="validate()" minLength="5" maxLength="5"/>
+        </form>
       </div>
     </div>
   </div>

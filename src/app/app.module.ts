@@ -4,7 +4,6 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { MainComponent } from './main/main.component';
 import { Step1Component } from './steps/step1/step1.component';
 import { Step2Component } from './steps/step2/step2.component';
 import { Step3Component } from './steps/step3/step3.component';
@@ -16,11 +15,12 @@ import {FormsModule} from '@angular/forms';
 import { Step6Component } from './steps/step6/step6.component';
 import { Step7Component } from './steps/step7/step7.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { PickupComponent } from './help/pickup/pickup.component';
+import { ReturnComponent } from './help/return/return.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
     Step1Component,
     Step2Component,
     Step3Component,
@@ -29,7 +29,9 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
     Step5Component,
     Step6Component,
     Step7Component,
-    ThankYouComponent
+    ThankYouComponent,
+    PickupComponent,
+    ReturnComponent
   ],
   imports: [
     BrowserModule,

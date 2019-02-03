@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {StepService} from '../step.service';
 
 @Component({
   selector: 'pl-unsupported-area',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UnsupportedAreaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private s: StepService) { }
 
   ngOnInit() {
+    this.s.step = 0;
   }
 
 }

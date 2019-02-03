@@ -11,7 +11,7 @@ import {Moment} from 'moment';
 })
 export class Step4Component implements OnInit, AfterViewInit {
 
-  private tour: any;
+  public tour: any;
   public futureDates: any[];
 
   constructor(public s: StepService, public d: DataService) {

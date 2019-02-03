@@ -9,13 +9,13 @@ import {StepService} from '../steps/step.service';
 export class ThankYouComponent implements OnInit, AfterViewInit {
 
   constructor(private s: StepService) {
+    this.s.step = 0;
   }
 
   ngOnInit() {
   }
 
   ngAfterViewInit() {
-    this.s.done = true;
   }
 
 }

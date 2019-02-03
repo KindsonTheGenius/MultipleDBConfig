@@ -16,6 +16,8 @@ export class StepService {
   public maxSteps = 7;
   public done = false;
 
+  public skippedStep2 = false;
+
   constructor(private http: HttpClient, private router: Router) {
     this.loadData();
   }
@@ -71,6 +73,10 @@ export class StepService {
   previousStep() {
     if (this.step > 0) {
       this.step--;
+      if (this.skippedStep2 && this.step === 2) {
+        this.step--;
+        this.skippedStep2 = false;
+      }
       this.stepValid = true;
       this.routeStep();
     }
