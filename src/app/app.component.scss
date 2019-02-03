@@ -1,5 +1,21 @@
 @import "../variables";
 
+.p-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px;
+
+  ngb-progressbar {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
 .controls {
   position: fixed;
   bottom: 0;

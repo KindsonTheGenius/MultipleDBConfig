@@ -1,3 +1,23 @@
-<p>
-  step3 works!
-</p>
+<div class="container" *ngIf="tour">
+  <div class="row content">
+    <div class="col-12 d-flex justify-content-center flex-column">
+      <div [ngSwitch]="tour.dates.length">
+        <h2 class="title">
+          In Ihrer Region sind wir jeden
+          <span *ngSwitchCase="1">{{getWeekDay(tour.dates[0].isoDay)}}</span>
+          <span *ngSwitchCase="2">{{getWeekDay(tour.dates[0].isoDay)}} und {{getWeekDay(tour.dates[1].isoDay)}}</span>
+          <span *ngSwitchCase="3">{{getWeekDay(tour.dates[0].isoDay)}}, {{getWeekDay(tour.dates[1].isoDay)}} und {{getWeekDay(tour.dates[2].isoDay)}}</span>.
+        </h2>
+      </div>
+      <h5 class="subtitle">Wählen Sie einen Abholtermin aus unseren Tourdaten:</h5>
+      <div class="form">
+        <div class="selections">
+          <label class="date item radio mb-0" *ngFor="let date of this.futureDates; let i = index">
+            <input type="radio" [value]="futureDatesJson[i]" name="date" [(ngModel)]="d.pickupDateJson" (change)="validate()"> {{date.text}}
+          </label>
+        </div>
+        <p class="mt-3 text-center">Unser Fahrer ruft sie am Tag der Lieferung ca. 30 Minuten vor Ankunft an.</p>
+      </div>
+    </div>
+  </div>
+</div>

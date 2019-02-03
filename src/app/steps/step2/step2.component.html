@@ -5,7 +5,7 @@
         <h2 class="title">Bitte wählen sie den genauen Ort aus:</h2>
         <div class="form">
           <div class="selections">
-            <label class="city radio mb-0" *ngFor="let city of this.cities">
+            <label class="city item radio mb-0" *ngFor="let city of this.cities">
                 <input type="radio" [value]="city.city" name="city" [(ngModel)]="d.city" (change)="validate()"> {{city.zip}} + {{city.city}}
             </label>
           </div>

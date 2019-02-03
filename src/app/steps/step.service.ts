@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Router} from '@angular/router';
 
@@ -13,6 +13,8 @@ export class StepService {
   private _holidays = [];
 
   public stepValid = false;
+
+  public maxSteps = 7;
 
   constructor(private http: HttpClient, private router: Router) {
     this.loadData();
@@ -59,7 +61,7 @@ export class StepService {
   }
 
   nextStep() {
-    if (this.step < 4) {
+    if (this.step < this.maxSteps) {
       this.step++;
       this.stepValid = false;
       this.routeStep();
@@ -84,13 +86,19 @@ export class StepService {
         route = 'city';
         break;
       case 3:
-        route = 'date';
+        route = 'pickup';
         break;
       case 4:
-        route = 'time';
+        route = 'return';
         break;
       case 5:
         route = 'address';
+        break;
+      case 6:
+        route = 'contact';
+        break;
+      case 7:
+        route = 'send';
     }
     this.router.navigate([route]);
   }

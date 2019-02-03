@@ -13,6 +13,8 @@ import { UnsupportedAreaComponent } from './steps/unsupported-area/unsupported-a
 import { Step5Component } from './steps/step5/step5.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { Step6Component } from './steps/step6/step6.component';
+import { Step7Component } from './steps/step7/step7.component';
 
 @NgModule({
   declarations: [
@@ -23,14 +25,16 @@ import {FormsModule} from '@angular/forms';
     Step3Component,
     Step4Component,
     UnsupportedAreaComponent,
-    Step5Component
+    Step5Component,
+    Step6Component,
+    Step7Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

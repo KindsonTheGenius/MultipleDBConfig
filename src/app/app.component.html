@@ -1,3 +1,8 @@
+<div class="p-bar" *ngIf="s.step >= 5">
+  <ngb-progressbar [showValue]="false" [value]="s.step - 1" [max]="s.maxSteps - 1" height=".5rem"></ngb-progressbar>
+  <small>Schritt {{s.step - 1}} von {{s.maxSteps - 1}}</small>
+</div>
+
 <router-outlet></router-outlet>
 
 <div class="controls">

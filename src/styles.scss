@@ -26,6 +26,13 @@ h1, h2, button {
   margin-bottom: 45px;
 }
 
+.subtitle {
+  text-align: center;
+  width: 100%;
+  margin-top: -25px;
+  margin-bottom: 45px;
+}
+
 .content {
   padding: 20px 15px;
 }
@@ -33,4 +40,26 @@ h1, h2, button {
 .btn:focus, input {
   outline: none;
   box-shadow: none!important;
+}
+
+.selections {
+  background-color: #fff;
+
+  border-top: 1px solid $border-color;
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+
+  .item {
+    padding: 10px 10px;
+    border-bottom: 1px solid $border-color;
+    width: 100%;
+  }
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-touched.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
 }

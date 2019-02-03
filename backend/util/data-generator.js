@@ -6,9 +6,7 @@ moment.locale('de');
 const toursPath = './csv/tours.csv';
 const holidaysPath = './csv/holidays.csv';
 
-convertTours().then(
-  setTimeout(() => {}, 5000000)
-);
+convertTours().then();
 
 convertHolidays().then();
 
@@ -50,13 +48,13 @@ async function convertHolidays() {
 
 function dayToIsoWeekDay(day) {
   switch(day) {
-    case "Sonntag": return 1;
-    case "Montag": return 2;
-    case "Dienstag": return 3;
-    case "Mittwoch": return 4;
-    case "Donnerstag": return 5;
-    case "Freitag": return 6;
-    case "Samstag": return 7;
+    case "Montag": return 1;
+    case "Dienstag": return 2;
+    case "Mittwoch": return 3;
+    case "Donnerstag": return 4;
+    case "Freitag": return 5;
+    case "Samstag": return 6;
+    case "Sonntag": return 7;
   }
 }
 

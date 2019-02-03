@@ -1,3 +1,17 @@
-<p>
-  step4 works!
-</p>
+<div class="container" *ngIf="tour">
+  <div class="row content">
+    <div class="col-12 d-flex justify-content-center flex-column">
+      <div [ngSwitch]="tour.dates.length">
+        <h2 class="title">Wann sollen wir den gereinigten Teppich zurückbringen?</h2>
+      </div>
+      <div class="form">
+        <div class="selections">
+          <label class="date item radio mb-0" *ngFor="let date of this.futureDates; let i = index">
+            <input type="radio" [value]="futureDatesJson[i]" name="date" [(ngModel)]="d.returnDateJson" (change)="validate()"> {{date.text}}
+          </label>
+        </div>
+        <p class="mt-3 text-center">Unser Fahrer ruft sie am Tag der Lieferung ca. 30 Minuten vor Ankunft an.</p>
+      </div>
+    </div>
+  </div>
+</div>
