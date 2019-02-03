@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {StepService} from './steps/step.service';
+import {DataService} from './steps/data.service';
 
 @Component({
   selector: 'lnk-root',
@@ -7,5 +8,5 @@ import {StepService} from './steps/step.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(public s: StepService) {}
+  constructor(public s: StepService, public d: DataService) {}
 }

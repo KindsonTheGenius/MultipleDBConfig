@@ -13,8 +13,8 @@ export class StepService {
   private _holidays = [];
 
   public stepValid = false;
-
   public maxSteps = 7;
+  public done = false;
 
   constructor(private http: HttpClient, private router: Router) {
     this.loadData();

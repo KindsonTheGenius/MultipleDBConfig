@@ -7,6 +7,7 @@ import {Step4Component} from './steps/step4/step4.component';
 import {Step5Component} from './steps/step5/step5.component';
 import {Step6Component} from './steps/step6/step6.component';
 import {Step7Component} from './steps/step7/step7.component';
+import {ThankYouComponent} from './thank-you/thank-you.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'zip', pathMatch: 'full'},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'address', component: Step5Component},
   {path: 'contact', component: Step6Component},
   {path: 'send', component: Step7Component},
+  {path: 'thank-you', component: ThankYouComponent},
 ];
 
 @NgModule({

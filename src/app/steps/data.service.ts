@@ -1,4 +1,6 @@
 import {Injectable} from '@angular/core';
+import {Router} from '@angular/router';
+import {HttpClient} from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -18,7 +20,7 @@ export class DataService {
 
   private _comment: string;
 
-  constructor() {
+  constructor(private router: Router, private http: HttpClient) {
     this.load();
   }
 
@@ -139,6 +141,13 @@ export class DataService {
   set comment(value: string) {
     this._comment = value;
     this.save();
+  }
+
+  finish() {
+    console.log('Send data to server.');
+    console.log(JSON.parse(localStorage.getItem('data')));
+
+    this.router.navigate(['thank-you']);
   }
 
   public save() {

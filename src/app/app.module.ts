@@ -15,6 +15,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { Step6Component } from './steps/step6/step6.component';
 import { Step7Component } from './steps/step7/step7.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { Step7Component } from './steps/step7/step7.component';
     UnsupportedAreaComponent,
     Step5Component,
     Step6Component,
-    Step7Component
+    Step7Component,
+    ThankYouComponent
   ],
   imports: [
     BrowserModule,
