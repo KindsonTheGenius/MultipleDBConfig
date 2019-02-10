@@ -19,7 +19,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 04159,Leipzig-Wahren,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 04159,Leipzig-Lützschena,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 04159,Leipzig-Gohlis,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-04175,L-Burghs.-Rückmannsd,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+04175,L-Burghs.-Rückmannsd.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 04177,Leipzig,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 04177,Leipzig-Altlindenau,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 04178,Böhlitz-Ehrenberg,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -106,7 +106,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 04463,Großpössna-Güldengossa,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 04463,Großpötzna-Störmthal,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 04466,Leipzig-Lindenthal,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-04469,Leipzig-Lützschena-S,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+04469,Leipzig-Lützschena,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 04564,Großdeuben,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 04564,Böhlen B.Leipzig,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 04683,Belgershain,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -259,7 +259,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 07751,Jena-Krippendorf,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 07751,Jena-Kunitz,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 07751,Jena-Remderoda,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-07751,Jena-Vierzehnheilige,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+07751,Jena-Vierzehnheiligen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 07751,Jena-Wogau,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 07751,Großpürschütz,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 07751,Jena-Ilmnitz,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -310,33 +310,33 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34225,Baunatal-Altenbauna,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34225,Baunatal-Altenritte,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34225,Baunatal-Großenritte,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34225,Baunatal-Guntershaus,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34225,Baunatal-Hertingshau,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34225,Baunatal-Rengershaus,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34225,Baunatal-Guntershausen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34225,Baunatal-Hertingshausen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34225,Baunatal-Rengershausen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34233,Fuldatal,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34233,Fuldatal-Ihringshaus,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34233,Fuldatal-Ihringshausen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34233,Fuldatal-Knickhagen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34233,Fuldatal-Rothwesten,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34233,Fuldatal-Simmershaus,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34233,Fuldatal-Simmershausen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34233,Fuldatal-Wahnhausen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34233,Fuldatal-Wilhelmshau,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34233,Fuldatal-Wilhelmshausen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34246,Vellmar,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34246,Vellmar-Frommershaus,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34246,Vellmar-Niedervellma,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34246,Vellmar-Frommershausen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34246,Vellmar-Niedervellmar,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34246,Vellmar-Obervellmar,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34246,Vellmar-West,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34253,Lohfelden,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34253,Lohfelden-Crumbach,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34253,Lohfelden-Ochshausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34253,Lohfelden-Vollmarsha,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+34253,Lohfelden-Vollmarshausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34260,Kaufungen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34260,Niederkaufungen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34260,Oberkaufungen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34266,Niestetal-Heiligenro,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
-34266,Niestetal-Sandershau,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
+34266,Niestetal-Heiligenrode,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
+34266,Niestetal-Sandershausen,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
 34270,Schauenburg,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34270,Schauenburg-Breitenb,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34270,Schauenburg-Elgersha,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34270,Schauenburg-Breitenbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34270,Schauenburg-Elgershausen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34270,Schauenburg-Emshagen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34270,Schauenburg-Hof,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34270,Schauenburg-Martinhagen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -344,7 +344,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34277,Fuldabrück-Dennhause,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34277,Fuldabrück-Dittersha,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34277,Fuldabrück-Dörnhagen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34281,Gudensb.-Obervorschü,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34281,Gudensb.-Obervorschütz,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34281,Gudensberg,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34281,Gudensberg-Gleichen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34281,Gudensberg-Maden,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -355,11 +355,11 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34286,Spangenberg-Bischoferode,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34286,Spangenberg-Metzebach,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34289,Zierenberg,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34289,Zierenberg-Oberelsun,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+34289,Zierenberg-Oberelsungen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34289,Zierenberg-Oehlshausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34289,Zierenberg-Burghasungen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34292,Ahnatal,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34292,Ahnatal-Heckershause,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+34292,Ahnatal-Heckershausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34292,Ahnatal-Kammerberg,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34292,Ahnatal-Weimar,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34295,Edermünde,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -370,7 +370,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34298,Helsa,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34298,Helsa-Eschenstruth,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34298,Helsa-Wickenrode,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34302,Cuxhagen-Albshausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+34302,Guxhagen-Albshausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34302,Guxhagen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34302,Guxhagen-Büchenwerra,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34302,Guxhagen-Ellenberg,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -413,7 +413,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34346,Hann.Münden-Wiershau,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34346,Hann. Münden-Mielenhausen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34355,Staufenberg-Sichelnsstein,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34355,Staufenb.-Landwehrha,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+34355,Staufenb.-Landwehrhagen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34355,Staufenb.-Lutterberg,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34355,Staufenberg-Sichelns,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34355,Staufenberg-Speele,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -421,7 +421,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34355,Staufenberg-Uschlag,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34355,Staufenberg-Dahlheim,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34355,Staufenberg-Escherode,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34359,Reinhardsh.-Veckerha,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+34359,Reinhardsh.-Veckerhagen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34359,Reinhardshagen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34359,Reinhardshagen-Vaake,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34369,Hofgeismar-Carlsdorf,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -437,7 +437,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34379,Calden-Obermeiser,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34379,Calden,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34379,Calden-Fürstenwald,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34385,Bad Karlsh.-Helmersh,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34385,Bad Karlsh.-Helmersh.,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34385,Bad Karlshafen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34388,Trendelb.-Wülmersen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34388,Trendelburg,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -465,8 +465,8 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34454,Bad Arolsen-Schmillinghausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34454,Bad Arolsen-Massenhausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34466,Wolfhagen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34466,Wolfhagen-Altenhasun,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-34466,Wolfhagen-Wenigenhas,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34466,Wolfhagen-Altenhasungen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+34466,Wolfhagen-Wenigenhasungen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34466,Wolfhagen-Niederelsungen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34466,Wolfhagen-Bründersen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34466,Wolfhagen-Istha,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -486,7 +486,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34497,Korbach-Lelbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34497,Korbach-Eppe,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34497,Korbach-Hillershausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34508,"Willingen-Bömigheusen++Km-Geld 0,59 E",Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+34508,Willingen-Bömigheusen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34508,Willingen-Usseln,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34513,Waldeck-Edersee,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34513,Waldeck-Sachsenhausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -506,8 +506,8 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34537,Bad Wildungen-Wega,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 34537,Bad Wildung-Alt Wild,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34537,Bad Wildungen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-34537,Bad Wildungen-Armsfe,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-34537,Bad Wildungen-Reinha,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+34537,Bad Wildungen-Armsfeld,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+34537,Bad Wildungen-Reinhardsh.,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34537,Bad Wildungen-Bergfreiheit,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34537,Bad Wildungen-Reitzenhagen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34537,Bad Wildungen-Mandern,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -547,7 +547,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34587,Felsberg,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34590,Wabern-Harle,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34590,Wabern,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-34590,Wabern-Niedermöllric,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+34590,Wabern-Niedermöllrich,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34590,Wabern-Uttershausen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34593,Knüllwald-Rengshausen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34593,Knüllwald-Wallenstein,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -559,7 +559,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34599,Neuental-Zimmersrode,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34599,Neuental-Gilsa,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34613,Schwalmst.-Niedergrenzebach,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-34613,Schwalmst.-Ziegenhai,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+34613,Schwalmst.-Ziegenhain,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34613,Schwalmstadt-Treysa,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34613,Schwalmst.-Allendorf,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34613,Schwalmstadt-Rommershausen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -572,7 +572,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 34621,Frielendorf-Großropperhausen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 34626,Neukirchen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34626,Neukirchen-Christerode,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-34628,Willingsh.-Merzhause,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+34628,Willingsh.-Merzhausen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34628,Willigshausen -Steina,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34628,Willingsh.-Steinatal,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 34628,Willingsh.-Wasenberg,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -587,9 +587,9 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35037,Marburg-Ockershausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35039,Marburg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35039,Marburg-Richtsberg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35041,Marburg-Dagobertshau,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35041,Marburg-Dagobertshausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35041,Marburg-Elnhausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35041,Marburg-Haddamshause,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35041,Marburg-Haddamshausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35041,Marburg-Marbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35041,Marburg-Michelbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35041,Marburg-Ockershausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -617,7 +617,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35066,Frankenberg-Viermünden,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35066,Frankenberg-Hommershausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35075,Gladenbach-Weidenhausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-35075,Gladenb.-Römershause,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+35075,Gladenbach-Römershause,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35075,Gladenbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35075,Gladenbach-Frohnhausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35075,Gladenbach-Mornshausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -636,17 +636,17 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35083,Wetter-Warzenbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35083,Wetter-Oberrosphe,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35083,Wetter-Todenhausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35085,Ebsdorferg.-Beltersh,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35085,Ebsdorferg.-Beltersh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35085,Ebsdorferg.-Dreihaus,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35085,Ebsdorferg.-Ebsdorf,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35085,Ebsdorferg.-Hachborn,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35085,Ebsdorferg.-Heskem,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35085,Ebsdorferg.-Leidenho,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35085,Ebsdorferg.-Rauischh,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35085,Ebsdorferg.-Leidenh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35085,Ebsdorferg.-Rauischh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35085,Ebsdorferg.-Rosberg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35085,Ebsdorferg.-Wittelsb,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35085,Ebsdorferg.-Wittelsb.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35085,Ebsdorferg.-Belkershausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35085,Ebsdorgferg.-Mölln,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35085,Ebsdorferg.-Mölln,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35088,Battenberg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35088,Battenberg-Laisa,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35088,Battenberg-Dodenau,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -678,7 +678,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35102,Lohra-Rollshausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35104,Lichtenfels-Goddelsheim,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35104,Lichtenfels-Dalwigksthal,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35104,Lichtenfels-Sachenber,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35104,Lichtenfels-Sachenb.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35108,Allendorf-Eder,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35108,Allendorf-Eder-Rennertehausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35108,Allendorf-Osterfeld,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -687,7 +687,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35110,Frankenau-Ellershausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35112,Frohnhausen-Bellnhausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35112,Fronh.-Oberwalgern,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-35112,Fronhausen-Hassenhau,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+35112,Fronhausen-Hassenhausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35112,Fronhausen-Lahn,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35112,Sichertshausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35114,Haina-Dudenhausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -723,7 +723,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35236,Breidenbach-Niederdieden,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35236,Breidenbach-Oberdieden,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35239,Steffenberg-Oberhörlen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-35239,Steffenberg-Steinpers,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+35239,Steffenberg-Steinperf,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35239,Steffenberg-Niedereisenhausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35239,Steffenberg-Quotshausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35239,Steffenberg-Obereisenhausen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -732,8 +732,8 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35274,Kirchhain,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35274,Kirchhain-Betzisdorf,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35274,Kirchhain-Emsdorf,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35274,Kirchhain-Großseelhe,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35274,Kirchhain-Kleinseelh,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35274,Kirchhain-Großseelh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35274,Kirchhain-Kleinseelh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35274,Kirchhain-Langenstein,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35274,Kirchhain-Schönbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35274,Kirchhain-Stausebach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -742,7 +742,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35279,Neustadt (Hessen),Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35279,Neustadt-Speckswinke,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35282,Rauschenberg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35282,Rauschenberg-Albshau,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35282,Rauschenberg-Albshausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35282,Rauschenberg-Bracht,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35282,Schwabendorf,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35285,Gemünden-Ellnrode,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -757,7 +757,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35288,Wohratal-Halsdorf,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35288,Wohratal-Langendorf,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35288,Wohratal-Wohra,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35305,Grünb.-Reinhardsha,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35305,Grünb.-Reinhardshain,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35305,Grünb.-Stangenrod,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35305,Grünb.-Weitershain,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35305,Grünberg,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -794,15 +794,15 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35325,Mücke-Ruppertenrod,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35325,Mücke-Ober-Ohmen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35327,Ulrichstein,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35327,Ulrichstein-Feldkrüc,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35327,Ulrichstein-Oberseib,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35327,Ulrichstein-Rebgesha,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35327,Ulrichstein-Feldkrücken,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35327,Ulrichstein-Ober-Seibert.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35327,Ulrichstein-Rebgeshain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35327,Ulrichstein-Wohnfeld,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35327,Ulrichstein-Bobenhausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35327,Ullrichstein-Helpertshain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35329,Gemünden,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35329,Gemünden-Ehringshaus,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35329,Gemünden-Niedergemün,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35329,Gemünden-Niedergemünden,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35329,Gemünden-Burggemünden,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35329,Gemünden-Elpenrod,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35390,Gießen,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -847,8 +847,8 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35423,Lich-Eberstadt,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35423,Lich-Langsdorf,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35423,Lich-Muschenheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35423,Lich-Nieder-Bessinge,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35423,Lich-Oberbessingen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35423,Lich-Nieder-Bessingen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35423,Lich-Ober-Bessingen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35428,Langgöns,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35428,Langgöns-Dornholzhau,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35428,Langgöns-Espa,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -865,8 +865,8 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35440,Linden-Mühlberg,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35440,Linden-Oberhof,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35444,Biebertal-Bieber,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35444,Biebertal-Fellingsha,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35444,Biebertal-Frankenbac,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35444,Biebertal-Fellingshausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35444,Biebertal-Frankenbach,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35444,Biebertal-Krumbach,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35444,Biebertal-Königsberg,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35444,Biebertal-Rodheim,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -874,13 +874,13 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35447,Reiskirchen,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35447,Reiskirchen-Bersrod,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35447,Reiskirchen-Burkhart,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-35447,Reiskirchen-Ettingsh,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-35447,Reiskirchen-Hattenro,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-35447,Reiskirchen-Lindenst,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+35447,Reiskirchen-Ettingsh.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+35447,Reiskirchen-Hattenr.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+35447,Reiskirchen-Lindenst.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35447,Reiskirchen-Saasen,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35447,Reiskirchen-Winnerod,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35452,Heuchelheim,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35452,Heuchelheim-Kinzenba,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35452,Heuchelheim-Kinzenbach,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35457,Lollar,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35457,Lollar-Odenhausen,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35457,Lollar-Ruttershausen,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -892,7 +892,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35463,Fernwald-Albach,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35463,Fernwald-Annerod,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35463,Fernwald-Steinbach,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-35466,Rabenau-Allertshause,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35466,Rabenau-Allertshausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35466,Rabenau-Geilshausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35466,Rabenau-Kesselbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35466,Rabenau-Londorf,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -919,7 +919,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35510,Butzbach-Hausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35516,Münzenberg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35516,Münzenberg-Gambach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35516,Münzenberg-Oberhörge,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35516,Münzenberg-Oberhörgern,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35516,Münzenberg-Trais,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35519,Oppershofen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35519,Rockenberg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -930,7 +930,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35578,Wetzlar,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35579,Wetzlar-Steindorf,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35580,Wetzlar-Nauborn,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35581,Wetzlar-Münchholzhsn,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35581,Wetzlar-Münchholzh.,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35582,Wetzlar-Dutenhofen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35583,Wetzlar-Garbenheim,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35584,Wetzlar-Naunheim,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -943,7 +943,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35614,Asslar,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35614,Asslar-Berghausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35614,Asslar-Bermol,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35614,Asslar-Klein Altenst,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35614,Asslar-Klein Altenst.,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35614,Asslar-Oberlemp,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35614,Asslar-Werdorf,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35614,Asslar-Bächlingen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -953,10 +953,10 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35625,Hüttenberg-Weidenhausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35625,Hüttenb.-Rechtenbach,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35625,Hüttenb.-Vollnkirche,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35625,Hüttenb.-Volpertshau,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35625,Hüttenb.-Weidenhause,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35625,Hüttenb.-Volpertshausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35625,Hüttenb.-Weidenhausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35625,Hüttenberg,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-35625,Hüttenberg-Hochelhei,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+35625,Hüttenberg-Hochelheim,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35625,Hüttenberg-Hörnsheim,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35630,Ehringshausen-Kölschhaus,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 35630,Ehringshausen,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -978,11 +978,11 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35644,Hohenahr Grossaltenstädten,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35647,Waldsolms-Weiperfeld,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35647,Waldsolm-Griedelbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35647,Waldsolms-Brandober,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35647,Waldsolms-Hasselbor,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35647,Waldsolms-Kraftsolm,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35647,Waldsolms-Kröffelba,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-35647,Waldsolms-Weiperfe,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35647,Waldsolms-Brandoberndorf,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35647,Waldsolms-Hasselborn,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35647,Waldsolms-Kraftsolms,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35647,Waldsolms-Kröffelbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35647,Waldsolms-Weiperfelden,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35647,Waldsolms,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35649,Bischoffen-Niederweidbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35649,Bischoffen-Roßbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -1012,7 +1012,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 35781,Weilburg-Waldhausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35781,Weilburg-Odersbach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35781,Weilburg-Drommershausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-35789,Weilm.-Laubuseschbac,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+35789,Weilm.-Laubuseschb.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 35789,Weilmünster,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35789,Weilmünster-Laimbach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 35789,Weilmünster-Möttau,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -1086,7 +1086,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36093,Künzell,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36093,Künzell-Bachrain,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36093,Künzell-Dicker Turm,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-36093,Künzell-Dietershau,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+36093,Künzell-Dietershausen,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36093,Künzell-Dirlos,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36093,Künzell-Engelhelms,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36093,Künzell-Keulos,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -1100,16 +1100,16 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36100,Petersberg-Götzenhof,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36100,Petersberg-Horwieden,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36100,Petersberg-Marbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36100,Petersberg-Margreten,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+36100,Petersberg-Margretenh.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36100,Petersberg-Melzdorf,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36100,Petersberg-Steinau,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36100,Petersberg-Steinhaus,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36100,Petersberg-Stöckels,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-36100,Petersberg-Ziehers-N,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+36100,Petersberg-Ziehers,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36100,Petersberg-Rauschenberg,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36103,Flieden,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36103,Flieden-Döngesmühle,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36103,Flieden-Höf U.Haid,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36103,Flieden-Höf u. Haid,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36103,Flieden-Kautz,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36103,Flieden-Kellerei,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36103,Flieden-Leimenhof,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1122,7 +1122,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36110,Schlitz,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36110,Schlitz-Bernshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36110,Schlitz-Fraurombach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36110,Schlitz-Hartershause,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36110,Schlitz-Hartershausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36110,Schlitz-Hutzdorf,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36110,Schlitz-Pford,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36110,Schlitz-Queck,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1141,10 +1141,10 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36115,Hilders-Dörmbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36115,Hilders-Eckweisbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36115,Hilders-Harbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36115,Hilders-Oberbernhard,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36115,Hilders-Simmershause,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36115,Hilders-Oberbernhards,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36115,Hilders-Simmershausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36115,Hilders-Steinbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36115,Hilders-Unterbernhar,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36115,Hilders-Unterbernhards,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36115,Ehrenberg-Wüstensachsen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36115,Hilders-Brand,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36115,Hildes-Batten,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1156,10 +1156,10 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36119,Neuhof-Hauswurz,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36119,Neuhof-Rommertz,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36124,Eichenzell,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36124,Eichenzell-Büchenber,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36124,Eichenzell-Büchenberg,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36124,Eichenzell-Döllbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36124,Eichenzell-Kerzell,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36124,Eichenzell-Löschenro,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36124,Eichenzell-Löschenrod,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36124,Eichenzell-Lütter,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36124,Eichenzell-Rothemann,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36124,Eichenzell-Rönhausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1168,7 +1168,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36129,Gersf.-Gichenbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36129,Gersfeld-Altenfeld,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36129,Gersfeld-Dalherda,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36129,Gersfeld-Hettenhause,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36129,Gersfeld-Hettenhausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36129,Gersfeld-Mosbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36129,Gersfeld-Obernhausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36129,Gersfeld-Rhön,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1191,7 +1191,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36132,Eiterfeld-Reckrod,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36132,Eiterfeld-Soisdorf,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36132,Eiterfeld-Treischf,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36132,Eiterfeld-Unteruffha,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36132,Eiterfeld-Unteruffh.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36132,Eiterfeld-Wölf,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36132,Eiterfeld-Dreischfeld,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36137,Großenlüder,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1199,10 +1199,10 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36137,Großenlüder-Eichenau,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36137,Großenlüder-Kleinlüd,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36137,Großenlüder-Müs,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36137,Großenlüder-Uffhause,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36137,Großenlüder-Uffhausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36142,Tann-Knottenhof,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36142,Tann-Rhön,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36142,Tann-Rhön Schwarzenb,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36142,Tann-Rhön Schwarzenb.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36142,Tann-Rhön-Habel,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36142,Tann-Schlitzenhausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36142,Tann-Wendershausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1223,22 +1223,22 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36145,Hofbieber-Wiesen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36145,Hofbieber-Obergruben,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36148,Kalbach-Heubach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36148,Kalbach-Mittelkalbac,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36148,Kalbach-Niederkalbac,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36148,Kalbach-Mittelkalbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36148,Kalbach-Niederkalbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36148,Kalbach-Oberkalbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36148,Kalbach-Uttrichshau,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36148,Kalbach-Veitsteinba,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36148,Kalbach-Uttrichshausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36148,Kalbach-Veitsteinbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36151,Burghaun,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36151,Burghaun-Großenmoor,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36151,Burghaun-Gruben,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36151,Burghaun-Hünhan,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36151,Burghaun-Langenschwa,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36151,Burghaun-Langenschw.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36151,Burghaun-Rothenkirchen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36151,Burghaun-Schlotzau,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36151,Burghaun-Steinbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36151,Burghaun-Klausmarbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36154,Hosenfeld-Poppenrod,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36154,Hosenfeld-Schleztenh,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36154,Hosenfeld-Schleztenh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36154,Hosenfeld-Pfafenrod,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36154,Hosenfeld,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36154,Hosenfeld-Blankenau,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1254,7 +1254,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36157,Ebersburg-Thalau,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36157,Ebersburg-Weyhers,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36160,Dipperz-Armenhof,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-36160,Dipperz-Friesenhau,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+36160,Dipperz-Friesenhausen,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36160,Dipperz-Wisselsrod,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36160,Dipperz,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36163,Poppenh.-Gackenhof,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1297,7 +1297,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36199,Rotenburg-Fulda / Erkshausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36199,Rotenburg-Dankerode,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36199,Rotenburg-Braach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-36199,Rotenburg-Fulda Schwarzenhasel,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+36199,Rotenburg-Fulda Schwarzenha.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36199,Rotenburg-Fulda-Lispenhausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36205,Sontra-Breitau,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36205,Sontra-Mitterode,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -1309,7 +1309,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36208,Wildeck-Obersuhl,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36208,Wildeck-Richelsdorf,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36211,Alheim-Heinebach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-36211,Alheim-Sterkelshaus,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36211,Alheim-Sterkelshausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36211,Alheim-Obergude,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36211,Alheim-Hergershausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36211,Alheim-Baumbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1320,16 +1320,16 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36217,Ronshausen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36219,Cornberg,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36251,B.H.-Allmershausen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36251,Bad Hersf.-Beiershau,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36251,Bad Hersf.-Beiershausen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Bad Hersf.-Eichhof,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Bad Hersf.-Hohe Luft,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36251,Bad Hersf.-Johannesb,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36251,Bad Hersf.-Johannesb.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Bad Hersf.-Kathus,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36251,Bad Hersf.-Petersber,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36251,Bad Hersf.-Petersberg,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Bad Hersfeld,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Bad Hersfeld-Asbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Bad Hersfeld-Heenes,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36251,Bad Hersfeld-Kohlhau,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36251,Bad Hersfeld-Kohlhausen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Bad Hersfeld-Sorga,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Ludwigsau-Ersrode,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36251,Ludwigsau-Friedlos,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1351,7 +1351,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36269,Philippstal-Werra,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36269,Philippstal-Unterneurode,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36269,Philippstal-Heimboldshausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36272,Nider Aula-Kerspenha,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36272,Nider Aula-Kerspenhausen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36272,Niederaula,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36272,Niederaula-Nd.Jossa,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36272,Niederaula-Hartenbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1379,12 +1379,12 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36282,Hauneck-Sieglos,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36282,Hauneck-Unterhaun,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36282,Hauneck-Rotensee,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36284,Hohenr.-Oberbreitzba,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36284,Hohenr.-Unterbreitzb,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36284,Hohenr.-Oberbreitzb.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36284,Hohenr.-Unterbreitzb.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36284,Hohenroda-Manbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36284,Hohenroda-Ransbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36286,Neuenstein-Aua,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36286,Neuenstein-Gittersdo,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36286,Neuenstein-Gittersdorf,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36286,Neuenstein-Mühlbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36286,Neuenstein-Obergeis,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36286,Neuenstein-Salzberg,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1411,7 +1411,6 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36318,Schwalmtal,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36318,Schwalmtal-Storndorf,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36318,Schwalmtal-Vadenrod,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36318,Schwalmtal-Breuerschwend,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36318,Schwalmtal-Untersorg,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36318,Schwalmtal-Brauerschwend,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36318,Schalmtal-Renzendorf,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1433,7 +1432,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36325,Feldatal-Zeilbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36326,Antrifttal-Ruhlkirchen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36326,Antrifttal,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-36326,Antrifttal-Seibeldor,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+36326,Antrifttal-Seibeldorf,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36326,Grebenau-Udenhausen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36326,Antrifftal-Ohmes,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36326,Antrifttal-Vockenrod,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1443,22 +1442,22 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36329,Romrod-Zell,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36329,Romrod-Oberbreitenbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 36341,Lauterbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36341,Lauterbach-Blitzenro,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36341,Lauterbach-Frischbor,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36341,Lauterbach-Blitzenrod,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36341,Lauterbach-Frischborn,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36341,Lauterbach-Heblos,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36341,Lauterbach-Maar,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36341,Lauterbach-Rimlos,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36341,Lauterbach-Reuters,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36341,Lauterbach-Sickendor,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36341,Lauterbach-Sickendorf,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36341,Lauterbach-Wallenrod,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36351,Ludwigsau,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36355,Grebenhain-Ilbeshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36355,Grebenhain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36355,Grebenhain-Bermuthsh,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36355,Grebenhain-Bermuthsh.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36355,Grebenhain-Crainfeld,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36355,Grebenhain-Hartmanns,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36355,Grebenhain-Herchenh.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36355,Grebenhain-Hochwaldh,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36355,Grebenhain-Hochwaldh.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36355,Grebenhain-Metzlos,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36355,Grebenhain-Vaitshain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36355,Grebenhain-Weidmoos,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1468,11 +1467,11 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 36358,Herbstein,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36358,Herbstein-Lanzenhain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36358,Herbstein-Schlechten,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36358,Herbstein-Stockhause,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+36358,Herbstein-Stockhausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36358,Herbstein-Altenschlirf,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36358,Herbstein-Steinfurt,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36364,Bad Salzschlirf,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-36367,Wartenberg-Angersbac,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+36367,Wartenberg-Angersb.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36367,Wartenberg-Landenhs.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 36369,Lautertal-Meiches,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 36369,Lautertal-Eichenrod,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1550,7 +1549,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 37077,Göttingen-Rohringen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37077,Göttingen-Weende,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37079,Gött.-Gr.Ellershause,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-37079,Götting.-Hetjershaus,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+37079,Gött.-Hetjershaus,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37079,Göttingen-Elliehause,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37079,Göttingen-Esebeck,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37079,Göttingen-Grone,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1575,17 +1574,17 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 37124,Rosdorf,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37124,Rosdorf-Dahlenrode,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37124,Rosdorf-Dranfeld,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-37124,Rosdorf-Kleinwiersha,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+37124,Rosdorf-Kleinwiersh.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37124,Rosdorf-Mengershsn.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37124,Rosdorf-Obernjesa,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-37124,Rosdorf-Setmarshause,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-37124,Rosdorf-Sieboldhause,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+37124,Rosdorf-Setmarshausen,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+37124,Rosdorf-Sieboldhausen,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37124,Rosdorf-Volkerode,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37124,Rosdorf-Atzenhausen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37124,Rosdorf-Lemshausen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37127,Dransfeld,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37127,Dransfeld-Bühren,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-37127,Dransfeld-Ellershaus,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+37127,Dransfeld-Ellersh.,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37127,Dransfeld-Jünde,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37127,Dransfeld-Ossenfeld,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37127,Dransfeld-Varlosen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1613,9 +1612,9 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 37130,Gleichen-Rittmarshausen,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37133,Friedland,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37133,Friedland-Ludolfshau,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-37133,Friedland-Niedernjes,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-37133,Friedland-Reckershau,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-37133,Friedland-Reiffenhau,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+37133,Friedland-Niedernjesa,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+37133,Friedland-Reckershausen,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+37133,Friedland-Reiffenhause,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37133,Friedland-Mollenfende,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37133,Friedland-Ballenhausen,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37133,Friedland-Groß Schneen,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -1655,8 +1654,8 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 37213,Witzenhausen-Unterrieden,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37213,Witzenhausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37213,Witzenhausen-Bischhausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-37214,Witzenh.-Werleshause,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-37215,Witz.-Hundelshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+37214,Witzenh.-Werleshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+37215,Witzenh.-Hundelshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37217,Witzenhausen-Ernschwerd,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37217,Witzenhausen-Ellingrode,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 37217,Witzenhausen-Kleinalmarode,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1735,7 +1734,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 37339,Leinefelde-Worbis,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37351,Dingelstädt-Kefferhausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37351,Dingelstädt,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-37355,Gerterode 40.00 Eur  ,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+37355,Gerterode,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 37359,Küllstedt,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37359,Großbartlof,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 37359,Effelder,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -1762,9 +1761,9 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55131,Mainz,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 55154,Boppard,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55218,Ingelheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-55218,Ingelheim-Groß-Winte,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+55218,Ingelheim-Großwinternheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55218,Ingelheim-Nord,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-55218,Ingelheim-Sporkenhei,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+55218,Ingelheim-Sporkenheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55218,Ingelheim-Süd,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55218,Ingelheim-West,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55232,Alzey,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1790,7 +1789,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55234,Albig,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55234,Bechenheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55234,Bechtolsheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55234,Bermersheim V.D.Höhe,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55234,Bermersheim v. d. Höhe,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55234,Dintesheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55234,Eppelsheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55234,Erbes-Büdesheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1805,17 +1804,17 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55252,Mainz-Kastel,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55257,Budenheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 55262,Heidesheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-55262,Heidesheim-Heidenfah,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+55262,Heidesheim-Heidenfahrt,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55262,Heidesheim-Uhlerborn,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55262,Heidesheim-Wackernheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55263,Wackernheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55268,Nieder-Olm,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55268,Nieder-Olm-Goldberg,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-55268,Nieder-Olm-Sörgenloc,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+55268,Nieder-Olm-Sörgenloch,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55270,Bubenheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55270,Engelstadt,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55270,Essenheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55270,Jugenheim-Rheinhesse,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55270,Jugenheim-Rheinhessen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55270,Klein-Winternheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55270,Ober-Olm,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55270,Schwabenheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1842,10 +1841,10 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55278,Eimsheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55278,Gabsheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55283,Nierstein,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-55283,Nierstein-Schwabsbur,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+55283,Nierstein-Schwabsburg,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55286,Sulzheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55286,Wörrstadt,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55286,Wörrstadt-Rommershei,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55286,Wörrstadt-Rommersheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55286,Wörrstadt-Niederhilbersheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55288,Armsheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55288,Armsheim-Schimsheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1871,13 +1870,13 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55411,Bingen-Rümmelsheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55411,Bingen-Sponsheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55411,Bingen-Weiler,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-55413,Rheindiebach +20 Eur Fahrtkosten,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+55413,Rheindiebach,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 55413,Trechtingshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55413,Weiler Bei Bingen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55413,Niederheimbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55422,Bacharach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55424,Münster-Sarmsheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-55425,Genheim(Waldalgesh),Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+55425,Genheim (Waldalgesheim),Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55425,Waldalgesheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55430,Oberwesel-Engehöll,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55430,Oberwesel,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -1909,7 +1908,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55459,Aspisheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55459,Grolsheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55469,Nannhausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55469,Simmern /Hunsr.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55469,Simmern/Hunsrück,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55469,Altweidelbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55469,Budenbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55471,Tiefenbach/Hunsrück,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1919,14 +1918,14 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55483,Unzenberg,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55543,Bad Kreuznach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55545,Bad Kreuznach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55545,Bad Kreuznach-Bosenh,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55545,Bad Kreuznach-Ippesh,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55545,Bad Kreuznach-Bosenh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55545,Bad Kreuznach-Ippesh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55545,Bad Kreuznach-Planig,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55545,Bad Kreuznach-Rüdesh,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55545,Bad Kreuznach-Winzen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55545,Bad Kreuznach-Rüdesh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55545,Bad Kreuznach-Winzenh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55546,Biebelsheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55546,Frei-Laubersheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55546,Fürfeld/Bad Kreuznac,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55546,Fürfeld/Bad Kreuznach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55546,Hackenheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55546,Neubamberg,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55546,Pfaffen-Schwabenheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1940,9 +1939,9 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55568,Staudernheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55576,Badenheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55576,Pleitersheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55576,Sprendlingen Rheinhe,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55576,Sprendlingen-Welgesh,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55576,Sprendlingen-Zotzenh,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55576,Sprendlingen Rheinh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55576,Sprendlingen-Welgesh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55576,Sprendlingen-Zotzenh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55576,Sprendlingen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55578,Vendersheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55578,Gau Weinheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1951,7 +1950,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55578,Wolfsheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55583,Bad Münster,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55583,Bad Münster Am Stein,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55583,Bad Münster-Ebernbur,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55583,Bad Münster-Ebernburg,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55583,Bad Münster-Nohrheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55585,Altenbamberg,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55585,Duchroth,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1959,11 +1958,11 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55585,Niederhausen-Nahe,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55585,Norheim-Nahe,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55585,Oberhausen-Nahe,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55585,Hallgarten B. Bad Kreuznach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55585,Hallgarten b. Bad Kreuznach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55590,Meisenheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55592,Raumbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55592,Rehborn,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55593,Rüdesheim Bei Bad Kh,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55593,Rüdesheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55595,Roxheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 55596,Waldböckelheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55596,Schlossböckelheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -1971,7 +1970,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 55599,Gau Bickelheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55599,Stein-Bockenheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55599,Wonsheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-55599,Wöllstein-Siefershei,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+55599,Wöllstein-Siefersheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55599,Eckelsheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55606,Limbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 55606,Kellenbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2005,7 +2004,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 56076,Koblenz-Horchheim,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56076,Koblenz-Pfaffendorf,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56077,Koblenz-Arenberg,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-56077,Koblenz-Ehrenbreitst,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+56077,Koblenz-Ehrenbreitstein,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56077,Koblenz-Arzheim,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56077,Koblenz-Asterstein,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56077,Koblenz-Pfaffendorfer Höhe,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2049,11 +2048,11 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 56220,Kaltenengers,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56220,Sankt-Sebastian,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 56220,Kettig B. Koblenz,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-56242,Selters*******15 Km Einfach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-56244,"Maxsain + 45,00 € Fahrtgebühr",Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+56242,Selters,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+56244,Maxsain,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56254,Müden,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-56271,Kleinmascheid ++16 Km Einfach Fahrtkosten,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-56276,Stebach * + 13 Km Einfach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+56271,Kleinmascheid,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+56276,Stebach ,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 56281,Emmelshausen,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 56283,Pfaffenheck,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56321,Brey,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2071,7 +2070,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 56337,Kadenbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56337,Simmern,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56338,Braubach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-56340,Dachsenhausen ** + 15 Km Einfach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+56340,Dachsenhausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56346,Sankt Goarshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56349,Kaub  ,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56355,Nastätten,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2082,10 +2081,10 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 56368,Katzenelnbogen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56368,Katzenelnbogen-Herold,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56370,Reckenroth,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-56370,Schönborn ** + 5 Km. Einfach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+56370,Schönborn,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56370,Allendorf,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 56370,Biebrich,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-56410,"Montabaur + 20,00 Eur Fahrtpauschale",Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+56410,Montabaur,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56414,Obererbach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56414,Hundsangen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56414,Steinefrenz,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2100,7 +2099,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 56414,Walmerod-Salz,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56414,Weroth,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56457,Westerburg,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-56462,Höhn-Öllingen +Km-Geld 8 Km Einfach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+56462,Höhn-Öllingen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56564,Neuwied,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56566,Neuwied-Engers,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 56566,Neuwied/Heimb.-Weis,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2135,103 +2134,103 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 57537,Forst,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 59964,Medebach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 60039,Frankfurt,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60311,Ffm.-City,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60313,Ffm.-City,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60314,Ffm.-Fechenheim,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
+60311,FFM-City,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+60313,FFM-City,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+60314,FFM-Fechenheim,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
 60314,FFM-Ostend,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60316,Ffm.-Bornheim,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
+60316,FFM-Bornheim,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60316,FFM-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60316,FFM-Ostend,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60318,Ffm.-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
-60320,Ffm.-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
+60318,FFM-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
+60320,FFM-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60320,FFM-Bockenheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60320,FFM-Dornbusch,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-60322,Ffm.-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
+60322,FFM-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60322,FFM-Westend,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
-60323,Ffm.-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
+60323,FFM-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60323,FFM-Westend,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60323,FFM-Westend-Süd,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
-60325,Ffm.-Bahnhofsviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+60325,FFM-Bahnhofsviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60325,FFM-Bockenheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60325,FFM-City,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60325,FFM-Westend,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
-60326,Ffm.-Gallusviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60327,Ffm.-Bahnhofsviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+60326,FFM-Gallusviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+60327,FFM-Bahnhofsviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60327,FFM-Westhafen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60327,FFM-Gutleutviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60329,Ffm.-Bahnhofsviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+60329,FFM-Bahnhofsviertel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60329,FFM-City,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60385,Ffm.-Bornheim,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
+60385,FFM-Bornheim,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60385,FFM-Ostend,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60386,Ffm.-Fechenheim,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
+60386,FFM-Fechenheim,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
 60386,FFM-Riederwald,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60388,Ffm.-Bergen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+60388,FFM-Bergen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60388,FFM-Enkheim,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60389,Ffm.-Bornheim,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
+60389,FFM-Bornheim,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60389,FFM-Festeburg,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60389,FFM-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60389,FFM-Seckbach,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
-60431,Ffm.-Dornbusch,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+60431,FFM-Dornbusch,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60431,FFM-Eschersheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60431,FFM-Ginnheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-60433,Ffm.-Dornbusch,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+60433,FFM-Dornbusch,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60433,FFM-Bonames,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60433,FFM-Eschersheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60433,FFM-Frankfurterberg,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60433,FFM-Preungesheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-60435,Ffm.-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
+60435,FFM-Nordend,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 60435,FFM-Berkersheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60435,FFM-Eckenheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60435,FFM-Preungesheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-60437,Ffm.-Bonames,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+60437,FFM-Bonames,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60437,FFM-Harheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60437,FFM-Kalbach,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60437,FFM-Niedererlenbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60437,FFM-Niedereschbach,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-60438,Ffm.-Riedberg,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-60439,Ffm.-Heddernheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+60438,FFM-Riedberg,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+60439,FFM-Heddernheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60439,FFM-Mertonviertel,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60439,FFM-Niederursel,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60439,FFM-Nordweststadt,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60439,FFM-Praunheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60439,FFM-Riedberg,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 60439,FFM-Römerstadt,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-60486,Ffm.-Bockenheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
+60486,FFM-Bockenheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60486,FFM-Kuhwaldsiedlung,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60486,FFM-Messe,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60486,FFM-Rödelheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
-60487,Ffm.-Bockenheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
+60487,FFM-Bockenheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60487,FFM-Rödelheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60487,FFM-Schönhof,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60487,FFM-Westend,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
-60488,Ffm.-Hausen,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
+60488,FFM-Hausen,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60488,FFM-Praunheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
 60488,FFM-Westhausen,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
-60489,Ffm.-Rödelheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
-60528,Ffm-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
+60489,FFM-Rödelheim,Montag,zwischen 11 - 14 Uhr,Donnerstag,zwischen 11 - 14 Uhr,,,1
+60528,FFM-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 60528,FFM-Niederrad,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
-60529,Ffm.-Goldstein,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
+60529,FFM-Goldstein,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 60529,FFM-Schwanheim,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 60529,Frankfurt Am Main,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
-60549,Ffm.-Flughafen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-60594,Ffm.-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
+60549,FFM-Flughafen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 60594,FFM-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
-60596,Ffm.-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
+60594,FFM-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
+60596,FFM-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 60596,FFM-Süd,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
-60598,Ffm.-Heimatsiedlung,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
+60598,FFM-Heimatsiedlung,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 60598,FFM-Lerchesberg,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 60598,FFM-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
-60599,Ffm.-Oberrad,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
+60599,FFM-Oberrad,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 60599,FFM-Sachsenhausen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 60599,FFM-Süd,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 61118,Bad Vilbel,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61118,Bad Vilbel-Dortelwei,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61118,Bad Vilbel-Dortelweil,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61118,Bad Vilbel-Gronau,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61118,Bad Vilbel-Heilsberg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61118,Bad Vilbel-Massenhei,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61118,Bad Vilbel-Massenheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61130,Nidderau-Eichen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61130,Nidderau-Erbstadt,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61130,Nidderau-Heldenberge,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61130,Nidderau-Heldenbergen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61130,Nidderau-Ostheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61130,Nidderau-Windecken,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61137,Schöneck-Büdesheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2253,7 +2252,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 61184,Karben-Okarben,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61184,Karben-Petterweil,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61184,Karben-Rendel,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61191,Rosbach-Nieder-Rosba,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61191,Rosbach-Nieder-Rosbach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61191,Rosbach-Ober-Rosbach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61191,Rosbach-Rodheim,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61194,Niddatal-Assenheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2262,9 +2261,9 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 61194,Niddatal-Kaichen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61194,Niddatal-Wickstadt,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61197,Florstadt-Leidhecken,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61197,Florstadt-Nieder-Moc,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61197,Florstadt-Niederflor,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61197,Florstadt-Oberflorst,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61197,Florstadt-Nieder-Mockst.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61197,Florstadt-Niederflorst.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61197,Florstadt-Oberflorst.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61197,Florstadt-Staden,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61197,Florstadt-Stammheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61200,Wölfersheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2273,30 +2272,29 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 61200,Wölfersheim-Södel,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61200,Wölfersheim-Wohnbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61203,Reichelsheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61203,Reichelsheim-Beienhe,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61203,Reichelsheim-Beienh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61203,Reichelsheim-Blofeld,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61203,Reichelsheim-Dornass,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61203,Reichelsheim-Heuchel,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61203,Reichelsheim-Weckesh,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61203,Reichelsheim-Wettera,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61203,Reichelsheim-Dorn-Assenh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61203,Reichelsheim-Heuchelh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61203,Reichelsheim-Weckesh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61203,Reichelsheim-Wetterau,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61206,Wöllstadt,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61206,Wöllstadt-Niederwöll,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61206,Wöllstadt-Oberwöllst,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61206,Wöllstadt-Nieder-Wöllst.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61206,Wöllstadt-Ober-Wöllst.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61209,Echzell,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61209,Echzell-Bingenheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61209,Echzell-Bisses,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61209,Echzell-Gettenau,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61231,Bad Nauheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61231,Bad Nauheim-Nieder-M,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61231,Bad Nauheim-Niedermö,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61231,Bad Nauheim-Nieder-M.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61231,Bad Nauheim-Rödgen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61231,Bad Nauheim-Schwalhe,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61231,Bad Nauheim-Steinfur,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61231,Bad Nauheim-Wisselsh,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61231,Bad Nauheim-Schwalhe.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61231,Bad Nauheim-Steinfur.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61231,Bad Nauheim-Wisselsh.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61239,Obermörlen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61239,Obermörlen-Langenhai,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61239,Obermörlen-Langenhain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61239,Obermörlen-Maiberg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61239,Obermörlen-Ziegenber,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61239,Obermörlen-Ziegenberg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61250,Usingen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61250,Usingen-Eschbach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61250,Usingen-Kransberg,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2306,11 +2304,11 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 61250,Usingen-Wilhelmsdorf,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61267,Neu Anspach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61267,Neu Anspach-Hausen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61267,Neu Anspach-Rod Am B,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61267,Neu Anspach-Westerfe,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61267,Neu Anspach-Rod Am B.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61267,Neu Anspach-Westerfe.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61273,Wehrheim,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61273,Wehrheim-Obernhain,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61273,Wehrheim-Pfaffenwies,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61273,Wehrheim-Pfaffenwiesb.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61276,Weilrod-Altweilnau,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61276,Weilrod-Cratzenbach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61276,Weilrod-Emmershausen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2322,12 +2320,12 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 61276,Weilrod-Niederlauken,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61276,Weilrod-Oberlauken,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61276,Weilrod-Riedelbach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61276,Weilrod-Rod A.D.Weil,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61276,Weilrod-Rod a. d. Weil,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61276,Weilrod-Winden,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61276,Weirod-Altweilnau,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61279,Grävenw.-Heinzenberg,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61279,Grävenw.-Naunstadt,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61279,Grävenwiesb.-Hundsta,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61279,Grävenwiesb.-Hundst.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61279,Grävenwiesb.-Laubach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61279,Grävenwiesbach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61348,Bad Homburg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2336,42 +2334,42 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 61350,Bad Homburg-Kirdorf,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61352,Bad Homburg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61352,Bad Homburg-Gonzenheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61352,Bad Homburg-Obererle,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-61352,Bad Homburg-Oberesch,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61352,Bad Homburg-Obererlenb.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+61352,Bad Homburg-Obereschb.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61352,Ober-Erlenbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 61381,Friedrichsd.-Schäferborn,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61381,Friedrichsdorf,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61381,Friedrichsdorf-Burgh,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61381,Friedrichsdorf-Dilli,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61381,Friedrichsdorf-Köppe,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61381,Friedrichsdorf-Seulb,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61381,Friedrichsdorf-Burgh.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61381,Friedrichsdorf-Dillingen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61381,Friedrichsdorf-Köppern,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61381,Friedrichsdorf-Seulb.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61389,Schmitten,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61389,Schmitten-Arnoldshai,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61389,Schmitten-Brombach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61389,Schmitten-Dorfweil,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61389,Schmitten-Hegewiesen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61389,Schmitten-Niederreif,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61389,Schmitten-Oberreifen,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61389,Schmitten-Niederreiffenb.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61389,Schmitten-Oberreifenb.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61389,Schmitten-Seelenberg,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61389,Schmitten-Hunoldstal,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61440,Oberursel,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-61440,Oberursel-Bommershei,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-61440,Oberursel-Oberstedte,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-61440,Oberursel-Rosengart,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+61440,Oberursel-Bommersh.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+61440,Oberursel-Oberstedt.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+61440,Oberursel-Rosengarten,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 61440,Oberursel-Stierstadt,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 61440,Oberursel-Weißkirche,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 61449,Steinbach-Taunus,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 61462,Falkenstein,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61462,Königstein,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61462,Königstein-Johannesw,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61462,Königstein-Mammolsha,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61462,Königstein-Schneidha,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61462,Königstein-Johannesw.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61462,Königstein-Mammolsh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61462,Königstein-Schneidh.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61476,Kronberg,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61476,Kronberg-Oberhöchsta,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61476,Kronberg-Oberhöchst.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61476,Kronberg-Schönberg,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61479,Glashütten,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 61479,Glashütten-Oberems,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-61479,Glashütten-Schloßbor,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+61479,Glashütten-Schloßb.,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63065,Offenbach,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
 63067,Offenbach,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
 63069,Offenbach,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
@@ -2389,14 +2387,14 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63110,Rodgau-Rollwald,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63110,Rodgau-Weiskirchen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63128,Dietzenbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63128,Dietzenbach-Hexenber,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63128,Dietzenbach-Steinber,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63128,Dietzenbach-Waldacke,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63128,Dietzenbach-Wingerts,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63132,Eiterfeld-Treischf,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63128,Dietzenbach-Hexenberg,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63128,Dietzenbach-Steinberg,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63128,Dietzenbach-Waldacker,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63128,Dietzenbach-Wingertsb.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63132,Eiterfeld-Treischfeld,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63150,Heusenstamm,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63150,Heusenstamm-Rembrück,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63150,Heusenstamm-Waldesru,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63150,Heusenstamm-Waldesruhe,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63165,Mühlheim,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63165,Mühlheim-Dietesheim,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63165,Mühlheim-Lämmerspiel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2410,12 +2408,12 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63263,Neu Isenburg,Dienstag,zwischen 9 - 13 Uhr,Freitag,zwischen 9 - 13 Uhr,,,1
 63263,Zeppelinheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63303,Dreieich-Buchschlag,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
-63303,Dreieich-Dreieichenh,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63303,Dreieich-Dreieichenh.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63303,Dreieich-Götzenhain,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63303,Dreieich-Neuhof,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63303,Dreieich-Offenthal,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63303,Dreieich-Philippseic,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63303,Dreieich-Sprendlinge,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
+63303,Dreieich-Philippseich,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63303,Dreieich-Sprendlingen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 63303,Dreieichenhain,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63303,Götzenhain,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63303,Sprendlingen,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
@@ -2446,34 +2444,33 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63477,Maintal-Hochstadt,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
 63477,Maintal-Wachenbuchen,Montag,zwischen 9 - 13 Uhr,Donnerstag,zwischen 9 - 13 Uhr,,,1
 63486,Bruchköbel,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63486,Bruchköbel-Buttersta,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63486,Bruchköbel-Kirlesied,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63486,Bruchköbel-Butterst.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63486,Bruchköbel-Kirlesiedl.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63486,Bruchköbel-Niederiss,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63486,Bruchköbel-Oberissig,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63486,Bruchköbel-Rossdorf,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63500,Seligenstadt,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63500,Seligenstadt Klein-W,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63500,Seligenstadt-Froschh,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63500,Seligenstadt Klein-Welzh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63500,Seligenstadt-Froschh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63505,Langenselbold,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63512,Hainburg-Hainstadt,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63512,Klein Krotzenburg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63517,Niederrodenbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63517,Oberrodenbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63517,Rodenbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63526,Erlensee-Langendieba,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63526,Erlensee-Langendieb.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63526,Erlensee-Rückingen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63533,Mainhausen-Mainfling,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63533,Mainhausen-Mainflingen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63533,Mainhausen-Zellhaus.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63533,Mainhausen-Zellhause,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63538,Großkrotzenburg,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63543,Neuberg-Ravolzhausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63543,Neuberg-Rüdigheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63546,Hammersbach-Hirzbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63546,Hammersbach-Langenbe,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63546,Hammersbach-Langenb.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63546,Hammersbach-Marköbel,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63549,Ronneburg-Altwiederm,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63549,Ronneburg-Hüttengesä,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63549,Ronneburg-Neuwiederm,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63549,Ronneburg-Altwiederm.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63549,Ronneburg-Hüttengesä.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63549,Ronneburg-Neuwiederm.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63549,Ronneburg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63571,Gelnhausen-Roth,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63571,Gelnhausen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2482,7 +2479,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63571,Gelnhausen-Höchst,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63571,Gelnhausen-Meerholz,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63579,Freigericht,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63579,Freigericht-Altenmit,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63579,Freigericht-Altenmittl.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63579,Freigericht-Bernbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63579,Freigericht-Horbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63579,Freigericht-Neuses,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2491,29 +2488,29 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63584,Gründau-Gettenbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63584,Gründau-Haingründau,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63584,Gründau-Lieblos,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63584,Gründau-Mittelgründa,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63584,Gründau-Niedergründa,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63584,Gründau-Mittelgründau,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63584,Gründau-Niedergründau,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63584,Gründau-Rothenbergen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63584,Gründau,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63589,Linsengericht-Altenh,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63589,Linsengericht-Eideng,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63589,Linsengericht-Geisli,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63589,Linsengericht-Großen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63589,Linsengericht-Altenh.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63589,Linsengericht-Eideng.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63589,Linsengericht-Geisli.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63589,Linsengericht-Großen.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63589,Linsengericht-Lützel,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63589,Linsengericht-Neuenh,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63589,Linsengericht-Waldro,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63589,Linsengericht-Neuenh.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63589,Linsengericht-Waldro.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63589,Linsengericht-Hofeich,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63594,Hasselroth,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63594,Hasselroth-Gondsroth,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63594,Hasselroth-Neuenhass,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63594,Hasselroth-Niedermit,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63594,Hasselroth-Neuenhassl.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63594,Hasselroth-Niedermittl.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63599,Biebergemünd-Bieber,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63599,Biebergemünd-Breiten,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63599,Biebergemünd-Kassel,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63599,Biebergemünd-Lanzing,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63599,Biebergemünd-Neuwirt,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63599,Biebergemünd-Roßbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63599,Biebergemünd-Wirthei,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63599,Biebergemünd-Wirtheim,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63599,Biebergemünd-Lützel,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63599,Biebergemünd-Röhrig,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63607,Wächtersbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2523,17 +2520,17 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63607,Wächtersbach-Weilers,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63607,Wächtersbach-Wittgenborn,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63607,Wächtersbach- Waldensberg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63618,Bad S.S.-Eckardroth,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63618,BSS-Eckardroth,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63619,Bad Orb,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63628,B.S.S-Hausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63628,B.S.S.-Ahl,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63628,B.S.S.-Bad Soden,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63628,B.S.S.-Eckartroth,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63628,B.S.S.-Kat.Willenrot,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63628,B.S.S.-Kerbersdorf,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63628,BSS-Bad Soden,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63628,BSS-Eckartroth,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63628,BSS-Kat.Willenrot,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63628,BSS-Kerbersdorf,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63628,B.S.S.-Mernes,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63628,B.S.S.-Romsthal,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63628,B.S.S.-Salmünster,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63628,BSS-Salmünster,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63628,B.S.S.-Wahlert,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63633,Birstein- Fischborn,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63633,Birstein,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2542,8 +2539,8 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63633,Birstein-Höfen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63633,Birstein-Kirchbracht,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63633,Birstein-Lichenroth,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63633,Birstein-Unterreiche,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63633,Birstein-Untersotzba,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63633,Birstein-Unterreichenb.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63633,Birstein-Untersotzb.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63633,Birstein-Völzberg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63633,Birstein-Obersotzbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63633,Birstein-Mauswinkel,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2551,7 +2548,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63633,Birstein-Illnhausen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63633,Birstein-Wettges,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63633,Birstein-Wüstwillenrod,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63636,Brachtt.-Neuenschmit,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63636,Brachtt.-Neuenschmidten,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63636,Brachttal-Spielberg,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63636,Brachttal-Hellstein,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63636,Brachttal-Schierbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2565,7 +2562,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63639,Flörsbachtal-Flörsbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63654,Büdingen-Michelau,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63654,Büdingen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63654,Büdingen-Aulendiebac,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63654,Büdingen-Aulendiebach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63654,Büdingen-Büches,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63654,Büdingen-Calbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63654,Büdingen-Diebach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2591,7 +2588,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63667,Nidda-Oberlais,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63667,Nidda-Oberschmitten,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63667,Nidda-Ranstadt,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63667,Nidda-Schwickartshau,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63667,Nidda-Schwickartshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63667,Nidda-Ulfa,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63667,Nidda-Unterlais,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63667,Nidda-Unterschmitten,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2612,19 +2609,19 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63679,Schotten-Götzen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63679,Schotten,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63679,Schotten-Betzenrod,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63679,Schotten-Breungeshai,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63679,Schotten-Breungeshain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63679,Schotten-Burghards,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63679,Schotten-Eichelsachs,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63679,Schotten-Einardshaus,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63679,Schotten-Eichelsachsen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63679,Schotten-Einartshausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63679,Schotten-Kaulstoss,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63679,Schotten-Michelbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63679,Schotten-Rainrod,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63679,Schotten-Rudingshain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63679,Schotten-Wingertshsn,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63679,Schotten-Wingertshsn.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63683,Ortenberg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63683,Ortenberg-Bleichenba,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63683,Ortenberg-Eckartsbor,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63683,Ortenberg-Effolderba,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63683,Ortenberg-Bleichenb.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63683,Ortenberg-Eckartsbor.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63683,Ortenberg-Effolderb.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63683,Ortenberg-Gelnhaar,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63683,Ortenberg-Lissberg,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63683,Ortenberg-Selters,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2642,7 +2639,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63691,Ranstadt-Bellmuth,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63691,Ranstadt-Bobenhausen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63691,Ranstadt-Dauernheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63691,Ranstadt-Ober Mockst,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63691,Ranstadt-Ober Mockst.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63694,Limeshain-Hainchen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63694,Limeshain-Himbach,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63694,Limeshain-Rommelhaus,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2650,7 +2647,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63695,Glauburg-Stockheim,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63697,Hirzenhain,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63697,Hirzenhain-Glashütte,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63697,Hirzenhain-Merkenfri,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63697,Hirzenhain-Merkenfr.,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63699,Kefenrod,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63699,Kefenrod-Bindsachsen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63699,Kefenrod-Hitzkirchen,Mittwoch,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2659,12 +2656,12 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63741,Aschaffenburg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63741,Aschaffenburg-Damm,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63741,Aschaffenburg-Leider,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63741,Aschaffenburg-Nilkhe,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63741,Aschaffenburg-Striet,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63741,Aschaffenburg-Nilkheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63741,Aschaffenburg-Strietw.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63743,Aschaffenburg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63743,Aschaffenburg-Gailba,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63743,Aschaffenburg-Oberna,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63743,Aschaffenburg-Schwei,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63743,Aschaffenburg-Gailb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63743,Aschaffenburg-Obernau,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63743,Aschaffenburg-Schweinh.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63755,Alzenau,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63755,Alzenau-Albstadt,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63755,Alzenau-Hörstein,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2673,30 +2670,30 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63755,Alzenau-Mömbris,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63755,Alzenau-Wasserlos,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63762,Großostheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63762,Großostheim-Pflaumhe,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63762,Großostheim-Pflaumheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63762,Großostheim-Ringheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63762,Großostheim-Wenigums,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63762,Großostheim-Wenigumst.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63768,Hösbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63768,Hösbach-Bahnhof,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63768,Hösbach-Feldkahl,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63768,Hösbach-Rottenberg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63768,Hösbach-Sand,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63768,Hösbach-Schmerlenbac,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63768,Hösbach-Schmerlenbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63768,Hösbach-Wenighösbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63768,Hösbach-Winzenhohl,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63773,Goldbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63773,Goldbach-Unterafferb,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63773,Goldbach-Unterafferb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63776,Mömbris,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Brücken,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Daxberg,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63776,Mömbris-Dörnsteinbac,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63776,Mömbris-Dörnsteinb.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Feldkahl,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Gunzenbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63776,Mömbris-Heimbachermü,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63776,Mömbris-Heimbacherm.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Hohl,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Königshofen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Mensengesäß,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63776,Mömbris-Niedersteinb,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63776,Mömbris-Niedersteinb.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Rappach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Reichenbach,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63776,Mömbris-Rothengrund,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2706,7 +2703,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63785,Obernburg Am Main,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63785,Obernburg-Eisenbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63791,Karlstein-Dettingen,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-63791,Karlstein-Groß Welzh,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63791,Karlstein-Groß Welzh.,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63796,Kahl,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63801,Kleinostheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63808,Haibach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2718,21 +2715,21 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63820,Elsenfeld-Rück,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63820,Elsenfeld-Eichelsbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63820,Elsenfeld,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63820,Hausen B.Elsenfeld,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63825,Schöllkr.-Unt.-Weste,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63820,Hausen b. Elsenfeld,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63825,Schöllkr.-Unt.-Western,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63825,Schöllkrippen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63825,Schöllkrippen-Hofstä,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63825,Schöllkrippen-Vormwa,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63825,Westerngr.-Huckelh5,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+63825,Schöllkrippen-Hofst.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63825,Schöllkrippen-Vormwald,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63825,Westerngr.-Huckelheim,Donnerstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 63825,Schölkrippen-Sommerkahl,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63825,Schöllkr.-Oberwestern,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63825,Blankenbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63825,Blankenbach-Erlenbac,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63825,Schöllkr.-Schneppenb,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63825,Blankenbach-Erlenb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63825,Schöllkr.-Schneppenb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63826,Geiselbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63826,Geiselbach-Omersbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63828,Schöllkr.-Klein Kahl,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63828,Schöllkr.-Ober-Weste,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63828,Schöllkr.-Ober-Western,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63829,Krombach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63829,Krombach-Oberschur,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63831,Wiesen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2747,13 +2744,13 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63846,Laufach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63846,Laufach-Frohnhofen,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63849,Leidersbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63849,Leidersbach-Ebersbac,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63849,Leidersbach-Ebersb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63849,Leidersbach-Roßbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63849,Leidersbach-Volkersb,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63849,Leidersbach-Volkersb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63853,Mömlingen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63856,Bessenbach-Keilberg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63856,Bessenbach-Oberbesse,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63856,Bessenbach-Waldmiche,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63856,Bessenbach-Oberbessenb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63856,Bessenbach-Waldmich.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63856,Straßbessenbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63857,Waldaschaff,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63860,Rothenbuch,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2763,12 +2760,12 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63863,Eschau-Wildensee,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63864,Glattbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63867,Johannesberg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63867,Johannesberg-Breunsb,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63867,Johannesberg-Oberaff,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63867,Johannesberg-Breunsb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63867,Johannesberg-Oberafferb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63867,Johannesberg-Rückers,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63867,Johannesberg-Steinba,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63867,Johannesberg-Sternbe,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63867,Johannesberg-Unterafferbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63867,Johannesberg-Steinb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63867,Johannesberg-Sternb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63867,Johannesberg-Unterafferb.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63868,Groß-Wallstadt,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63869,Heigenbrücken,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63869,Heigenbrücken-Jakobs,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2778,7 +2775,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63874,Dammbach-Krausenbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63874,Dammbach-Wintersbach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63875,Mespelbrunn,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63875,Mespelbrunn-Hessenth,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63875,Mespelbrunn-Hessenth.,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63877,Sailauf,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63877,Sailauf-Eichenberg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63877,Sailauf-Ober-Sailauf,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2787,15 +2784,15 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63879,Rohrbrunn,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63879,Weibersbrunn,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63897,Miltenberg,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63897,Miltenberg-Breitendi,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-63897,Miltenberg-Mainbulla,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63897,Miltenberg-Breitendiel,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+63897,Miltenberg-Mainbullau,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63897,Miltenberg-Nord,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63897,Miltenberg-Schippach,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63906,Erlenbach-Main,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63906,Erlenbach-Mechenhard,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63911,Klingenberg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63911,Klingenberg-Röllfeld,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63911,Klingenberg-Trennfur,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63911,Klingenberg-Trennf.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63916,Amorbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63920,Groß Heubach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63924,Kleinheubach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2803,7 +2800,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 63925,Laudenbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63927,Bürgstadt,Donnerstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 63930,Neunkirchen,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-63930,Neunkirchen-Richelb,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+63930,Neunkirchen-Richelb.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63931,Kirchzell,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63933,Mönchberg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 63933,Mönchberg-Schmachtenberg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2825,11 +2822,11 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64297,Darmstadt-Eberstadt,Dienstag,zwischen 11 - 14 Uhr,Freitag,zwischen 11 - 14 Uhr,,,1
 64319,Pfungstadt,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64319,Pfungstadt-Eich,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64319,Pfungstadt-Eschollbr,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64319,Pfungstadt-Eschollbr.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64319,Pfungstadt-Hahn,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64331,Weiterstadt,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64331,Weiterstadt-Braunsha,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64331,Weiterstadt-Gräfenha,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64331,Weiterstadt-Braunsh.,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64331,Weiterstadt-Gräfenh.,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64331,Weiterstadt-Riedbahn,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64331,Weiterstadt-Schneppe,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64342,Seeheim,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2837,19 +2834,19 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64342,Seeheim-Bickenbach,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64342,Seeheim-Jugenheim,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64342,Seeheim-Malchen,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64342,Seeheim-Niederbeerba,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64342,Seeheim-Niederbeerb.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64342,Seeheim-Oberbeerbach,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64347,Griesheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64354,Reinheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64354,Reinheim-Georgenhaus,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64354,Reinheim-Spachbrücke,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64354,Reinheim-Georgenhausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64354,Reinheim-Spachbrücken,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64354,Reinheim-Ueberau,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64354,Reinheim-Zeilhard,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64367,Mühltal,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64367,Mühltal-Frankenhause,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64367,Mühltal-Frankenhausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64367,Mühltal-Mordach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64367,Mühltal-Nieder-Beerb,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64367,Mühltal-Nieder-Ramst,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64367,Mühltal-Nieder-Beerb.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64367,Mühltal-Nieder-Ramstadt,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64367,Mühltal-Traisa,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64367,Mühltal-Trautheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64367,Mühltal-Waschenbach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -2857,28 +2854,28 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64372,Ober Ramstadt,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64372,Ober Ramstadt-Eiche,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64372,Ober Ramstadt-Hahn,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64372,Ober Ramstadt-Nd.Mod,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64372,Ober Ramstadt-Ob.Mod,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64372,Ober Ramstadt-Rohrba,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64372,Ober Ramstadt-Nd.Mod.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64372,Ober Ramstadt-Ob.Mod.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64372,Ober Ramstadt-Rohrb.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64380,Roßdorf Bei Darmst.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-64380,Roßdorf-Gundernhause,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+64380,Roßdorf-Gundernhausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64385,Reichelsh.-Kl.Gumben,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64385,Reichelsh.-Gr. Gumben,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64385,Reichelsh.-Oberkains,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64385,Reichelsh.-Oberostern,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64385,Reichelsh.-Unterostern,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64385,Reichelsheim-Beerfur,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64385,Reichelsh.-Oberkainsb.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64385,Reichelsh.-Ober-Ostern,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64385,Reichelsh.-Unter-Ostern,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64385,Reichelsheim-Beerfurth,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64385,Reichelsheim-Erzbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64385,Reichelsheim-Gerspre,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64385,Reichelsheim-Laudena,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64385,Reichelsheim-Odenwal,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64385,Reichelsheim-Gersprenz,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64385,Reichelsheim-Laudenau,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64385,Reichelsheim-Odenwald,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64390,Erzhausen,Dienstag,zwischen 13 - 16:30 Uhr,Freitag,zwischen 13 - 16:30 Uhr,,,1
 64395,Brensbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64395,Brensbach-Höllerbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64395,Brensbach-Niederkein,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64395,Brensbach-Wallbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64395,Brensbach-Wersau,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64397,Modautal-Allertshofe,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64397,Modautal-Allertshofen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64397,Modautal-Brandau,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64397,Modautal-Ernsthofen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64397,Modautal-Hoxhohl,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2903,7 +2900,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64521,Groß Gerau-Dornberg,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64521,Groß Gerau-Dornheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64521,Groß Gerau-Esch,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64521,Groß Gerau-Wallerstä,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64521,Groß Gerau-Wallerst.,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64546,Mörfelden,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64546,Mörfelden-Walldorf,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64560,Riedstadt-Crumstadt,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2913,7 +2910,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64560,Riedstadt-Wolfskehle,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64569,Nauheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64572,Büttelborn,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64572,Büttelborn-Klein Ger,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64572,Büttelborn-Klein Gerau,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64572,Büttelborn-Worfelden,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64579,Gernsheim-Rhein,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64579,Gernsheim-Rhein-Allmenfeld,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2931,14 +2928,14 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64625,Bensheim-Zell,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64625,Bensheim-Am Hemsberg,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64646,Heppenh.-Oberhambach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64646,Heppenh.-Unter-Hamba,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64646,Heppenh.-Unter-Hamb.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64646,Heppenheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64646,Heppenheim-Erbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64646,Heppenheim-Hambach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64646,Heppenheim-Kirschhau,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64646,Heppenheim-Mittersha,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64646,Heppenheim-Kirschhausen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64646,Heppenheim-Mittersh.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64646,Heppenheim-Oberlaude,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64646,Heppenheim-Sonderbac,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64646,Heppenheim-Sonderb.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64646,Heppenheim-Walderlen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64646,Unter-Hambach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64646,Heppenheim-Scheuerberg,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -2962,21 +2959,21 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64678,Lindenfels-Eulsbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64678,Lindenfels-Glattbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64678,Lindenfels-Kolmbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64678,Lindenfels-Schlierba,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64678,Lindenfels-Seidenbuc,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64678,Lindenfels-Winterkas,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64678,Lindenfels-Schlierb.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64678,Lindenfels-Seidenb.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64678,Lindenfels-Winterkasten,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64683,Einhausen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64683,Grasellenbach-Litzelbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64686,Lautertal-Beedenkirc,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64686,Lautertal-Breitenwie,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64686,Lautertal-Beedenk.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64686,Lautertal-Breitenw.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64686,Lautertal-Elmshausen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64686,Lautertal-Gadernheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64686,Lautertal-Knoden,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64686,Lautertal-Lauter,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64686,Lautertal-Reichenbac,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64686,Lautertal-Reichenb.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64686,Lautertal-Staffel,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64689,Grasellenbach-Wahlen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64689,Grasellenb.-Hammelba,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64689,Grasellenb.-Hammelb.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64689,Grasellenbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64711,Erbach-Bullau,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64711,Erbach-Dorferbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -2990,21 +2987,21 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64711,Erbach-Schönnen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64711,Erbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64720,Michelstadt,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64720,Michelstadt-Asselbru,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64720,Michelstadt-Asselbr.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64720,Michelstadt-Rehbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64720,Michelstadt-Steinbac,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64720,Michelstadt-Steinbuc,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64720,Michelstadt-Stockhei,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64720,Michelstadt-Vielbrun,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64720,Michelstadt-Weitenge,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64720,Michelstadt-Steinbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64720,Michelstadt-Steinbuch,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64720,Michelstadt-Stockh.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64720,Michelstadt-Vielbrunn,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64720,Michelstadt-Weiteng.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64720,Michelstadt-Würzberg,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64732,Bad König-Niederkinz,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64732,Bad König-Niederkinzig,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64732,Bad König-Oberkinzig,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64732,Bad König-Zell,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64732,Bad König-Fürstengrund,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64732,Bad König,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64732,Bad König-Etzengesä,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64732,Bad König-Gumpersber,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64732,Bad König-Etzenges.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64732,Bad König-Gumpersb.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64732,Bad König-Kimbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64732,Bad König-Momart,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64739,Höchst-Hassenroth,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -3015,7 +3012,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64739,Mümling-Grumbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64743,Beerfelden,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64743,Beerfelden-Etzean,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64743,Beerfelden-Falkeng,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64743,Beerfelden-Falkeng.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64743,Beerfelden-Hetzbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64743,Beerfelden-Marbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64743,Beerfelden-Airlenbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -3024,42 +3021,42 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64747,Breuberg-Neustadt,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64747,Breuberg-Rai-Breitenbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64747,Breuberg-Sandbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64747,Breuberg-Waldamorbac,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64750,Lützelbach-Breitenb,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64750,Lützelbach-Haingr,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64747,Breuberg-Waldamorb.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64750,Lützelbach-Breitenb.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64750,Lützelbach-Haingr.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64750,Seckmauern,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64750,Lützelbach-Rimhorn,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64750,Lützelbach/Lützel-Wiebelsbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64753,Bromb.-Langenbrombac,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64753,Bromb.-Langenbromb.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64753,Brombachtal-Birkart,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64753,Brombachtal-Böllstei,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64753,Brombachtal-Kirchbro,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64753,Brombachtal-Böllst.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64753,Brombachtal-Kirchbr.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64753,Brobachtal-Hembach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64756,Mossautal-Güttersbac,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64756,Mossautal-Hilterskli,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64756,Mossautal-Güttersb.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64756,Mossautal-Hiltersk.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64756,Mossautal-Hüttenthal,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64756,Mossautal-Obermossau,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64756,Mossautal-Untermossa,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64756,Mossautal-Untermossau,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64757,Rothenberg,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64757,Rothenberg-Kortelshü,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64757,Rothenberg-Kortelsh.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64757,Rothenberg-Finkenbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64759,Sensbachtal,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64807,Dieburg,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64823,Groß Umstadt,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64823,Groß Umstadt-Dorndie,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64823,Groß Umstadt-Dorndiel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64823,Groß Umstadt-Heubach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64823,Groß Umstadt-Kleesta,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64823,Groß Umstadt-Klein-U,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64823,Groß Umstadt-Kleest.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64823,Groß Umstadt-Klein-U.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64823,Groß Umstadt-Raibach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64823,Groß Umstadt-Richen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64823,Groß Umstadt-Semd,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64823,Groß Umstadt-Wiebels,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64832,Babenhausen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64832,Babenhausen-Harperts,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64832,Babenhausen-Harresha,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64832,Babenhausen-Hergersh,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64832,Babenhausen-Langstad,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64832,Babenhausen-Sickenho,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64832,Babenhausen-Harpertsh.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64832,Babenhausen-Harresh.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64832,Babenhausen-Hergersh.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64832,Babenhausen-Langstadt,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64832,Babenhausen-Sickenhofen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64839,Münster,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64839,Münster-Altheim,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64846,Groß-Zimmern,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3067,11 +3064,11 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 64850,Schaafheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64850,Schaafheim-Mosbach,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64850,Schaafheim-Radheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-64850,Schaafheim-Schlierba,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+64850,Schaafheim-Schlierb.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 64853,Otzberg-Habitzheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 64853,Otzberg-Hering,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64853,Otzberg-Lengfeld,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-64853,Otzberg-Nieder-Klinge,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+64853,Otzberg-Nieder-Klingen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64853,Otzberg-Ober-Klingen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64853,Otzberg-Zipfen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 64853,Otzberg-Obern-Nausess,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -3096,23 +3093,23 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65199,Wiesbaden,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65199,Wiesbaden-Dotzheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65199,Wiesbaden-Kohlheck,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-65199,Wiesbaden-Märchenlan,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-65199,Wiesbaden-Schelmengr,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+65199,Wiesbaden-Märchenland,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+65199,Wiesbaden-Schelmengraben,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65199,Wiesbaden-Biebrich,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-65201,Wiesbaden-Frauenstei,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-65201,Wiesbaden-Freudenber,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+65201,Wiesbaden-Frauenstein,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+65201,Wiesbaden-Freudenberg,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65201,Wiesbaden-Schierstein,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65203,Mainz-Amöneburg,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65203,Wiesbaden-Biebrich,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65205,Wiesbaden-Delkenheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65205,Wiesbaden-Erbenheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-65205,Wiesbaden-Nordenstad,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+65205,Wiesbaden-Nordenstadt,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65205,Wiesbaden,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65207,Wiesbaden-Auringen,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-65207,Wiesbaden-Breckenhei,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+65207,Wiesbaden-Breckenheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65207,Wiesbaden-Heßloch,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65207,Wiesbaden-Igstadt,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
-65207,Wiesbaden-Kloppenhei,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
+65207,Wiesbaden-Kloppenheim,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65207,Wiesbaden-Medenbach,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65207,Wiesbaden-Naurod,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
 65207,Wiesbaden-Rambach,Montag,zwischen 13 - 16:30 Uhr,Donnerstag,zwischen 13 - 16:30 Uhr,,,1
@@ -3130,13 +3127,13 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65239,Hochheim-Massenheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65307,Bad Schwalb-Ramschie,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65307,Bad Schwalbach,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65307,Bad Schwalbach-Fisch,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65307,Bad Schwalbach-Heimb,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65307,Bad Schwalbach-Hette,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65307,Bad Schwalbach-Linds,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65307,Bad Schwalbach-Fischb.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65307,Bad Schwalbach-Heim.b,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65307,Bad Schwalbach-Hettenh.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65307,Bad Schwalbach-Lind.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65307,Bad Schwalbach-Langenseifen,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65321,Heidenrod-Dickschie,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65321,Heidenrod-Grebenro,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65321,Heidenrod-Dickschied,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65321,Heidenrod-Grebenroth,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65321,Heidenrod-Kemel,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65321,Heidenrod-Langsch.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65321,Heidenrod-Laufenselden,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3165,9 +3162,9 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65346,Eltville-Kiedrich,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65347,Eltville-Hattenheim,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65366,Geisenheim,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65366,Geisenheim-Johannesb,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65366,Geisenheim-Marientha,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65366,Geisenheim-Stephansh,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65366,Geisenheim-Johannesb.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65366,Geisenheim-Marienthal,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65366,Geisenheim-Stephansh.,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65375,Östrich,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65375,Östrich-Hallgarten,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65375,Östrich-Mittelheim,Freitag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3191,12 +3188,12 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65399,Kiedrich/Rheingau,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65428,Rüsselsh.-Dicker Bus,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65428,Rüsselsheim,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65428,Rüsselsheim-Bauschhe,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65428,Rüsselsheim-Bauschh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65428,Rüsselsheim-Haßloch,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65428,Rüsselsheim-Horlache,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65428,Rüsselsheim-Königstä,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65428,Rüsselsheim-Königst.,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65439,Flörsheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65439,Flörsheim-Bad Weilba,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65439,Flörsheim-Bad Weilb.,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65439,Flörsheim-Keramag,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65439,Flörsheim-Weilbach,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65439,Flörsheim-Wicker,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -3205,15 +3202,15 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65468,Trebur,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65468,Trebur-Astheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65468,Trebur-Geinsheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65474,Bischofsheim-Rüssels,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65474,Bischofsheim-Rüsselsh.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65479,Raunheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65510,Hünstetten-Limbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65510,Hün.-Ketternschwalba,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65510,Hün.-Ketternschwalb.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65510,Hünste.-Strinz-Trini,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65510,Hünstetten-Bechtheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65510,Hünstetten-Beuerbach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65510,Hünstetten-Görsroth,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65510,Hünstetten-Kesselbac,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65510,Hünstetten-Kesselb.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65510,Hünstetten-Oberlibba,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65510,Hünstetten-Wallbach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65510,Idstein,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -3242,19 +3239,19 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65527,Niedernh.-Engenhahn,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65527,Niedernh.-Königshofe,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65527,Niedernh.-Niederseel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65527,Niedernh.-Oberjosbac,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65527,Niedernh.-Oberseelba,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65527,Niedernh.-Oberjosb.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65527,Niedernh.-Oberseelb.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65527,Niedernhausen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65529,Waldems-Bernbach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65529,Waldems-Esch,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65529,Waldems-Niederems,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65529,Waldems-Reichenbach,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-65529,Waldems-Steinfischba,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+65529,Waldems-Steinfischb.,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65529,Waldems-Wüstems,Freitag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65549,Limburg,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65549,Limburg-Blumenrod,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65550,Limburg-Linter,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65551,Limburg-Lindenholzha,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65551,Limburg-Lindenholzh.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65552,Limburg-Eschofen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65553,Limburg-Dietkirchen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65554,Limburg-Albach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3276,9 +3273,9 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65582,Diez-Bellenbach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65582,Aull,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65589,Hadamar,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65589,Hadamar-Niederhadama,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65589,Hadamar-Niederhadamar,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65589,Hadamar-Niederweyer,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65589,Hadamar-Niederzeuzhe,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65589,Hadamar-Niederzeuzheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65589,Hadamar-Oberweyer,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65589,Hadamar-Oberzeuzheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65589,Hadamar-Steinbach,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3299,7 +3296,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65597,Hünfelden-Ohren,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65599,Dornburg-Dorndorf,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65599,Dornburg-Frickhofen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65599,Dornburg-Langendernb,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65599,Dornburg-Langendernb.,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65599,Dornburg-Thalheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65599,Dornburg-Wilsenroth,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65604,Elz,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3320,7 +3317,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65618,Selters-Haintchen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65618,Selters-Münster,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65620,Waldbrunn-Fussingen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65620,Waldbrunn-Hintermeilin,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65620,Waldbrunn-Hintermeilingen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65620,Waldbrunn-Ellar,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65620,Waldbrunn-Lahr,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65620,Waldbrunn-Hausen,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3341,16 +3338,16 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65719,Hofheim-Wallau,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65719,Hofheim-Wildsachsen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65760,Eschborn,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-65760,Eschborn-Niederhöchs,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65760,Eschborn-Niederhöchst.,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65777,Staffel,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65779,Kelkheim,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65779,Kelkheim-Eppenhain,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65779,Kelkheim-Fischbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65779,Kelkheim-Hornau,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65779,Kelkheim-Münster,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-65779,Kelkheim-Ruppersthai,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+65779,Kelkheim-Ruppersthain,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65795,Hattersheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65795,Hattersheim-Eddershe,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65795,Hattersheim-Eddersh.,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65795,Hattersheim-Okriftel,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65812,Bad Soden,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65812,Bad Soden-Altenhain,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -3358,21 +3355,21 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 65817,Eppstein,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65817,Eppstein-Bremtal,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65817,Eppstein-Ehlhalten,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65817,Eppstein-Niederjosba,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65817,Eppstein-Vockenhause,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65817,Eppstein-Niederjosb.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65817,Eppstein-Vockenhaus.,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65817,Eppstein-Wildsachsen,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65824,Schwalbach-Limes,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65824,Schwalbach-Taunus,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 65830,Kriftel,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65835,Liederbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 65843,Sulzbach,Mittwoch,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-65929,Ffm.-Höchst,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65929,FFM-Höchst,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65929,FFM-Unterliederbach,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65931,Ffm.-Sindlingen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65931,FFM-Sindlingen,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 65931,FFM-Zeilsheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65933,Ffm.-Griesheim,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65934,Ffm.-Nied,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-65936,Ffm.-Sossenheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+65933,FFM-Griesheim,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65934,FFM-Nied,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+65936,FFM-Sossenheim,Dienstag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 66117,Saarbrücken,Dienstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 66735,Herreden,Mittwoch,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67059,Ludwigshafen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3391,8 +3388,8 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 67069,Ludwigsh.-Pfingstweide,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67069,Ludwigsh.-Edigheim,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67069,Ludwigsh.-Oppau,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-67071,Ludwigshafen-Oggersh,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-67071,Ludwigshafen-Ruchhei,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+67071,Ludwigshafen-Oggersh.,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+67071,Ludwigshafen-Ruchheim,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67105,Schifferstadt,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67112,Mutterstadt,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67117,Limburgerhof,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3405,7 +3402,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 67141,Neuhofen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67165,Waldsee,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67227,Frankenthal (Pfalz),Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-67227,Frankenthal-Studernh,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+67227,Frankenthal-Studernh.,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67227,Frankenthal-Mörch,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 67229,Grosskarlbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 67229,Laumersheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -3421,9 +3418,9 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 67292,Kirchheim-Bolanden,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 67294,Stetten,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 67297,Marnheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-67308,Einselthum ** Einfach 7 Km,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+67308,Einselthum,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 67459,Böhl-Iggelheim,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-67482,Freimersheim + 18 Km Fahrtk.Einfach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+67482,Freimersheim,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 67547,Worms,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 67549,Allmendfeld,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 67549,Worms,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -3490,7 +3487,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 68219,Mannheim-Mallau,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 68219,Mannheim-Pfingstberg,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 68219,Mannheim-Rheinau,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-68229,Mannheim-Friedrichsf,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+68229,Mannheim-Friedrichsf.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 68239,Mannheim-Ilvesheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 68239,Mannheim-Seckenheim,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 68259,Mannheim-Feudenheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -3549,12 +3546,12 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 69123,Heidelberg-Pfaffengr,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69123,Heidelberg-Wiebling.,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69124,Heidelberg-Kirchheim,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-69126,Heidelberg-Emmertsgr,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+69126,Heidelberg-Emmertsgr.,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69126,Heidelberg-Rohrbach,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69126,Heidelberg-Südstadt,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69126,Heidelberg-Boxberg,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-69151,Neckarge.-Kleingemün,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-69151,Neckarge.-Waldhilsba,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+69151,Neckarge.-Kleingem.,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+69151,Neckarge.-Waldhilsb.,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69151,Neckargemünd,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69151,Neckargemünd-Dilsberg,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69151,Neckarge.-Mückenloch,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3595,13 +3592,13 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 69412,Eberbach-Neckarwimmersbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 69427,Mudau-Schloßau,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 69427,Schloßau,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-69429,Waldbr.-Strümpfelbru,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+69429,Waldbr.-Strümpfelbr.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 69429,Waldbr:-Oberdielbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 69434,Hirschhorn,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 69436,Schönbrunn_Haag,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-69439,Hirschb-Leutershsn,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
+69439,Hirschb-Leutershausen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69439,Hirschb.-Großsachsen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-69469,Hirsch.-Großsachsen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+69469,Hirschb.-Großsachsen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 69469,Oberflockenbach,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69469,Weinheim,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 69469,Weinheim-Hohensachs.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -3626,7 +3623,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 69488,Birkenau-Reisen,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 69488,Birkenau-Löhrbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 69493,Hirschb.-Leutershaus,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
-69493,Hirschberg A.D.B.Str,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+69493,Hirschberg a.d.B.,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 69493,Hirschberg-Großsachsen,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
 69502,Hemsbach,Montag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 69509,Mörlenbach-Groß Breitenbach,Montag,zwischen 11 - 14 Uhr,,zwischen 11 - 14 Uhr,,,1
@@ -3779,7 +3776,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 97892,Kreuzwertheim,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 97896,Freudenberg,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 97896,Freudenberg-Boxtal,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
-97896,Freudenberg-Kirschfu,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
+97896,Freudenberg-Kirschf.,Donnerstag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
 97900,Külsheim,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 97901,Altenbuch,Dienstag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 97903,Collenberg,Freitag,zwischen 9 - 13 Uhr,,zwischen 9 - 13 Uhr,,,1
@@ -3886,7 +3883,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 99100,Kleinfahner,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99100,Gamstädt,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99100,Döllstädt,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-99102,Erfurt-Windischholzh,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+99102,Erfurt-Windischholzh.,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99102,Klettbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99102,Klettbach-Schellroda,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99102,Niedernissa,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
@@ -3932,7 +3929,7 @@ zip,city,day_1,time_1,day_2,time_2,day_3,time_3,publicHolidayCode
 99198,Kerspleben,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99198,Kleinmölsen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99198,Linderbach,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
-99198,Linderbach-Azmannsdo,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
+99198,Linderbach-Azmannsdorf,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99198,Mönchenholzhausen,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99198,Obernissa,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
 99198,Ollendorf,Montag,zwischen 13 - 16:30 Uhr,,zwischen 13 - 16:30 Uhr,,,1
