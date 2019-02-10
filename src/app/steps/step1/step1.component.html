@@ -5,7 +5,7 @@
       <div class="form">
         <form>
           <input id="typeahead-basic" type="text" class="form-control" placeholder="Postleitzahl" [(ngModel)]="d.zip" name="zip" #name="ngModel"
-                 [ngbTypeahead]="search" (change)="validate()" (keyup)="validate()" minLength="5" maxLength="5"/>
+                 [ngbTypeahead]="search" (selectItem)="d.zip = $event.item; validate()" (change)="validate(); resetSavedSelections();" (keyup)="validate()" minLength="5" maxLength="5"/>
         </form>
       </div>
     </div>

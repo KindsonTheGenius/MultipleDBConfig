@@ -60,7 +60,7 @@ export class Step3Component implements OnInit, AfterViewInit {
             isoDay: date.isoDay,
             time: date.time,
             date: day.toDate(),
-            text: `${day.format('dd, DD.MM')} ${date.time}`
+            text: `${day.format('dd, DD.MM.')} ${date.time}`
           });
         }
       }

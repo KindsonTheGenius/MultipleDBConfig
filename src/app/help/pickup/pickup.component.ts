@@ -4,7 +4,7 @@ import {StepService} from '../../steps/step.service';
 @Component({
   selector: 'pl-pickup',
   templateUrl: './pickup.component.html',
-  styleUrls: ['./pickup.component.scss']
+  styleUrls: ['../help.component.scss']
 })
 export class PickupComponent implements OnInit {
 

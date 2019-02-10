@@ -27,12 +27,18 @@ export class Step1Component implements OnInit, AfterViewInit {
     this.validate();
   }
 
+  resetSavedSelections() {
+    this.d.city = undefined;
+    this.d.pickupDate = undefined;
+    this.d.returnDate = undefined;
+  }
+
   search = (text$: Observable<string>) =>
     text$.pipe(
       debounceTime(100),
       distinctUntilChanged(),
       map(term => term.length < 2 ? []
         : this.s.zips.filter(v => v.toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 10))
-    )
+    );
 
 }

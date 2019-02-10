@@ -6,7 +6,7 @@
         <form #confirmationForm="ngForm" (change)="validate()">
           <div class="form-group">
             <label for="comment">Gibt es sonst noch etwas, das Sie uns mitteilen möchten?</label>
-            <textarea placeholder="Optional" [(ngModel)]="d.comment" (change)="validate()" class="form-control" id="comment" rows="3" name="comment" #comment="ngModel"></textarea>
+            <textarea placeholder="Optional (zusätzliche Infos, muss der Teppich z.B. repariert werden?)" [(ngModel)]="d.comment" (change)="validate()" class="form-control" id="comment" rows="3" name="comment" #comment="ngModel"></textarea>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="privacy" [(ngModel)]="privacy" name="inputPrivacy" #inputPrivacy="ngModel" (change)="validate()" required>

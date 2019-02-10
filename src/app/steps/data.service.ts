@@ -17,6 +17,7 @@ export class DataService {
   private _name: string;
   private _email: string;
   private _phone: string;
+  private _smsNotification: boolean;
 
   private _comment: string;
 
@@ -134,6 +135,15 @@ export class DataService {
     this.save();
   }
 
+  get smsNotification(): boolean {
+    return this._smsNotification;
+  }
+
+  set smsNotification(value: boolean) {
+    this._smsNotification = value;
+    this.save();
+  }
+
   get comment(): string {
     return this._comment;
   }
@@ -145,9 +155,18 @@ export class DataService {
 
   finish() {
     console.log('Send data to server.');
-    console.log(JSON.parse(localStorage.getItem('data')));
+    const data = JSON.parse(localStorage.getItem('data'));
 
-    this.router.navigate(['thank-you']);
+    this.http.post('/api/send-request', data)
+      .subscribe(
+        res => {
+          console.log('success');
+          this.router.navigate(['thank-you']);
+        },
+        err => {
+          console.log(err);
+        }
+      );
   }
 
   public save() {
@@ -162,6 +181,7 @@ export class DataService {
       name: this.name,
       email: this.email,
       phone: this.phone,
+      smsNotification: this.smsNotification,
       comment: this.comment
     }));
   }
@@ -179,6 +199,7 @@ export class DataService {
       this.name = data.name;
       this.email = data.email;
       this.phone = data.phone;
+      this.smsNotification = data.smsNotification;
       this.comment = data.comment;
     }
   }

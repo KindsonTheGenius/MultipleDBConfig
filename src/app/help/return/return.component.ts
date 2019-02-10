@@ -4,7 +4,7 @@ import {StepService} from '../../steps/step.service';
 @Component({
   selector: 'pl-return',
   templateUrl: './return.component.html',
-  styleUrls: ['./return.component.scss']
+  styleUrls: ['../help.component.scss']
 })
 export class ReturnComponent implements OnInit {
 

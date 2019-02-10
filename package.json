@@ -20,11 +20,13 @@
     "@angular/platform-browser-dynamic": "~7.2.3",
     "@angular/router": "~7.2.3",
     "@ng-bootstrap/ng-bootstrap": "^4.0.2",
+    "body-parser": "^1.18.3",
     "bootstrap": "^4.2.1",
     "core-js": "^2.5.4",
     "csvtojson": "^2.0.8",
     "express": "^4.16.4",
     "moment": "^2.24.0",
+    "node-mailjet": "^3.3.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"

@@ -9,6 +9,8 @@
   flex-direction: column;
   align-items: center;
   padding: 10px 30px;
+  z-index: 3;
+  background-color: $background;
 
   ngb-progressbar {
     width: 100%;

@@ -36,6 +36,7 @@ h1, h2, button {
 .content {
   padding: 20px 15px;
   padding-bottom: 102px;
+  z-index: 2;
 }
 
 .btn:focus, input {
@@ -84,7 +85,7 @@ input[type=radio] {
   border-top: 2px solid $border-color;
 
   .btn {
-    padding: 12px 37px;
+    padding: 16px 42px;
   }
 }
 
