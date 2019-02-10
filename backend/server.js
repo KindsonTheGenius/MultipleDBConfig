@@ -44,7 +44,7 @@ function sendRequestEmail(email, data) {
     ],
     "Bcc": [
       {
-        "Email": "service@jl-clean.de",
+        "Email": "kontakt@jl-clean.de",
         "Name": "JL-Clean"
       }
     ],
