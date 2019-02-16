@@ -14,7 +14,6 @@ export class Step7Component implements AfterViewInit {
   @ViewChild('confirmationForm') confirmationForm: NgForm;
 
   privacy = false;
-  pricing = false;
 
   constructor(public s: StepService, public d: DataService, private a: AnalyticsService) {
     this.s.step = 7;
@@ -23,7 +22,7 @@ export class Step7Component implements AfterViewInit {
   }
 
   validate() {
-    this.s.stepValid = this.confirmationForm.valid && this.privacy && this.pricing;
+    this.s.stepValid = this.confirmationForm.valid && this.privacy;
   }
 
   ngAfterViewInit() {
