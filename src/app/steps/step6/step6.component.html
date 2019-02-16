@@ -23,11 +23,7 @@
             <input type="text" class="form-control" placeholder="Telefon (für Rückfragen)" [(ngModel)]="d.phone"
                    (keyup)="validate()" name="phone" #phone="ngModel" required minlength="6" maxLength="255">
           </div>
-          <div class="form-check mt-2">
-            <input class="form-check-input" type="checkbox" id="pricing" [(ngModel)]="d.smsNotification" name="inputPricing" #inputPricing="ngModel" (change)="validate()">
-            <label class="form-check-label" for="pricing">
-              Ich möchte 30 Minuten vor Abholung eine SMS-Benachrichtigung erhalten.</label>
-          </div>
+          
         </form>
       </div>
     </div>
