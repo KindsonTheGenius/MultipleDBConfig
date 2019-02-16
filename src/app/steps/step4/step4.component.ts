@@ -3,6 +3,7 @@ import {StepService} from '../step.service';
 import {DataService} from '../data.service';
 import * as moment from 'moment';
 import {Moment} from 'moment';
+import {AnalyticsService} from '../../analytics.service';
 
 @Component({
   selector: 'pl-step4',
@@ -14,12 +15,13 @@ export class Step4Component implements OnInit, AfterViewInit {
   public tour: any;
   public futureDates: any[];
 
-  constructor(public s: StepService, public d: DataService) {
+  constructor(public s: StepService, public d: DataService, private a: AnalyticsService) {
     this.s.step = 4;
   }
 
   ngOnInit() {
     this.loadTour();
+    this.a.setStep('Rückgabe', 3);
   }
 
   ngAfterViewInit() {

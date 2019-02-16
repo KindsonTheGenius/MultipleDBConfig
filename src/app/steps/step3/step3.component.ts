@@ -4,6 +4,7 @@ import {DataService} from '../data.service';
 
 import * as moment from 'moment';
 import {Moment} from 'moment';
+import {AnalyticsService} from '../../analytics.service';
 
 moment.locale('de');
 
@@ -17,12 +18,13 @@ export class Step3Component implements OnInit, AfterViewInit {
   public tour: any;
   public futureDates: any[];
 
-  constructor(public s: StepService, public d: DataService) {
+  constructor(public s: StepService, public d: DataService, private a: AnalyticsService) {
     this.s.step = 3;
   }
 
   ngOnInit() {
     this.loadTour();
+    this.a.setStep('Abholung', 2);
   }
 
   ngAfterViewInit() {

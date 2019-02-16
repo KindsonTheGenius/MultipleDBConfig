@@ -2,6 +2,7 @@ import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
 import {NgForm} from '@angular/forms';
 import {StepService} from '../step.service';
 import {DataService} from '../data.service';
+import {AnalyticsService} from '../../analytics.service';
 
 @Component({
   selector: 'pl-step6',
@@ -12,8 +13,9 @@ export class Step6Component implements AfterViewInit {
 
   @ViewChild('contactForm') contactForm: NgForm;
 
-  constructor(public s: StepService, public d: DataService) {
+  constructor(public s: StepService, public d: DataService, private a: AnalyticsService) {
     this.s.step = 6;
+    this.a.setStep('Kontaktdaten', 5);
   }
 
   validate() {
