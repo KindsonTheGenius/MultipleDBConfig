@@ -154,13 +154,11 @@ export class DataService {
   }
 
   finish() {
-    console.log('Send data to server.');
     const data = JSON.parse(localStorage.getItem('data'));
 
     this.http.post('/api/send-request', data)
       .subscribe(
         res => {
-          console.log('success');
           this.router.navigate(['thank-you']);
         },
         err => {
