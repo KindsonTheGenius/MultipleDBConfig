@@ -22,7 +22,7 @@ export class Step7Component implements AfterViewInit {
   }
 
   validate() {
-    this.s.stepValid = this.confirmationForm.valid && this.privacy;
+    this.s.stepValid = this.privacy;
   }
 
   ngAfterViewInit() {
