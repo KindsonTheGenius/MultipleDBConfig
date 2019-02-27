@@ -25,7 +25,7 @@ const port = 8111;
 app.listen(port, () => console.log(`Server listening on port ${port}!`));
 
 function sendRequestEmail(email, data) {
-  data.hasComment = (data.comment.length > 0).toString();
+  data.hasComment = (!!data.comment).toString();
   //data.hasComment = "true";
   data.smsNotification = (!!data.smsNotification).toString();
   //data.smsNotification = "true";
