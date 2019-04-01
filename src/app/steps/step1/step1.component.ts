@@ -4,6 +4,7 @@ import {Observable} from 'rxjs';
 import {debounceTime, distinctUntilChanged, map} from 'rxjs/operators';
 import {DataService} from '../data.service';
 import {AnalyticsService} from '../../analytics.service';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'pl-step1',
@@ -12,12 +13,17 @@ import {AnalyticsService} from '../../analytics.service';
 })
 export class Step1Component implements OnInit, AfterViewInit {
 
-  constructor(public s: StepService, public d: DataService, private a: AnalyticsService) {
+  constructor(public s: StepService, public d: DataService, private a: AnalyticsService, private route: ActivatedRoute) {
     this.s.step = 1;
   }
 
   ngOnInit() {
     this.a.setStep('Ort', 1);
+
+    const queryZip = this.route.snapshot.queryParams.zip;
+    if (queryZip) {
+      this.d.zip = queryZip;
+    }
   }
 
   validate() {

@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-  private _zip: number;
+  private _zip: string;
   private _city: string;
   private _pickupDate: any;
   private _returnDate: any;
@@ -25,11 +25,11 @@ export class DataService {
     this.load();
   }
 
-  get zip(): number {
+  get zip(): string {
     return this._zip;
   }
 
-  set zip(value: number) {
+  set zip(value: string) {
     this._zip = value;
     this.save();
   }
