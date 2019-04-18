@@ -13,7 +13,8 @@ app.use(bodyParser.json());
 
 app.post('/api/send-request', (req, res) => {
   const data = req.body;
-  sendRequestEmail(data.email, data);
+  const ip = req.headers['cf-connecting-ip'] || req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+  sendRequestEmail(data.email, data, ip);
   res.send(true);
 });
 
@@ -24,14 +25,11 @@ app.get('*', (req, res) => {
 const port = 8111;
 app.listen(port, () => console.log(`Server listening on port ${port}!`));
 
-function sendRequestEmail(email, data) {
+function sendRequestEmail(email, data, ip) {
   data.hasComment = (!!data.comment).toString();
-  //data.hasComment = "true";
   data.smsNotification = (!!data.smsNotification).toString();
-  //data.smsNotification = "true";
+  data.ipAddress = ip;
 
-  console.log(data.hasComment);
-  console.log(data.smsNotification);
   const message = {
     "From": {
       "Email": "kontakt@jl-clean.de",
