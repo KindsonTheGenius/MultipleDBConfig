@@ -50,7 +50,7 @@ export class Step3Component implements OnInit, AfterViewInit {
 
   generateTourDates() {
     const dates = this.tour.dates;
-    let day = moment().endOf('day');
+    let day = moment().utc().startOf('day');
 
     const futureDates = [];
 
@@ -74,11 +74,12 @@ export class Step3Component implements OnInit, AfterViewInit {
   isHoliday(date: Moment) {
     const holidays = this.s.holidays
       .filter(h => h.publicHolidayCode === this.tour.publicHolidayCode)
-      .map(h => {
-        return moment(h.date).endOf('day');
+      .filter(h => {
+        const holiday = moment.utc(h.date);
+        return holiday.isSame(date.utc(), 'day');
       });
 
-    return holidays.includes(date);
+    return holidays.length > 0;
   }
 
   validate() {
