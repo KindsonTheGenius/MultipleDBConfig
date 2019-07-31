@@ -50,7 +50,7 @@ function sendRequestEmail(email, data, ip) {
     ],
     "TemplateID": 685195,
     "TemplateLanguage": true,
-    "Subject": `Terminbestätigung zur Teppichabholung [Auftragnr. ${id}]`,
+    "Subject": `Terminbestätigung zur Teppichabholung [Auftragsnr. ${id}]`,
     "Variables": data
   };
 
