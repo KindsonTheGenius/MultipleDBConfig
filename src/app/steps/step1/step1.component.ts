@@ -23,11 +23,12 @@ export class Step1Component implements OnInit, AfterViewInit {
     const queryZip = this.route.snapshot.queryParams.zip;
     if (queryZip) {
       this.d.zip = queryZip;
+      this.s.nextStep();
     }
   }
 
   validate() {
-    this.s.stepValid = this.d.zip.toString().length === 5;
+    this.s.stepValid = this.d.zip ? this.d.zip.toString().length === 5 : false;
   }
 
   ngAfterViewInit() {

@@ -26,9 +26,11 @@ const port = 8111;
 app.listen(port, () => console.log(`Server listening on port ${port}!`));
 
 function sendRequestEmail(email, data, ip) {
+  const id = getId();
   data.hasComment = (!!data.comment).toString();
   data.smsNotification = (!!data.smsNotification).toString();
   data.ipAddress = ip;
+  data.id = id;
 
   const message = {
     "From": {
@@ -48,7 +50,7 @@ function sendRequestEmail(email, data, ip) {
     ],
     "TemplateID": 685195,
     "TemplateLanguage": true,
-    "Subject": 'Terminbestätigung zur Teppichabholung',
+    "Subject": `Terminbestätigung zur Teppichabholung [Auftragnr. ${id}]`,
     "Variables": data
   };
 
@@ -64,4 +66,18 @@ function sendRequestEmail(email, data, ip) {
     .catch((err) => {
       console.error(err);
     })
+}
+
+function getId() {
+  const d = new Date();
+  const dateStr = `${d.getFullYear()}${d.getMonth()+1}${d.getDate()}`;
+  return `${dateStr}-${getRandom()}`;
+}
+
+function getRandom() {
+  const length = 4;
+  const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let result = '';
+  for (let i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+  return result;
 }

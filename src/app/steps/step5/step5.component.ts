@@ -11,7 +11,7 @@ import {AnalyticsService} from '../../analytics.service';
 })
 export class Step5Component implements AfterViewInit {
 
-  @ViewChild('addressForm') addressForm: NgForm;
+  @ViewChild('addressForm', { static: true }) addressForm: NgForm;
 
   constructor(public s: StepService, public d: DataService, private a: AnalyticsService) {
     this.s.step = 5;

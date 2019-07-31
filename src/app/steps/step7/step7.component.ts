@@ -11,7 +11,7 @@ import {AnalyticsService} from '../../analytics.service';
 })
 export class Step7Component implements AfterViewInit {
 
-  @ViewChild('confirmationForm') confirmationForm: NgForm;
+  @ViewChild('confirmationForm', { static: true }) confirmationForm: NgForm;
 
   privacy = false;
 
