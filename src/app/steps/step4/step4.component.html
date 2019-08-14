@@ -2,16 +2,15 @@
   <div class="row content">
     <div class="col-12 d-flex justify-content-center flex-column">
       <div [ngSwitch]="tour.dates.length">
-        <h2 class="title">Wann sollen wir den gereinigten Teppich zurückbringen?</h2>
+        <h2 class="title"><b>Rückgabetermin</b> aus Tourdaten auswählen:</h2>
       </div>
-      <h5 class="subtitle">Wählen Sie einen <b>Rückgabetermin</b> aus unseren Tourdaten:</h5>
+      <h5 class="subtitle">Die Reinigung dauert in der Regel eine Woche.</h5>
       <div class="form">
         <div class="selections">
           <label class="date item radio mb-0" *ngFor="let date of this.futureDates; let i = index">
             <input type="radio" [value]="futureDatesJson[i]" name="date" [(ngModel)]="d.returnDateJson" (change)="validate()"> {{date.text}}
           </label>
         </div>
-        <p class="mt-3 text-center">Unser Fahrer ruft Sie am Tag der Lieferung ca. 30 Minuten vor Ankunft an.</p>
         <p class="mt-5 text-center"><small><a [routerLink]="'/return/help'">Mir passt kein aufgeführter Termin.</a></small></p>
       </div>
     </div>
