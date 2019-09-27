@@ -1,14 +1,15 @@
-<div class="container" *ngIf="tour">
+<div class="container">
   <div class="row content">
     <div class="col-12 d-flex justify-content-center flex-column">
-      <div [ngSwitch]="tour.dates.length">
+      <div>
         <h2 class="title"><b>Rückgabetermin</b> aus Tourdaten auswählen:</h2>
       </div>
       <h5 class="subtitle">Die Reinigung dauert in der Regel eine Woche.</h5>
       <div class="form">
         <div class="selections">
           <label class="date item radio mb-0" *ngFor="let date of this.futureDates; let i = index">
-            <input type="radio" [value]="futureDatesJson[i]" name="date" [(ngModel)]="d.returnDateJson" (change)="validate()"> {{date.text}}
+            <input type="radio" [value]="futureDatesJson[i]" name="date" [(ngModel)]="d.returnDateJson" (change)="validate()">
+            {{date.start | date:'E, dd.LL.'}} zwischen {{date.start | date:'HH:mm'}} und {{date.end | date: 'HH:mm'}} Uhr
           </label>
         </div>
         <p class="mt-5 text-center"><small><a [routerLink]="'/return/help'">Mir passt kein aufgeführter Termin.</a></small></p>
