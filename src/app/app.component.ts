@@ -3,7 +3,7 @@ import {StepService} from './steps/step.service';
 import {DataService} from './steps/data.service';
 
 @Component({
-  selector: 'lnk-root',
+  selector: 'jlc-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

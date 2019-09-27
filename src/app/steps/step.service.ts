@@ -9,9 +9,6 @@ export class StepService {
 
   private _step: number = 1;
 
-  private _tours = [];
-  private _holidays = [];
-
   public stepValid = false;
   public maxSteps = 7;
   public done = false;
@@ -19,39 +16,6 @@ export class StepService {
   public skippedStep2 = false;
 
   constructor(private http: HttpClient, private router: Router) {
-    this.loadData();
-  }
-
-  private loadData() {
-    this.http.get('/assets/data/tours.json')
-      .subscribe(
-        (res: any) => {
-          this._tours = res;
-        }
-      );
-
-    this.http.get('/assets/data/holidays.json')
-      .subscribe(
-        (res: any) => {
-          this._holidays = res;
-        }
-      );
-  }
-
-  get tours() {
-    return this._tours;
-  }
-
-  get zips() {
-    const zips = this.tours.map(t => {
-      return t.zip;
-    });
-    const unique = new Set(zips);
-    return Array.from(unique.values());
-  }
-
-  get holidays() {
-    return this._holidays;
   }
 
   get step() {
