@@ -9,7 +9,7 @@
         <div class="selections">
           <label class="date item radio mb-0" *ngFor="let date of this.futureDates; let i = index">
             <input type="radio" [value]="futureDatesJson[i]" name="date" [(ngModel)]="d.returnDateJson" (change)="validate()">
-            {{date.start | date:'E, dd.LL.'}} zwischen {{date.start | date:'HH:mm'}} und {{date.end | date: 'HH:mm'}} Uhr
+            {{date.start | date:'E, dd.LL.'}} zwischen {{date.start | date:'HH:mm':'UTC'}} - {{date.end | date: 'HH:mm':'UTC'}} Uhr
           </label>
         </div>
         <p class="mt-5 text-center"><small><a [routerLink]="'/return/help'">Mir passt kein aufgeführter Termin.</a></small></p>
