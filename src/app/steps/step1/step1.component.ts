@@ -55,7 +55,7 @@ export class Step1Component implements OnInit, AfterViewInit {
       debounceTime(100),
       distinctUntilChanged(),
       map(term => term.length < 2 ? []
-        : this.zipCodes.filter(v => v.toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 10))
+        : this.zipCodes.filter(v => v.toString().toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 10))
     );
 
 }
