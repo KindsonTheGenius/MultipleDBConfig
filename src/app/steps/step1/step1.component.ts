@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, OnInit} from '@angular/core';
+import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
 import {StepService} from '../step.service';
 import {Observable} from 'rxjs';
 import {debounceTime, distinctUntilChanged, map} from 'rxjs/operators';
@@ -34,6 +34,11 @@ export class Step1Component implements OnInit, AfterViewInit {
       this.d.zip = queryZip;
       this.s.nextStep();
     }
+  }
+
+  onInputFocus() {
+    const input = document.getElementById('typeahead-basic');
+    input.scrollIntoView();
   }
 
   validate() {
