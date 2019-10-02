@@ -40,6 +40,10 @@ export class Step1Component implements OnInit, AfterViewInit {
     this.s.stepValid = this.d.zip ? this.d.zip.toString().length === 5 : false;
   }
 
+  onEnter() {
+    this.s.nextStep();
+  }
+
   ngAfterViewInit() {
     this.validate();
   }
