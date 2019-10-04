@@ -1,0 +1,121 @@
+cache:
+  key: "$CI_JOB_STAGE-$CI_COMMIT_REF_SLUG rebuild4"
+  paths:
+  - node_modules/
+
+stages:
+  - test
+  - build
+  - deploy
+
+lint:
+  image: trion/ng-cli
+  stage: test
+  before_script:
+    - npm install
+  script: ng lint
+  allow_failure: true
+
+unit_test:
+  image: trion/ng-cli-karma
+  stage: test
+  before_script:
+    - npm install
+  script: ng test --watch false
+
+
+#e2e_test:
+#  image: trion/ng-cli-e2e
+#  stage: test
+#  before_script:
+#    - npm install
+#  script:
+#    - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.jonashohmann.com/diamant/api.git # TODO only use specified TAG
+#    - cd api && npm install && cd ../
+#    - node api/index.dev.js &>/dev/null &
+#    - npm run ng:serve:proxy &>/dev/null &
+#    - sleep 30
+#    - ng e2e
+#  only:
+#    - master
+
+
+build_test:
+  image: trion/ng-cli
+  stage: build
+  before_script:
+    - npm install
+  script: ng build --prod --aot
+  except:
+    - master
+    - tags
+
+release_job_dev:
+  image: trion/ng-cli
+  stage: build
+  before_script:
+    - npm install
+  script: ng build --aot --buildOptimizer --outputPath=dist
+  artifacts:
+    name: "project-dev-$CI_COMMIT_REF_NAME"
+    paths:
+      - dist/
+  only:
+    - master
+
+release_job:
+  image: trion/ng-cli
+  stage: build
+  before_script:
+    - npm install
+  script: ng build --prod --outputPath=dist
+  artifacts:
+    name: "project-$CI_COMMIT_REF_NAME"
+    paths:
+      - dist/
+  only:
+    - tags
+
+deploy_dev:
+  stage: deploy
+  image: cytopia/ansible:latest-tools
+  only:
+    - "master"
+  dependencies:
+    - release_job_dev
+  before_script:
+    - "[ ! -z \"${DEV_SERVER_PRIVATE_KEY}\" ]"
+    - "[ ! -z \"${DEV_SERVER_IP}\" ]"
+    - apk add rsync
+    - mkdir -p ~/.ssh
+    - echo "$DEV_SERVER_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - eval "$(ssh-agent -s)"
+    - ssh-add ~/.ssh/id_rsa
+    - ssh-keyscan -H $DEV_SERVER_IP >> ~/.ssh/known_hosts
+  script:
+    - mkdir deploy/roles/frontend/files
+    - mv dist deploy/roles/frontend/files/dist
+    - ansible-playbook -i $DEV_SERVER_IP',' deploy/deploy.yml
+
+deploy_prod:
+  stage: deploy
+  image: cytopia/ansible:latest-tools
+  dependencies:
+    - release_job
+  only:
+    - "tags"
+  before_script:
+    - "[ ! -z \"${PROD_SERVER_PRIVATE_KEY}\" ]"
+    - "[ ! -z \"${PROD_SERVER_IP}\" ]"
+    - apk add rsync
+    - mkdir -p ~/.ssh
+    - echo "$PROD_SERVER_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - eval "$(ssh-agent -s)"
+    - ssh-add ~/.ssh/id_rsa
+    - ssh-keyscan -H $PROD_SERVER_IP >> ~/.ssh/known_hosts
+  script:
+    - mkdir deploy/roles/frontend/files
+    - mv dist deploy/roles/frontend/files/dist
+    - ansible-playbook -i $PROD_SERVER_IP',' deploy/deploy.yml

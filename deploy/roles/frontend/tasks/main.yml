@@ -1,0 +1,10 @@
+- name: install rsync
+  package:
+    name: rsync
+    state: present
+- name: synchronize frontend
+  synchronize:
+    src: ./dist
+    dest: /home/jl-clean/
+- name: restart backend
+  command: pm2 restart jl-clean
