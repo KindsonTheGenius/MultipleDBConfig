@@ -4,7 +4,6 @@ const PROXY_CONFIG = [
       "/api/**",
       "/auth/**",
       "/robots.txt*",
-      "/merchant.tsv*",
     ],
     target: "http://localhost:8090",
     secure: false,
