@@ -16,13 +16,13 @@ lint:
   script: ng lint
   allow_failure: true
 
-unit_test:
-  image: trion/ng-cli-karma
-  stage: test
-  before_script:
-    - npm install
-  script: ng test --watch false
-
+#unit_test:
+#  image: trion/ng-cli-karma
+#  stage: test
+#  before_script:
+#    - npm install
+#  script: ng test --watch false
+#
 
 #e2e_test:
 #  image: trion/ng-cli-e2e
