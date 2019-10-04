@@ -95,7 +95,7 @@ deploy_dev:
     - ssh-keyscan -H $DEV_SERVER_IP >> ~/.ssh/known_hosts
   script:
     - mkdir deploy/roles/frontend/files
-    - mv dist deploy/roles/frontend/files/dist
+    - mv dist deploy/roles/frontend/files/frontend
     - ansible-playbook -i $DEV_SERVER_IP',' deploy/deploy.yml
 
 deploy_prod:
@@ -117,5 +117,5 @@ deploy_prod:
     - ssh-keyscan -H $PROD_SERVER_IP >> ~/.ssh/known_hosts
   script:
     - mkdir deploy/roles/frontend/files
-    - mv dist deploy/roles/frontend/files/dist
+    - mv dist deploy/roles/frontend/files/frontend
     - ansible-playbook -i $PROD_SERVER_IP',' deploy/deploy.yml

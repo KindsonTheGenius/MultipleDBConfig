@@ -4,7 +4,7 @@
     state: present
 - name: synchronize frontend
   synchronize:
-    src: ./dist
+    src: ./frontend
     dest: /home/jl-clean/
 - name: restart backend
   command: pm2 restart jl-clean
