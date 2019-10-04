@@ -5,6 +5,6 @@
 - name: synchronize frontend
   synchronize:
     src: ./frontend
-    dest: /home/jl-clean/
+    dest: /home/jl-clean-live/
 - name: restart backend
-  command: pm2 restart jl-clean
+  command: pm2 restart jl-clean-live
