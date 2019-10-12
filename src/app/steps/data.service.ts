@@ -10,6 +10,7 @@ export class DataService {
   private _city: string;
   private _pickupDate: any;
   private _returnDate: any;
+  private _pickupCall: boolean;
   private _street: string;
   private _streetNumber: string;
 
@@ -79,6 +80,15 @@ export class DataService {
 
   set returnDateJson(value: any) {
     this.returnDate = JSON.parse(value);
+  }
+
+  get pickupCall(): boolean {
+    return this._pickupCall;
+  }
+
+  set pickupCall(value: boolean) {
+    this._pickupCall = value;
+    this.save();
   }
 
   get street(): string {
@@ -173,6 +183,7 @@ export class DataService {
       city: this.city,
       pickupDate: this.pickupDate,
       returnDate: this.returnDate,
+      pickupCall: this.pickupCall,
       street: this.street,
       streetNumber: this.streetNumber,
       gender: this.gender,
@@ -191,6 +202,7 @@ export class DataService {
       this.city = data.city;
       this.pickupDate = data.pickupDate;
       this.returnDate = data.returnDate;
+      this.pickupCall = data.pickupCall;
       this.street = data.street;
       this.streetNumber = data.streetNumber;
       this.gender = data.gender;

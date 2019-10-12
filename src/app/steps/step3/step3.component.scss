@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 .back {
   position: fixed;
   top: 0;
@@ -8,3 +10,8 @@
     height: auto;
   }
 }
+
+.selections.pickupCall {
+    margin-top: 15px;
+}
+
