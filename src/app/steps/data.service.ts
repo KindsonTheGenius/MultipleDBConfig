@@ -19,7 +19,6 @@ export class DataService {
   private _familyName: string;
   private _email: string;
   private _phone: string;
-  private _smsNotification: boolean;
 
   private _comment: string;
 
@@ -155,15 +154,6 @@ export class DataService {
     this.save();
   }
 
-  get smsNotification(): boolean {
-    return this._smsNotification;
-  }
-
-  set smsNotification(value: boolean) {
-    this._smsNotification = value;
-    this.save();
-  }
-
   get comment(): string {
     return this._comment;
   }
@@ -201,7 +191,6 @@ export class DataService {
       familyName: this.familyName,
       email: this.email,
       phone: this.phone,
-      smsNotification: this.smsNotification,
       comment: this.comment
     }));
   }
@@ -221,7 +210,6 @@ export class DataService {
       this.familyName = data.familyName;
       this.email = data.email;
       this.phone = data.phone;
-      this.smsNotification = data.smsNotification;
       this.comment = data.comment;
     }
   }
