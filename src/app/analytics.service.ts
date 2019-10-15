@@ -28,6 +28,7 @@ export class AnalyticsService {
       shipping: 0,
       tax: 0
     });
+    ga('send', 'event', 'UX', 'click', 'Order');
   }
 
 }
