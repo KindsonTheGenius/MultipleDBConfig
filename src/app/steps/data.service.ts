@@ -10,11 +10,13 @@ export class DataService {
   private _city: string;
   private _pickupDate: any;
   private _returnDate: any;
+  private _pickupCall: boolean;
   private _street: string;
   private _streetNumber: string;
 
   private _gender: string = 'Frau';
-  private _name: string;
+  private _givenName: string;
+  private _familyName: string;
   private _email: string;
   private _phone: string;
   private _smsNotification: boolean;
@@ -81,6 +83,15 @@ export class DataService {
     this.returnDate = JSON.parse(value);
   }
 
+  get pickupCall(): boolean {
+    return this._pickupCall;
+  }
+
+  set pickupCall(value: boolean) {
+    this._pickupCall = value;
+    this.save();
+  }
+
   get street(): string {
     return this._street;
   }
@@ -108,12 +119,21 @@ export class DataService {
     this.save();
   }
 
-  get name(): string {
-    return this._name;
+  get givenName(): string {
+    return this._givenName;
   }
 
-  set name(value: string) {
-    this._name = value;
+  set givenName(value: string) {
+    this._givenName = value;
+    this.save();
+  }
+
+  get familyName(): string {
+    return this._familyName;
+  }
+
+  set familyName(value: string) {
+    this._familyName = value;
     this.save();
   }
 
@@ -173,10 +193,12 @@ export class DataService {
       city: this.city,
       pickupDate: this.pickupDate,
       returnDate: this.returnDate,
+      pickupCall: this.pickupCall,
       street: this.street,
       streetNumber: this.streetNumber,
       gender: this.gender,
-      name: this.name,
+      givenName: this.givenName,
+      familyName: this.familyName,
       email: this.email,
       phone: this.phone,
       smsNotification: this.smsNotification,
@@ -191,10 +213,12 @@ export class DataService {
       this.city = data.city;
       this.pickupDate = data.pickupDate;
       this.returnDate = data.returnDate;
+      this.pickupCall = data.pickupCall;
       this.street = data.street;
       this.streetNumber = data.streetNumber;
       this.gender = data.gender;
-      this.name = data.name;
+      this.givenName = data.givenName;
+      this.familyName = data.familyName;
       this.email = data.email;
       this.phone = data.phone;
       this.smsNotification = data.smsNotification;

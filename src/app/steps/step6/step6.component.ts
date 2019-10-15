@@ -22,7 +22,8 @@ export class Step6Component implements AfterViewInit {
     this.s.stepValid =
       this.contactForm.valid &&
       this.d.gender !== undefined &&
-      this.d.name !== undefined &&
+      this.d.givenName !== undefined &&
+      this.d.familyName !== undefined &&
       this.d.email !== undefined &&
       this.d.phone !== undefined;
   }
