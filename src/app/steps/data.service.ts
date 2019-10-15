@@ -15,7 +15,8 @@ export class DataService {
   private _streetNumber: string;
 
   private _gender: string = 'Frau';
-  private _name: string;
+  private _givenName: string;
+  private _familyName: string;
   private _email: string;
   private _phone: string;
   private _smsNotification: boolean;
@@ -118,12 +119,21 @@ export class DataService {
     this.save();
   }
 
-  get name(): string {
-    return this._name;
+  get givenName(): string {
+    return this._givenName;
   }
 
-  set name(value: string) {
-    this._name = value;
+  set givenName(value: string) {
+    this._givenName = value;
+    this.save();
+  }
+
+  get familyName(): string {
+    return this._familyName;
+  }
+
+  set familyName(value: string) {
+    this._familyName = value;
     this.save();
   }
 
@@ -187,7 +197,8 @@ export class DataService {
       street: this.street,
       streetNumber: this.streetNumber,
       gender: this.gender,
-      name: this.name,
+      givenName: this.givenName,
+      familyName: this.familyName,
       email: this.email,
       phone: this.phone,
       smsNotification: this.smsNotification,
@@ -206,7 +217,8 @@ export class DataService {
       this.street = data.street;
       this.streetNumber = data.streetNumber;
       this.gender = data.gender;
-      this.name = data.name;
+      this.givenName = data.givenName;
+      this.familyName = data.familyName;
       this.email = data.email;
       this.phone = data.phone;
       this.smsNotification = data.smsNotification;
