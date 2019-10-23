@@ -38,7 +38,7 @@ export class Step1Component implements OnInit, AfterViewInit {
 
   onInputFocus() {
     const input = document.getElementById('typeahead-basic');
-    input.scrollIntoView();
+    setTimeout(() => window.scrollTo(0, input.getBoundingClientRect().top));
   }
 
   validate() {
