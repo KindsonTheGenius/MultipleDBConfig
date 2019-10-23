@@ -4,7 +4,7 @@
       <h2 class="title">Wo soll der Teppich abgeholt werden?</h2>
       <div class="form">
         <form>
-          <input id="typeahead-basic" type="text" class="form-control" placeholder="Postleitzahl" [(ngModel)]="d.zip"
+          <input inputmode="numeric" id="typeahead-basic" type="text" class="form-control" placeholder="Postleitzahl" [(ngModel)]="d.zip"
             name="zip" #name="ngModel" [ngbTypeahead]="search" (selectItem)="d.zip = $event.item; validate()"
             (window:resize)="onInputFocus()" (change)="validate(); resetSavedSelections();" (keyup)="validate()"
             (keyup.enter)="onEnter()" minLength="5" maxLength="5" />
