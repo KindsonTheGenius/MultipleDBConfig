@@ -16,7 +16,12 @@ export class Step1Component implements OnInit, AfterViewInit {
 
   public zipCodes: string[] = [];
 
-  constructor(public s: StepService, public d: DataService, private a: AnalyticsService, private route: ActivatedRoute, public tourService: TourService) {
+  constructor(
+    public s: StepService,
+    public d: DataService,
+    private a: AnalyticsService,
+    private route: ActivatedRoute,
+    public tourService: TourService) {
     this.s.step = 1;
   }
 

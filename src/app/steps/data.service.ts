@@ -5,6 +5,7 @@ import {HttpClient} from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
+  
 export class DataService {
   private _zip: string;
   private _city: string;
