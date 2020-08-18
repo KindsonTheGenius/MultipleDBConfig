@@ -5,6 +5,7 @@ import {Router} from '@angular/router';
 @Injectable({
   providedIn: 'root'
 })
+  
 export class StepService {
 
   private _step: number = 1;
