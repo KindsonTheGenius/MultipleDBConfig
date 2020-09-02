@@ -30,5 +30,4 @@ export class AnalyticsService {
     });
     ga('send', 'event', 'UX', 'click', 'Order');
   }
-
 }

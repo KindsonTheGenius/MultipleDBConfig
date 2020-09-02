@@ -8,5 +8,5 @@
 <div class="controls" *ngIf="!s.done && s.step > 0" [hidden]="s.step === 0">
   <button type="button" class="btn btn-secondary" *ngIf="s.step > 1" (click)="s.previousStep()">Zurück</button>
   <button type="button" class="btn btn-primary" *ngIf="s.step <= 6" [disabled]="!s.stepValid" (click)="s.nextStep()">Weiter</button>
-  <button type="button" class="btn btn-primary" *ngIf="s.step === 7" [disabled]="!s.stepValid" (click)="d.finish()">Senden</button>
+  <button type="button" class="btn btn-primary" *ngIf="s.step === 7" [disabled]="!s.stepValid || avoidDoubleClick" (click)="d.finish(); avoidDoubleClick=true">Senden</button>
 </div>
