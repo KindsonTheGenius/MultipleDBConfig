@@ -1,0 +1,22 @@
+{
+  "npmScope": "jl-clean",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "jl-clean": {
+      "tags": []
+    },
+    "jl-clean-e2e-e2e": {
+      "tags": []
+    }
+  }
+}
