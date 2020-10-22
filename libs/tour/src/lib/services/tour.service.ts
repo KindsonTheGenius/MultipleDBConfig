@@ -1,12 +1,11 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class TourService {
-
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   loadZipCodes() {
     return this.http.get('/api/tour/zip-codes');
@@ -21,6 +20,8 @@ export class TourService {
   }
 
   loadReturnDates(pickupDateId: number, zipCode: string, city: string) {
-    return this.http.get(`/api/tour/return-dates/${pickupDateId}/${zipCode}/${city}`);
+    return this.http.get(
+      `/api/tour/return-dates/${pickupDateId}/${zipCode}/${city}`
+    );
   }
 }

@@ -183,6 +183,36 @@
           "style": "scss"
         }
       }
+    },
+    "tour": {
+      "projectType": "library",
+      "root": "libs/tour",
+      "sourceRoot": "libs/tour/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/tour/tsconfig.lib.json",
+              "libs/tour/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/tour/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/tour/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      }
     }
   },
   "defaultProject": "contact-form"

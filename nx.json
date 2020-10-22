@@ -12,13 +12,16 @@
     "nx.json": "*"
   },
   "projects": {
-    "jl-clean": {
+    "contact-form": {
       "tags": []
     },
-    "jl-clean-e2e-e2e": {
+    "contact-form-e2e": {
       "tags": []
     },
     "order": {
+      "tags": []
+    },
+    "tour": {
       "tags": []
     }
   }

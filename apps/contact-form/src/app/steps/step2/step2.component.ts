@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataService } from '@jl-clean/order';
-import { TourService } from '../../tour.service';
+import { TourService } from '@jl-clean/tour';
 import { StepService } from '../step.service';
 
 @Component({

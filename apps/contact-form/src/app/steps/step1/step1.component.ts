@@ -1,10 +1,10 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '@jl-clean/order';
+import { TourService } from '@jl-clean/tour';
 import { Observable } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 import { AnalyticsService } from '../../analytics.service';
-import { TourService } from '../../tour.service';
 import { StepService } from '../step.service';
 
 @Component({
