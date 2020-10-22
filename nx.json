@@ -23,6 +23,9 @@
     },
     "tour": {
       "tags": []
+    },
+    "analytics": {
+      "tags": []
     }
   }
 }

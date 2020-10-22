@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { AnalyticsService } from '@jl-clean/analytics';
 import { DataService } from '@jl-clean/order';
-import { AnalyticsService } from '../../analytics.service';
 import { StepService } from '../step.service';
 
 @Component({
