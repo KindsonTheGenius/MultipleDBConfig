@@ -5,16 +5,20 @@
   To learn more about this file see: https://angular.io/config/solution-tsconfig.
 */
 {
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
   "files": [],
   "references": [
     {
-      "path": "./src/tsconfig.app.json"
+      "path": "./tsconfig.app.json"
     },
     {
-      "path": "./src/tsconfig.spec.json"
-    },
-    {
-      "path": "./e2e/tsconfig.e2e.json"
+      "path": "./tsconfig.spec.json"
     }
   ]
 }

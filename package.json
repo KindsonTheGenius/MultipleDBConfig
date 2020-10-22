@@ -2,13 +2,31 @@
   "name": "jl-clean",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "nx",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
-    "dev:serve": "ng serve --proxy-config proxy.conf.js --aot --host 0.0.0.0"
+    "dev:serve": "ng serve --proxy-config proxy.conf.js --aot --host 0.0.0.0",
+    "nx": "nx",
+    "affected:apps": "nx affected:apps",
+    "affected:libs": "nx affected:libs",
+    "affected:build": "nx affected:build",
+    "affected:e2e": "nx affected:e2e",
+    "affected:test": "nx affected:test",
+    "affected:lint": "nx affected:lint",
+    "affected:dep-graph": "nx affected:dep-graph",
+    "affected": "nx affected",
+    "format": "nx format:write",
+    "format:write": "nx format:write",
+    "format:check": "nx format:check",
+    "update": "ng update @nrwl/workspace",
+    "update:check": "ng update",
+    "dep-graph": "nx dep-graph",
+    "workspace-schematic": "nx workspace-schematic",
+    "help": "nx help",
+    "postinstall": "node ./decorate-angular-cli.js"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +41,7 @@
     "@angular/platform-browser-dynamic": "~10.0.8",
     "@angular/router": "~10.0.8",
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
+    "@nrwl/workspace": "^10.3.0",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.2.1",
     "core-js": "^2.5.4",
@@ -33,7 +52,8 @@
     "node-mailjet": "^3.3.1",
     "rxjs": "~6.6.2",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "@nrwl/angular": "10.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.5",
@@ -54,6 +74,8 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.0.2",
     "tslint": "~6.1.0",
-    "typescript": "~3.9.7"
+    "typescript": "~3.9.7",
+    "@nrwl/workspace": "10.3.0",
+    "prettier": "2.0.4"
   }
 }
