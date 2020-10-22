@@ -17,6 +17,9 @@
     },
     "jl-clean-e2e-e2e": {
       "tags": []
+    },
+    "order": {
+      "tags": []
     }
   }
 }

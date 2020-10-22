@@ -46,9 +46,7 @@
               "apps/contact-form/src/favicon.ico",
               "apps/contact-form/src/assets"
             ],
-            "styles": [
-              "apps/contact-form/src/styles.scss"
-            ],
+            "styles": ["apps/contact-form/src/styles.scss"],
             "scripts": [
               {
                 "input": "node_modules/document-register-element/build/document-register-element.js"
@@ -110,9 +108,7 @@
             "polyfills": "apps/contact-form/src/polyfills.ts",
             "tsConfig": "apps/contact-form/tsconfig.spec.json",
             "karmaConfig": "apps/contact-form/karma.conf.js",
-            "styles": [
-              "apps/contact-form/src/styles.scss"
-            ],
+            "styles": ["apps/contact-form/src/styles.scss"],
             "scripts": [],
             "assets": [
               "apps/contact-form/src/favicon.ico",
@@ -127,9 +123,7 @@
               "apps/contact-form/tsconfig.app.json",
               "apps/contact-form/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -155,10 +149,38 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
+        }
+      }
+    },
+    "order": {
+      "projectType": "library",
+      "root": "libs/order",
+      "sourceRoot": "libs/order/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/order/tsconfig.lib.json",
+              "libs/order/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/order/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/order/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
         }
       }
     }
