@@ -1,14 +1,12 @@
-import {Injectable} from '@angular/core';
+import { Injectable } from '@angular/core';
 
 declare let ga;
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AnalyticsService {
-
-  constructor() {
-  }
+  constructor() {}
 
   addPageView(url: string) {
     ga('set', 'page', url);
@@ -16,7 +14,7 @@ export class AnalyticsService {
   }
 
   setStep(name: string, step: number) {
-    ga('ec:setAction', 'checkout', {'step': step});
+    ga('ec:setAction', 'checkout', { step: step });
     ga('send', 'event', 'Checkout', name);
   }
 
@@ -26,7 +24,7 @@ export class AnalyticsService {
       id: Date.now(),
       revenue: 0,
       shipping: 0,
-      tax: 0
+      tax: 0,
     });
     ga('send', 'event', 'UX', 'click', 'Order');
   }

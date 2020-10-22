@@ -16,7 +16,8 @@
     "lib": ["es2018", "dom"],
     "paths": {
       "@jl-clean/order": ["libs/order/src/index.ts"],
-      "@jl-clean/tour": ["libs/tour/src/index.ts"]
+      "@jl-clean/tour": ["libs/tour/src/index.ts"],
+      "@jl-clean/analytics": ["libs/analytics/src/index.ts"]
     },
     "rootDir": "."
   }
