@@ -1,19 +1,18 @@
-import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
-import {StepService} from '../step.service';
-import {Observable} from 'rxjs';
-import {debounceTime, distinctUntilChanged, map} from 'rxjs/operators';
-import {DataService} from '../data.service';
-import {AnalyticsService} from '../../analytics.service';
-import {ActivatedRoute} from '@angular/router';
-import {TourService} from '../../tour.service';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { DataService } from '@jl-clean/order';
+import { Observable } from 'rxjs';
+import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
+import { AnalyticsService } from '../../analytics.service';
+import { TourService } from '../../tour.service';
+import { StepService } from '../step.service';
 
 @Component({
   selector: 'pl-step1',
   templateUrl: './step1.component.html',
-  styleUrls: ['./step1.component.scss']
+  styleUrls: ['./step1.component.scss'],
 })
 export class Step1Component implements OnInit, AfterViewInit {
-
   public zipCodes: string[] = [];
 
   constructor(
@@ -21,18 +20,17 @@ export class Step1Component implements OnInit, AfterViewInit {
     public d: DataService,
     private a: AnalyticsService,
     private route: ActivatedRoute,
-    public tourService: TourService) {
+    public tourService: TourService
+  ) {
     this.s.step = 1;
   }
 
   ngOnInit() {
     this.a.setStep('Ort', 1);
 
-    this.tourService.loadZipCodes().subscribe(
-      (res: string[]) => {
-        this.zipCodes = res;
-      }
-    );
+    this.tourService.loadZipCodes().subscribe((res: string[]) => {
+      this.zipCodes = res;
+    });
 
     const queryZip = this.route.snapshot.queryParams.zip;
     if (queryZip) {
@@ -68,8 +66,15 @@ export class Step1Component implements OnInit, AfterViewInit {
     text$.pipe(
       debounceTime(100),
       distinctUntilChanged(),
-      map(term => term.length < 2 ? []
-        : this.zipCodes.filter(v => v.toString().toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 10))
+      map((term) =>
+        term.length < 2
+          ? []
+          : this.zipCodes
+              .filter(
+                (v) =>
+                  v.toString().toLowerCase().indexOf(term.toLowerCase()) > -1
+              )
+              .slice(0, 10)
+      )
     );
-
 }

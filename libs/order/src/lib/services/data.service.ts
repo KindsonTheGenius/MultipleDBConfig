@@ -1,11 +1,10 @@
-import {Injectable} from '@angular/core';
-import {Router} from '@angular/router';
-import {HttpClient} from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-  
 export class DataService {
   private _zip: string;
   private _city: string;
@@ -167,33 +166,35 @@ export class DataService {
   finish() {
     const data = JSON.parse(localStorage.getItem('data'));
 
-    this.http.post('/api/send-request', data)
-      .subscribe(
-        res => {
-          this.router.navigate(['thank-you']);
-        },
-        err => {
-          console.log(err);
-        }
-      );
+    this.http.post('/api/send-request', data).subscribe(
+      (res) => {
+        this.router.navigate(['thank-you']);
+      },
+      (err) => {
+        console.log(err);
+      }
+    );
   }
 
   public save() {
-    localStorage.setItem('data', JSON.stringify({
-      zip: this.zip,
-      city: this.city,
-      pickupDate: this.pickupDate,
-      returnDate: this.returnDate,
-      pickupCall: this.pickupCall,
-      street: this.street,
-      streetNumber: this.streetNumber,
-      gender: this.gender,
-      givenName: this.givenName,
-      familyName: this.familyName,
-      email: this.email,
-      phone: this.phone,
-      comment: this.comment
-    }));
+    localStorage.setItem(
+      'data',
+      JSON.stringify({
+        zip: this.zip,
+        city: this.city,
+        pickupDate: this.pickupDate,
+        returnDate: this.returnDate,
+        pickupCall: this.pickupCall,
+        street: this.street,
+        streetNumber: this.streetNumber,
+        gender: this.gender,
+        givenName: this.givenName,
+        familyName: this.familyName,
+        email: this.email,
+        phone: this.phone,
+        comment: this.comment,
+      })
+    );
   }
 
   public load() {
