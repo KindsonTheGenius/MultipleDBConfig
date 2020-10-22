@@ -1,8 +1,8 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { DataService } from '@jl-clean/order';
+import { TourService } from '@jl-clean/tour';
 import * as moment from 'moment';
 import { AnalyticsService } from '../../analytics.service';
-import { TourService } from '../../tour.service';
 import { StepService } from '../step.service';
 
 moment.locale('de');

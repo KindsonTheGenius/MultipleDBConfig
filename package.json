@@ -9,6 +9,7 @@
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "dev:serve": "ng serve --proxy-config proxy.conf.js --aot --host 0.0.0.0",
+    "serve": "nx dev:serve",
     "nx": "nx",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
