@@ -67,6 +67,7 @@ export class StepService {
         break;
       case 7:
         route = 'pictures';
+        break;
       case 8:
         route = 'send';
     }

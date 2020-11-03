@@ -20,7 +20,7 @@ export class SendenComponent implements AfterViewInit {
     private a: AnalyticsService
   ) {
     this.s.step = 8;
-    this.a.setStep('Erfolg', 6);
+    this.a.setStep('Erfolg', 7);
     this.a.finish();
   }
 
