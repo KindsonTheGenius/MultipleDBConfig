@@ -1,0 +1,19 @@
+@import "../variables";
+
+.p-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 45px 0 45px;
+  z-index: 3;
+  background-color: $background;
+
+  ngb-progressbar {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}

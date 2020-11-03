@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row content">
+    <div class="col-12 d-flex justify-content-center flex-column">
+      <h2 class="title">Wo soll der Teppich abgeholt werden?</h2>
+      <div class="form">
+        <form>
+          <input
+          inputmode="numeric"
+          id="typeahead-basic"
+          type="text"
+          class="form-control"
+          placeholder="Postleitzahl"
+          [(ngModel)]="d.zip"
+          name="zip"
+          #name="ngModel"
+          [ngbTypeahead]="search"
+          (selectItem)="d.zip = $event.item; validate()"
+          (window:resize)="onInputFocus()"
+          (change)="validate(); resetSavedSelections();"
+          (keyup)="validate()"
+          (keyup.enter)="onEnter()"
+          minLength="5" maxLength="5" />
+        </form>
+        <p class="mt-3 text-center">
+          Diese Anfrage ist nicht kostenpflichtig.
+          Sie bezahlen erst nach erbrachter Leistung.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
