@@ -5,11 +5,11 @@ import { TourService } from '@jl-clean/tour';
 import { StepService } from '../step.service';
 
 @Component({
-  selector: 'pl-step2',
-  templateUrl: './step2.component.html',
-  styleUrls: ['./step2.component.scss'],
+  selector: 'pl-ort',
+  templateUrl: './ort.component.html',
+  styleUrls: ['./ort.component.scss'],
 })
-export class Step2Component implements OnInit, AfterViewInit {
+export class OrtComponent implements OnInit, AfterViewInit {
   public cities = [];
 
   constructor(

@@ -8,11 +8,11 @@ import { StepService } from '../step.service';
 moment.locale('de');
 
 @Component({
-  selector: 'pl-step3',
-  templateUrl: './step3.component.html',
-  styleUrls: ['./step3.component.scss'],
+  selector: 'pl-abhol',
+  templateUrl: './abhol.component.html',
+  styleUrls: ['./abhol.component.scss'],
 })
-export class Step3Component implements OnInit, AfterViewInit {
+export class AbholComponent implements OnInit, AfterViewInit {
   public futureDates: any[];
 
   constructor(

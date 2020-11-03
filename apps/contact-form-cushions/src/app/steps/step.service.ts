@@ -1,23 +1,20 @@
-import {Injectable} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import {Router} from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-  
 export class StepService {
-
   private _step: number = 1;
 
   public stepValid = false;
-  public maxSteps = 7;
+  public maxSteps = 8;
   public done = false;
 
   public skippedStep2 = false;
 
-  constructor(private http: HttpClient, private router: Router) {
-  }
+  constructor(private http: HttpClient, private router: Router) {}
 
   get step() {
     return this._step;
@@ -69,6 +66,8 @@ export class StepService {
         route = 'contact';
         break;
       case 7:
+        route = 'pictures';
+      case 8:
         route = 'send';
     }
     this.router.navigate([route]);

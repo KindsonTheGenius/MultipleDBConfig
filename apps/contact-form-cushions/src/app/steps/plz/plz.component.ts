@@ -8,11 +8,11 @@ import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 import { StepService } from '../step.service';
 
 @Component({
-  selector: 'pl-step1',
-  templateUrl: './step1.component.html',
-  styleUrls: ['./step1.component.scss'],
+  selector: 'pl-plz',
+  templateUrl: './plz.component.html',
+  styleUrls: ['./plz.component.scss'],
 })
-export class Step1Component implements OnInit, AfterViewInit {
+export class PlzComponent implements OnInit, AfterViewInit {
   public zipCodes: string[] = [];
 
   constructor(

@@ -6,11 +6,11 @@ import * as moment from 'moment';
 import { StepService } from '../step.service';
 
 @Component({
-  selector: 'pl-step4',
-  templateUrl: './step4.component.html',
-  styleUrls: ['./step4.component.scss'],
+  selector: 'pl-rueckgabe',
+  templateUrl: './rueckgabe.component.html',
+  styleUrls: ['./rueckgabe.component.scss'],
 })
-export class Step4Component implements OnInit, AfterViewInit {
+export class RueckgabeComponent implements OnInit, AfterViewInit {
   public tour: any;
   public futureDates: any[];
 

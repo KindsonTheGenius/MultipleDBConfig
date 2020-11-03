@@ -5,27 +5,27 @@ import { DataService } from '@jl-clean/order';
 import { StepService } from '../step.service';
 
 @Component({
-  selector: 'pl-step5',
-  templateUrl: './step5.component.html',
-  styleUrls: ['./step5.component.scss'],
+  selector: 'pl-senden',
+  templateUrl: './senden.component.html',
+  styleUrls: ['./senden.component.scss'],
 })
-export class Step5Component implements AfterViewInit {
-  @ViewChild('addressForm', { static: true }) addressForm: NgForm;
+export class SendenComponent implements AfterViewInit {
+  @ViewChild('confirmationForm', { static: true }) confirmationForm: NgForm;
+
+  privacy = false;
 
   constructor(
     public s: StepService,
     public d: DataService,
     private a: AnalyticsService
   ) {
-    this.s.step = 5;
-    this.a.setStep('Adresse', 4);
+    this.s.step = 8;
+    this.a.setStep('Erfolg', 6);
+    this.a.finish();
   }
 
   validate() {
-    this.s.stepValid =
-      this.addressForm.valid &&
-      this.d.street !== undefined &&
-      this.d.streetNumber !== undefined;
+    this.s.stepValid = this.privacy;
   }
 
   ngAfterViewInit() {
