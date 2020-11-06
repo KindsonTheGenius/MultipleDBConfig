@@ -4,10 +4,80 @@
       <div>
         <h2 class="title">Bitte laden Sie Bilder der Polster hoch:</h2>
       </div>
-      <h5 class="text-center">
+      <h5 class="text-center mb-5">
         So können wir uns vorher überlegen, wie wir Ihre Polster am
         gründlichsten reinigen
       </h5>
+
+      <div *ngIf="currentFile" class="progress">
+        <div
+          class="progress-bar progress-bar-info progress-bar-striped"
+          role="progressbar"
+          attr.aria-valuenow="{{ progress }}"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          [ngStyle]="{ width: progress + '%' }"
+        >
+          {{ progress }}%
+        </div>
+      </div>
+
+      <label
+        class="btn btn-default mt-2"
+        [ngClass]="{ 'm-5': picArray.lenght === 0 }"
+      >
+        <input type="file" name="cushionPic" (change)="selectFile($event)" />
+      </label>
+
+      <button
+        class="btn btn-success"
+        [disabled]="!selectedFiles"
+        (click)="upload()"
+      >
+        Upload
+      </button>
+
+      <div
+        class="alert alert-light text-success"
+        [ngClass]="{ 'text-danger': error }"
+        role="alert"
+      >
+        <b>{{ message }}</b>
+      </div>
+
+      <div class="card container-fluid mb-2" *ngIf="picArray.length === 0">
+        <div class="form-check my-3">
+          <input
+            class="form-check-input mr-3"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+            [(ngModel)]="noPicOption"
+          />
+          <label class="form-check-label" for="defaultCheck1">
+            Ich kann aktuell keine Bilder hochladen
+          </label>
+        </div>
+      </div>
+
+      <div
+        class="card container-fluid mb-2"
+        *ngFor="let pic of picArray; index as i"
+      >
+        <div class="row">
+          <div class="col">
+            <p class="p-2 mb-0">{{ pic.picName }}</p>
+          </div>
+          <div class="col-2 col-md-1 d-flex align-items-center">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="../../../assets/icons/trash.svg"
+              alt="bin icon"
+              (click)="deletePicture(pic.serverFileName, i)"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
