@@ -26,12 +26,17 @@
         class="btn btn-default mt-2"
         [ngClass]="{ 'm-5': picArray.lenght === 0 }"
       >
-        <input type="file" name="cushionPic" (change)="selectFile($event)" />
+        <input
+          type="file"
+          name="cushionPic"
+          (change)="selectFile($event)"
+          [disabled]="noPicOption"
+        />
       </label>
 
       <button
         class="btn btn-success"
-        [disabled]="!selectedFiles"
+        [disabled]="!selectedFiles || noPicOption"
         (click)="upload()"
       >
         Upload
@@ -53,6 +58,7 @@
             value=""
             id="defaultCheck1"
             [(ngModel)]="noPicOption"
+            (change)="validate()"
           />
           <label class="form-check-label" for="defaultCheck1">
             Ich kann aktuell keine Bilder hochladen

@@ -37,26 +37,18 @@ export class BilderComponent implements AfterViewInit, OnInit {
     this.noPicOption = false;
   }
 
-  activateNoPicOption(event: any): void {
-    console.log(event.target.value);
-    this.noPicOption = !this.noPicOption;
-    console.log(this.noPicOption);
-  }
-
   selectFile(event): void {
     this.selectedFiles = event.target.files;
   }
 
   upload(): void {
     this.progress = 0;
-
     this.currentFile = this.selectedFiles.item(0);
     this.uploadService.upload(this.currentFile).subscribe(
       (event) => {
         if (event.type === HttpEventType.UploadProgress) {
           this.progress = Math.round((100 * event.loaded) / event.total);
         } else if (event instanceof HttpResponse) {
-          console.log(event.body);
           this.error = false;
           this.message = event.body.message;
           // this.fileInfos = this.uploadService.getFiles();
@@ -67,6 +59,7 @@ export class BilderComponent implements AfterViewInit, OnInit {
           };
           this.picArray.push(pictureDTO);
           this.progress = 0;
+          this.validate();
         }
       },
       (err) => {
@@ -74,6 +67,7 @@ export class BilderComponent implements AfterViewInit, OnInit {
         this.progress = 0;
         this.message = 'Bild konnte nicht gespeichert werden!';
         this.currentFile = undefined;
+        this.validate();
       }
     );
     this.selectedFiles = undefined;
@@ -88,11 +82,13 @@ export class BilderComponent implements AfterViewInit, OnInit {
           );
           this.error = false;
           this.message = 'Bild wurde erfolgreich entfernt!';
+          this.validate();
         }
       },
       error: (error) => {
         this.error = true;
         this.message = 'Bild konnte nicht entfernt werden!';
+        this.validate();
       },
     });
   }
@@ -102,7 +98,11 @@ export class BilderComponent implements AfterViewInit, OnInit {
   }
 
   validate() {
-    this.s.stepValid = true;
+    if (this.picArray.length > 0 || this.noPicOption) {
+      this.s.stepValid = true;
+    } else {
+      this.s.stepValid = false;
+    }
   }
 
   ngAfterViewInit() {

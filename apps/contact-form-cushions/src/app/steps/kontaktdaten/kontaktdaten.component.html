@@ -5,31 +5,75 @@
       <div class="form">
         <form #contactForm="ngForm" (change)="validate()">
           <div class="form-group">
-            <select class="form-control" [(ngModel)]="d.gender" (change)="validate()" name="gender" #gender="ngModel"
-                    required>
+            <select
+              class="form-control"
+              [(ngModel)]="d.gender"
+              (change)="validate()"
+              name="gender"
+              #gender="ngModel"
+              required
+            >
               <option [value]="'Frau'">Frau</option>
               <option [value]="'Herr'">Herr</option>
             </select>
           </div>
           <div class="form-group row">
             <div class="col-6">
-              <input type="text" class="form-control" placeholder="Vorname" [(ngModel)]="d.givenName" (keyup)="validate()"
-                     name="givenName" #givenName="ngModel" required minlength="3" maxLength="255">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Vorname"
+                [(ngModel)]="d.givenName"
+                (keyup)="validate()"
+                name="givenName"
+                #givenName="ngModel"
+                required
+                minlength="3"
+                maxLength="255"
+              />
             </div>
             <div class="col-6">
-              <input type="text" class="form-control" placeholder="Nachname" [(ngModel)]="d.familyName" (keyup)="validate()"
-                     name="familyName" #familyName="ngModel" required minlength="3" maxLength="255">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Nachname"
+                [(ngModel)]="d.familyName"
+                (keyup)="validate()"
+                name="familyName"
+                #familyName="ngModel"
+                required
+                minlength="3"
+                maxLength="255"
+              />
             </div>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" placeholder="E-Mail (zur Terminbestätigung)" [(ngModel)]="d.email"
-                   (keyup)="validate()" name="email" #email="ngModel" required email>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="E-Mail (zur Terminbestätigung)"
+              [(ngModel)]="d.email"
+              (keyup)="validate()"
+              name="email"
+              #email="ngModel"
+              required
+              email
+            />
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Telefon (mobil) - für Rückfragen" [(ngModel)]="d.phone"
-                   (keyup)="validate()" name="phone" #phone="ngModel" required minlength="6" maxLength="255">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Telefon (mobil) - für Rückfragen"
+              [(ngModel)]="d.phone"
+              (keyup)="validate()"
+              name="phone"
+              #phone="ngModel"
+              required
+              minlength="6"
+              maxLength="255"
+            />
           </div>
-
         </form>
       </div>
     </div>
