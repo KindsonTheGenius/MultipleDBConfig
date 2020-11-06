@@ -22,25 +22,22 @@
         </div>
       </div>
 
-      <label
-        class="btn btn-default mt-2"
-        [ngClass]="{ 'm-5': picArray.lenght === 0 }"
-      >
+      <label class="btn btn-default mt-2">
         <input
           type="file"
           name="cushionPic"
-          (change)="selectFile($event)"
-          [disabled]="noPicOption"
+          (change)="selectFile($event); upload()"
+          [disabled]="noPicOption || picArray.length >= 8"
         />
       </label>
 
-      <button
+      <!-- <button
         class="btn btn-success"
-        [disabled]="!selectedFiles || noPicOption"
+        [disabled]="!selectedFiles || noPicOption || picArray.length > 8"
         (click)="upload()"
       >
         Upload
-      </button>
+      </button> -->
 
       <div
         class="alert alert-light text-success"
@@ -71,7 +68,7 @@
         *ngFor="let pic of picArray; index as i"
       >
         <div class="row">
-          <div class="col">
+          <div class="col-6">
             <p class="p-2 mb-0">{{ pic.picName }}</p>
           </div>
           <div class="col-2 col-md-1 d-flex align-items-center">

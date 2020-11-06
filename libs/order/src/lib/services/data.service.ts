@@ -21,9 +21,19 @@ export class DataService {
   private _phone: string;
 
   private _comment: string;
+  private _pictures: Array<any>;
 
   constructor(private router: Router, private http: HttpClient) {
     this.load();
+  }
+
+  get pictures(): Array<any> {
+    return this._pictures;
+  }
+
+  set pictures(picturesArray) {
+    this._pictures = picturesArray;
+    this.save();
   }
 
   get zip(): string {
@@ -193,6 +203,7 @@ export class DataService {
         email: this.email,
         phone: this.phone,
         comment: this.comment,
+        pictures: this.pictures,
       })
     );
   }
@@ -213,6 +224,7 @@ export class DataService {
       this.email = data.email;
       this.phone = data.phone;
       this.comment = data.comment;
+      this.pictures = data.pictures;
     }
   }
 }
