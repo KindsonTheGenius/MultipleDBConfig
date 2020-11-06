@@ -1,0 +1,16 @@
+<form>
+  <div class="container">
+    <div class="row content">
+      <div class="col-12 d-flex justify-content-center flex-column">
+        <h2 class="title">Bitte wählen Sie den genauen Ort aus:</h2>
+        <div class="form">
+          <div class="selections">
+            <label class="city item radio mb-0" *ngFor="let city of this.cities">
+                <input type="radio" [value]="city.city" name="city" [(ngModel)]="d.city" (change)="validate()"> {{city.zip}} {{city.city}}
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

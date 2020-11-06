@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 12px 16px;
+  img {
+    width: 26px;
+    height: auto;
+  }
+}
+
+.selections.pickupCall {
+    margin-top: 15px;
+}
+

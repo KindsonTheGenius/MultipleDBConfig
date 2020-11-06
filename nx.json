@@ -26,6 +26,13 @@
     },
     "analytics": {
       "tags": []
+    },
+    "contact-form-cushions": {
+      "tags": []
+    },
+    "contact-form-cushions-e2e": {
+      "tags": [],
+      "implicitDependencies": ["contact-form-cushions"]
     }
   }
 }

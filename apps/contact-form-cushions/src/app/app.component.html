@@ -1,0 +1,40 @@
+<div class="p-bar" *ngIf="s.step >= 5 && !s.done">
+  <ngb-progressbar
+    [showValue]="false"
+    [value]="s.step - 1"
+    [max]="s.maxSteps - 1"
+    height=".5rem"
+  ></ngb-progressbar>
+  <small>Schritt {{ s.step - 1 }} von {{ s.maxSteps - 1 }}</small>
+</div>
+
+<router-outlet></router-outlet>
+
+<div class="controls" *ngIf="!s.done && s.step > 0" [hidden]="s.step === 0">
+  <button
+    type="button"
+    class="btn btn-secondary"
+    *ngIf="s.step > 1"
+    (click)="s.previousStep()"
+  >
+    Zurück
+  </button>
+  <button
+    type="button"
+    class="btn btn-primary"
+    *ngIf="s.step <= 7"
+    [disabled]="!s.stepValid"
+    (click)="s.nextStep()"
+  >
+    Weiter
+  </button>
+  <button
+    type="button"
+    class="btn btn-primary"
+    *ngIf="s.step === 8"
+    [disabled]="!s.stepValid || avoidDoubleClick"
+    (click)="d.finish(); avoidDoubleClick = true"
+  >
+    Senden
+  </button>
+</div>

@@ -243,7 +243,147 @@
           "style": "scss"
         }
       }
+    },
+    "contact-form-cushions": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "apps/contact-form-cushions",
+      "sourceRoot": "apps/contact-form-cushions/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/apps/contact-form-cushions",
+            "index": "apps/contact-form-cushions/src/index.html",
+            "main": "apps/contact-form-cushions/src/main.ts",
+            "polyfills": "apps/contact-form-cushions/src/polyfills.ts",
+            "tsConfig": "apps/contact-form-cushions/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "apps/contact-form-cushions/src/favicon.ico",
+              "apps/contact-form-cushions/src/assets"
+            ],
+            "styles": ["apps/contact-form-cushions/src/styles.scss"],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/contact-form-cushions/src/environments/environment.ts",
+                  "with": "apps/contact-form-cushions/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "contact-form-cushions:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "contact-form-cushions:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "contact-form-cushions:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/contact-form-cushions/tsconfig.app.json",
+              "apps/contact-form-cushions/tsconfig.spec.json",
+              "apps/contact-form-cushions/tsconfig.editor.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/contact-form-cushions/**/*"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "apps/contact-form-cushions/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "contact-form-cushions-e2e": {
+      "root": "apps/contact-form-cushions-e2e",
+      "sourceRoot": "apps/contact-form-cushions-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/contact-form-cushions-e2e/cypress.json",
+            "tsConfig": "apps/contact-form-cushions-e2e/tsconfig.e2e.json",
+            "devServerTarget": "contact-form-cushions:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "contact-form-cushions:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": ["apps/contact-form-cushions-e2e/tsconfig.e2e.json"],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/contact-form-cushions-e2e/**/*"
+            ]
+          }
+        }
+      }
     }
   },
-  "defaultProject": "contact-form"
+  "defaultProject": "contact-form",
+  "cli": {
+    "defaultCollection": "@nrwl/angular"
+  },
+  "schematics": {
+    "@nrwl/angular:application": {
+      "unitTestRunner": "jest",
+      "e2eTestRunner": "cypress"
+    },
+    "@nrwl/angular:library": {
+      "unitTestRunner": "jest"
+    }
+  }
 }
