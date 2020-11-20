@@ -44,7 +44,8 @@
             "tsConfig": "apps/contact-form/tsconfig.app.json",
             "assets": [
               "apps/contact-form/src/favicon.ico",
-              "apps/contact-form/src/assets"
+              "apps/contact-form/src/assets",
+              "libs/cushion-calculator/src/lib/assets"
             ],
             "styles": ["apps/contact-form/src/styles.scss"],
             "scripts": [
@@ -369,6 +370,292 @@
               "!apps/contact-form-cushions-e2e/**/*"
             ]
           }
+        }
+      }
+    },
+    "pricing-calculator-cushions": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "apps/pricing-calculator-cushions",
+      "sourceRoot": "apps/pricing-calculator-cushions/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/apps/pricing-calculator-cushions",
+            "index": "apps/pricing-calculator-cushions/src/index.html",
+            "main": "apps/pricing-calculator-cushions/src/main.ts",
+            "polyfills": "apps/pricing-calculator-cushions/src/polyfills.ts",
+            "tsConfig": "apps/pricing-calculator-cushions/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "apps/pricing-calculator-cushions/src/favicon.ico",
+              "apps/pricing-calculator-cushions/src/assets"
+            ],
+            "styles": ["apps/pricing-calculator-cushions/src/styles.scss"],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/pricing-calculator-cushions/src/environments/environment.ts",
+                  "with": "apps/pricing-calculator-cushions/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "pricing-calculator-cushions:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "pricing-calculator-cushions:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "pricing-calculator-cushions:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/pricing-calculator-cushions/tsconfig.app.json",
+              "apps/pricing-calculator-cushions/tsconfig.spec.json",
+              "apps/pricing-calculator-cushions/tsconfig.editor.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/pricing-calculator-cushions/**/*"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "apps/pricing-calculator-cushions/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "pricing-calculator-cushions-e2e": {
+      "root": "apps/pricing-calculator-cushions-e2e",
+      "sourceRoot": "apps/pricing-calculator-cushions-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/pricing-calculator-cushions-e2e/cypress.json",
+            "tsConfig": "apps/pricing-calculator-cushions-e2e/tsconfig.e2e.json",
+            "devServerTarget": "pricing-calculator-cushions:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "pricing-calculator-cushions:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/pricing-calculator-cushions-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/pricing-calculator-cushions-e2e/**/*"
+            ]
+          }
+        }
+      }
+    },
+    "lib-calculator-cushion": {
+      "projectType": "library",
+      "root": "libs/lib/calculator-cushion",
+      "sourceRoot": "libs/lib/calculator-cushion/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/lib/calculator-cushion/tsconfig.lib.json",
+              "libs/lib/calculator-cushion/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/lib/calculator-cushion/**/*"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/lib/calculator-cushion/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      }
+    },
+    "libs-calculator-cushion": {
+      "projectType": "library",
+      "root": "libs/libs/calculator-cushion",
+      "sourceRoot": "libs/libs/calculator-cushion/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/libs/calculator-cushion/tsconfig.lib.json",
+              "libs/libs/calculator-cushion/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/libs/calculator-cushion/**/*"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/libs/calculator-cushion/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      }
+    },
+    "cushion-calculator": {
+      "projectType": "library",
+      "root": "libs/cushion-calculator",
+      "sourceRoot": "libs/cushion-calculator/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/cushion-calculator/tsconfig.lib.json",
+              "libs/cushion-calculator/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/cushion-calculator/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/cushion-calculator/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      }
+    },
+    "partner": {
+      "projectType": "library",
+      "root": "libs/partner",
+      "sourceRoot": "libs/partner/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/partner/tsconfig.lib.json",
+              "libs/partner/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/partner/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/partner/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      }
+    },
+    "models": {
+      "projectType": "library",
+      "root": "libs/models",
+      "sourceRoot": "libs/models/src",
+      "prefix": "jl-clean",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/models/tsconfig.lib.json",
+              "libs/models/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/models/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/models/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
         }
       }
     }

@@ -1,0 +1,89 @@
+@import '../styles';
+
+.icon {
+  justify-content: center;
+  height: 140px;
+}
+
+.nameCard {
+  max-width: 100%;
+  justify-content: center;
+}
+
+.cushionName {
+  font-size: 20px;
+}
+
+.amountDisplay {
+  border: 2.5px solid rgb(223, 223, 223);
+}
+
+.price {
+  font-size: 20px;
+}
+
+.button {
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.svg {
+  fill: rgb(223, 223, 223);
+}
+
+.iconAmount {
+  width: 40px;
+}
+
+.counter {
+  margin-top: 20px;
+}
+
+.pricing {
+  width: 100%;
+  background-color: $primary;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 14px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  word-break: keep-all;
+  .price {
+    background-color: darken($primary, 10);
+    padding: 14px;
+    margin: -14px;
+    border-radius: 50px;
+  }
+  .price {
+    min-width: 80px;
+    color: #fff;
+  }
+  .desc {
+    color: #fff;
+  }
+  small {
+    color: #fff;
+  }
+
+  .specialRequest {
+    font-size: 14px;
+    color: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerRow {
+    width: 80%;
+  }
+
+  .counter {
+    margin-top: 0px;
+  }
+
+  .icon {
+    justify-content: center;
+    height: 140px;
+  }
+}

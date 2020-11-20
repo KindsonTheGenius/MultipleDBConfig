@@ -17,7 +17,16 @@
     "paths": {
       "@jl-clean/order": ["libs/order/src/index.ts"],
       "@jl-clean/tour": ["libs/tour/src/index.ts"],
-      "@jl-clean/analytics": ["libs/analytics/src/index.ts"]
+      "@jl-clean/analytics": ["libs/analytics/src/index.ts"],
+      "@jl-clean/lib/calculator-cushion": [
+        "libs/lib/calculator-cushion/src/index.ts"
+      ],
+      "@jl-clean/libs/calculator-cushion": [
+        "libs/libs/calculator-cushion/src/index.ts"
+      ],
+      "@jl-clean/cushion-calculator": ["libs/cushion-calculator/src/index.ts"],
+      "@jl-clean/partner": ["libs/partner/src/index.ts"],
+      "@jl-clean/models": ["libs/models/src/index.ts"]
     },
     "rootDir": "."
   }

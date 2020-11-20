@@ -176,7 +176,20 @@ export class DataService {
   finish() {
     const data = JSON.parse(localStorage.getItem('data'));
 
-    this.http.post('/api/send-request', data).subscribe(
+    this.http.post('/api/send-request/cushions', data).subscribe(
+      (res) => {
+        this.router.navigate(['thank-you']);
+      },
+      (err) => {
+        console.log(err);
+      }
+    );
+  }
+
+  finishCushions() {
+    const data = JSON.parse(localStorage.getItem('data'));
+
+    this.http.post('/api/send-request/cushions', data).subscribe(
       (res) => {
         this.router.navigate(['thank-you']);
       },

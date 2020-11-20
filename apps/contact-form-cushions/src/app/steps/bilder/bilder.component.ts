@@ -98,7 +98,6 @@ export class BilderComponent implements AfterViewInit, OnInit {
             (pic) => pic.serverFileName !== filename
           );
           this.d.pictures = this.picArray;
-          console.log(this.d.pictures);
           this.error = false;
           this.message = 'Bild wurde erfolgreich entfernt!';
           this.validate();

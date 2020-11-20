@@ -33,6 +33,28 @@
     "contact-form-cushions-e2e": {
       "tags": [],
       "implicitDependencies": ["contact-form-cushions"]
+    },
+    "pricing-calculator-cushions": {
+      "tags": []
+    },
+    "pricing-calculator-cushions-e2e": {
+      "tags": [],
+      "implicitDependencies": ["pricing-calculator-cushions"]
+    },
+    "lib-calculator-cushion": {
+      "tags": []
+    },
+    "libs-calculator-cushion": {
+      "tags": []
+    },
+    "cushion-calculator": {
+      "tags": []
+    },
+    "partner": {
+      "tags": []
+    },
+    "models": {
+      "tags": []
     }
   }
 }

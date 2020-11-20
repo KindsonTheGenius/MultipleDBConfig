@@ -10,6 +10,7 @@
     "e2e": "ng e2e",
     "serve:contact-form": "ng serve contact-form --proxy-config proxy.conf.js --aot --host 0.0.0.0",
     "serve:contact-form-cushions": "ng serve contact-form-cushions --proxy-config proxy.conf.js --aot --host 0.0.0.0",
+    "serve:pricing-calculator-cushions": "ng serve pricing-calculator-cushions",
     "serve": "nx dev:serve",
     "nx": "nx",
     "affected:apps": "nx affected:apps",
@@ -28,11 +29,12 @@
     "dep-graph": "nx dep-graph",
     "workspace-schematic": "nx workspace-schematic",
     "help": "nx help",
-    "postinstall": "node ./decorate-angular-cli.js"
+    "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.0.8",
+    "@angular/cdk": "^11.0.0",
     "@angular/common": "~10.0.8",
     "@angular/compiler": "~10.0.8",
     "@angular/core": "~10.0.8",
@@ -84,6 +86,8 @@
     "ts-jest": "26.4.0",
     "ts-node": "~8.0.2",
     "tslint": "~6.1.0",
-    "typescript": "~3.9.7"
+    "typescript": "~3.9.7",
+    "cypress": "^4.1.0",
+    "@nrwl/cypress": "10.3.0"
   }
 }
