@@ -23,6 +23,8 @@ export class DataService {
   private _comment: string;
   private _pictures: Array<any>;
 
+  public _orderCushionsDTO: any;
+
   constructor(private router: Router, private http: HttpClient) {
     this.load();
   }
@@ -173,6 +175,15 @@ export class DataService {
     this.save();
   }
 
+  get orderCushionsDTO(): any {
+    return this._orderCushionsDTO;
+  }
+
+  set orderCushionsDTO(value: any) {
+    this._orderCushionsDTO = value;
+    this.save();
+  }
+
   finish() {
     const data = JSON.parse(localStorage.getItem('data'));
 
@@ -217,6 +228,7 @@ export class DataService {
         phone: this.phone,
         comment: this.comment,
         pictures: this.pictures,
+        orderCushionsDTO: this.orderCushionsDTO,
       })
     );
   }
@@ -238,6 +250,7 @@ export class DataService {
       this.phone = data.phone;
       this.comment = data.comment;
       this.pictures = data.pictures;
+      this.orderCushionsDTO = data.orderCushionsDTO;
     }
   }
 }

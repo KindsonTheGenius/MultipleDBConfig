@@ -21,7 +21,7 @@ export class AbholComponent implements OnInit, AfterViewInit {
     private a: AnalyticsService,
     public tourService: TourService
   ) {
-    this.s.step = 3;
+    this.s.step = 4;
   }
 
   ngOnInit() {

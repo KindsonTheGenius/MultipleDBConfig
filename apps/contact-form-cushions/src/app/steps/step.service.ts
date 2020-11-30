@@ -9,7 +9,7 @@ export class StepService {
   private _step: number = 1;
 
   public stepValid = false;
-  public maxSteps = 8;
+  public maxSteps = 9;
   public done = false;
 
   public skippedStep2 = false;
@@ -54,21 +54,24 @@ export class StepService {
         route = 'city';
         break;
       case 3:
-        route = 'pickup';
+        route = 'calculator';
         break;
       case 4:
-        route = 'return';
+        route = 'pickup';
         break;
       case 5:
-        route = 'address';
+        route = 'return';
         break;
       case 6:
-        route = 'contact';
+        route = 'address';
         break;
       case 7:
-        route = 'pictures';
+        route = 'contact';
         break;
       case 8:
+        route = 'pictures';
+        break;
+      case 9:
         route = 'send';
     }
     this.router.navigate([route]);

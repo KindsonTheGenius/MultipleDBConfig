@@ -20,7 +20,7 @@ export class RueckgabeComponent implements OnInit, AfterViewInit {
     private a: AnalyticsService,
     private tourService: TourService
   ) {
-    this.s.step = 4;
+    this.s.step = 5;
   }
 
   ngOnInit() {
