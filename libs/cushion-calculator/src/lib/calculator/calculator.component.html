@@ -1,5 +1,5 @@
-<div class="container">
-  <p style="font-size: 18px;" class="text-center">
+<div class="container" [ngClass]="{ marginBottom: source === 'contactForm' }">
+  <p style="font-size: 18px;" class="text-center mt-3">
     Tragen Sie hier die Anzahl der zu reinigenden Polstermöbel ein:
   </p>
 
@@ -40,6 +40,11 @@
               <div class="col-12">
                 <p class="m-0 font-weight-bold h5" style="color: #b12704;">
                   {{ cushion.price | currency: 'EUR' }}
+                </p>
+              </div>
+              <div class="col-12 mb-2">
+                <p class="m-0 font-weight-bold h6" style="color: #b12704;">
+                  (inkl. 10% Rabatt)
                 </p>
               </div>
             </div>
@@ -92,6 +97,14 @@
               (change)="requestSpecialOrder()"
             ></mat-slide-toggle>
           </div>
+        </span>
+      </div>
+      <div class="w-70 d-flex justify-content-between mx-2">
+        <span *ngIf="this.specialOrderOption" class="h6">
+          <b style="color: darkred;"
+            >Bitte im letzten Schritt des Kontaktformulars in den Kommentaren
+            beschreiben.</b
+          >
         </span>
       </div>
       <div class="w-70 h-20 d-flex justify-content-between mx-2 my-1">

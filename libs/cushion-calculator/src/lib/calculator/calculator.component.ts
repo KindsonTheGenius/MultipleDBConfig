@@ -1,4 +1,11 @@
-import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  OnInit,
+  Output,
+  ViewEncapsulation,
+} from '@angular/core';
 import { Cushion } from '../../../../models/src/lib/models/Cushion';
 import {
   Partner,
@@ -16,6 +23,8 @@ export class CalculatorComponent implements OnInit {
   title = 'pricing-calculator-cushions';
 
   @Input() partnername = 'Freud1P';
+  @Input() source;
+  @Output() newItemEvent = new EventEmitter<any>();
 
   private partners = {
     //Example Partner
@@ -35,15 +44,45 @@ export class CalculatorComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    const partnerData = this.partners[this.partnername];
-    this.partner = partnerData.partner;
-    this.cushions = partnerData.cushions;
-    this.minPrice = this.partner.basePrice;
-    this.selectedCushionId = this.cushions[0].id;
-    this.specialOrderOption = false;
+    let partnerData;
+    let storageData = JSON.parse(localStorage.getItem('order'));
+
+    if (storageData && this.source === 'contactForm') {
+      partnerData = this.partners[storageData.partnername];
+      this.partner = partnerData.partner;
+      this.cushions = partnerData.cushions;
+      this.updateCushionsInfo(storageData.cushions);
+      this.minPrice = this.partner.basePrice;
+      this.selectedCushionId = this.cushions[0].id;
+      this.specialOrderOption = false;
+      this.saveOrderParentComponent(storageData);
+    } else {
+      partnerData = this.partners[this.partnername];
+      this.partner = partnerData.partner;
+      this.cushions = partnerData.cushions;
+      this.minPrice = this.partner.basePrice;
+      this.selectedCushionId = this.cushions[0].id;
+      this.specialOrderOption = false;
+    }
+
     this.setTransportCost();
     this.setTotal();
   }
+
+  updateCushionsInfo(cushionsDTO) {
+    this.cushions.map((cushion) => {
+      for (let i = 0; i < cushionsDTO.length; i++) {
+        if (cushion.name === cushionsDTO[i].name) {
+          cushion.amount = cushionsDTO[i].amount;
+          cushion.subTotal = cushion.amount * cushion.price;
+        }
+      }
+    });
+    this.setSumPriceCushions();
+    this.setTransportCost();
+    this.setTotal();
+  }
+
   minusAmount(cushionId: string) {
     if (!this.specialOrderOption) {
       this.changeAmount('minus', cushionId);
@@ -85,9 +124,11 @@ export class CalculatorComponent implements OnInit {
   }
 
   requestSpecialOrder() {
-    console.log('Fired!!!');
     this.specialOrderOption = !this.specialOrderOption;
-    this.cushions.map((cushion) => (cushion.amount = 0));
+    this.cushions.map((cushion) => {
+      cushion.amount = 0;
+      cushion.subTotal = 0;
+    });
     this.transportCost = this.minPrice;
     this.totalPrice = this.transportCost;
     this.sumPriceCushions = 0;
@@ -127,6 +168,7 @@ export class CalculatorComponent implements OnInit {
 
   setTotal() {
     this.totalPrice = this.sumPriceCushions + this.transportCost;
+    this.saveOrder();
   }
 
   saveOrder() {
@@ -134,6 +176,7 @@ export class CalculatorComponent implements OnInit {
     cushionsDTO.partnername = this.partnername;
     cushionsDTO.total = this.totalPrice;
     cushionsDTO.transportCost = this.transportCost;
+    cushionsDTO.specialOrderOption = this.specialOrderOption;
 
     cushionsDTO.cushions = this.cushions.map((cushion) => {
       return {
@@ -144,5 +187,12 @@ export class CalculatorComponent implements OnInit {
     });
 
     localStorage.setItem('order', JSON.stringify(cushionsDTO));
+    if (this.source === 'contactForm') {
+      this.saveOrderParentComponent(cushionsDTO);
+    }
+  }
+
+  saveOrderParentComponent(value: any) {
+    this.newItemEvent.emit(value);
   }
 }

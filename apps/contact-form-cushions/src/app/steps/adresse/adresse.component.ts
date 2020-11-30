@@ -17,7 +17,7 @@ export class AdresseComponent implements AfterViewInit {
     public d: DataService,
     private a: AnalyticsService
   ) {
-    this.s.step = 5;
+    this.s.step = 6;
     this.a.setStep('Adresse', 4);
   }
 

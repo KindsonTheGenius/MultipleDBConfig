@@ -17,7 +17,7 @@ export class KontaktDatenComponent implements AfterViewInit {
     public d: DataService,
     private a: AnalyticsService
   ) {
-    this.s.step = 6;
+    this.s.step = 7;
     this.a.setStep('Kontaktdaten', 5);
   }
 

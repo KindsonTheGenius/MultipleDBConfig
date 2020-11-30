@@ -32,7 +32,7 @@ export class BilderComponent implements AfterViewInit, OnInit {
     private a: AnalyticsService,
     private uploadService: UploadFileService
   ) {
-    this.s.step = 7;
+    this.s.step = 8;
     this.a.setStep('Kontaktdaten', 6);
     this.error = false;
     this.noPicOption = false;

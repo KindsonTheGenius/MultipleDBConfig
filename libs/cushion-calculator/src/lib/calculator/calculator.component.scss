@@ -1,4 +1,7 @@
 @import '../styles';
+.marginBottom {
+  margin-bottom: 120px;
+}
 
 .icon {
   justify-content: center;
@@ -33,6 +36,9 @@
 }
 
 .iconAmount {
+  :hover {
+    cursor: pointer;
+  }
   width: 40px;
 }
 
