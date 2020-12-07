@@ -20,7 +20,7 @@ export class SendenComponent implements AfterViewInit {
     private a: AnalyticsService
   ) {
     this.s.step = 9;
-    this.a.setStep('Erfolg', 7);
+    this.a.setStep('Erfolg', 9);
     this.a.finish();
   }
 
@@ -30,5 +30,6 @@ export class SendenComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     this.validate();
+    this.d.spinner = false;
   }
 }

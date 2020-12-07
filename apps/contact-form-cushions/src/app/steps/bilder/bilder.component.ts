@@ -115,6 +115,8 @@ export class BilderComponent implements AfterViewInit, OnInit {
 
   ngOnInit(): void {
     this.fileInfos = this.uploadService.getFiles();
+    this.d.pictures = [];
+    console.log(this.d.pictures);
   }
 
   validate() {

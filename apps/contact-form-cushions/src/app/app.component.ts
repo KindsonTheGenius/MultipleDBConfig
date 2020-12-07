@@ -9,5 +9,8 @@ import { StepService } from './steps/step.service';
 })
 export class AppComponent {
   public avoidDoubleClick = false;
-  constructor(public s: StepService, public d: DataService) {}
+
+  constructor(public s: StepService, public d: DataService) {
+    d.spinner = false;
+  }
 }

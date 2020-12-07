@@ -23,19 +23,13 @@ export class DataService {
   private _comment: string;
   private _pictures: Array<any>;
 
-  public _orderCushionsDTO: any;
+  private _orderCushionsDTO: any;
+  private _picturesSent: any[];
+
+  private _spinner: boolean;
 
   constructor(private router: Router, private http: HttpClient) {
     this.load();
-  }
-
-  get pictures(): Array<any> {
-    return this._pictures;
-  }
-
-  set pictures(picturesArray) {
-    this._pictures = picturesArray;
-    this.save();
   }
 
   get zip(): string {
@@ -184,10 +178,27 @@ export class DataService {
     this.save();
   }
 
+  get pictures(): Array<any> {
+    return this._pictures;
+  }
+
+  set pictures(picturesArray) {
+    this._pictures = picturesArray;
+    this.save();
+  }
+
+  get spinner(): boolean {
+    return this._spinner;
+  }
+
+  set spinner(value: boolean) {
+    this._spinner = value;
+  }
+
   finish() {
     const data = JSON.parse(localStorage.getItem('data'));
 
-    this.http.post('/api/send-request/cushions', data).subscribe(
+    this.http.post('/api/send-request/', data).subscribe(
       (res) => {
         this.router.navigate(['thank-you']);
       },
@@ -200,6 +211,7 @@ export class DataService {
   finishCushions() {
     const data = JSON.parse(localStorage.getItem('data'));
 
+    console.log('Spinner API Call', this.spinner);
     this.http.post('/api/send-request/cushions', data).subscribe(
       (res) => {
         this.router.navigate(['thank-you']);
@@ -208,6 +220,11 @@ export class DataService {
         console.log(err);
       }
     );
+
+    this.spinner = false;
+    this.pictures.length = 0;
+    this.orderCushionsDTO = {};
+    this.save();
   }
 
   public save() {
