@@ -44,8 +44,7 @@
             "tsConfig": "apps/contact-form/tsconfig.app.json",
             "assets": [
               "apps/contact-form/src/favicon.ico",
-              "apps/contact-form/src/app/assets",
-              "apps/contact-form-cushions/src/app/assets"
+              "apps/contact-form/src/app/assets"
             ],
             "styles": ["apps/contact-form/src/styles.scss"],
             "scripts": [

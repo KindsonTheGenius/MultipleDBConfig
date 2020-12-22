@@ -46,6 +46,7 @@ export class CalculatorComponent implements AfterViewInit, OnInit {
 
   saveCalculatorOutput(orderDTO) {
     this.d.orderCushionsDTO = orderDTO;
+    console.log('OrderDTO: ', orderDTO);
     this.validate();
   }
 }

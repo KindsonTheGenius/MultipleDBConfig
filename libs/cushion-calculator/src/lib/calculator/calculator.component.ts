@@ -174,8 +174,6 @@ export class CalculatorComponent implements OnInit {
   saveOrder() {
     const cushionsDTO: any = {};
     cushionsDTO.partnername = this.partnername;
-    cushionsDTO.total = this.totalPrice;
-    cushionsDTO.transportCost = this.transportCost;
     cushionsDTO.specialOrderOption = this.specialOrderOption;
 
     cushionsDTO.cushions = this.cushions.map((cushion) => {

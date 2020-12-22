@@ -33,11 +33,10 @@ export class BilderComponent implements AfterViewInit, OnInit {
     private uploadService: UploadFileService
   ) {
     this.s.step = 8;
-    this.a.setStep('Kontaktdaten', 6);
+    this.a.setStep('Bilder', 8);
     this.error = false;
     this.noPicOption = false;
     this.d.pictures = this.picArray;
-    console.log(this.d.pictures);
     this.checkForPictures();
   }
 
@@ -71,7 +70,6 @@ export class BilderComponent implements AfterViewInit, OnInit {
           };
           this.picArray.push(pictureDTO);
           this.d.pictures = this.picArray;
-          console.log(this.d.pictures);
 
           this.progress = 0;
           this.validate();
