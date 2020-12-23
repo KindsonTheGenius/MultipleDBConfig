@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "nx",
     "start": "ng serve",
-    "build:elements pricing-calculator-cushions": "ng build --prod --output-hashing none && node build-elements.js --app=Pricing-Calculator-Cushions",
-    "build:elements pricing-calculator": "ng build --prod --output-hashing none && node build-elements.js --app=Pricing-Calculator",
+    "build:elements:pricing-calculator-cushions": "ng build --prod --output-hashing none && node build-elements.js --app=pricing-calculator-cushions",
+    "build:elements:pricing-calculator": "ng build --prod --output-hashing none && node build-elements.js --app=pricing-calculator",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
@@ -51,6 +51,7 @@
     "@nrwl/workspace": "^10.3.0",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.2.1",
+    "concat": "^1.0.3",
     "core-js": "^2.5.4",
     "csvtojson": "^2.0.8",
     "document-register-element": "^1.7.2",
