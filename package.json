@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "nx",
     "start": "ng serve",
-    "build": "ng build",
+    "build:elements pricing-calculator-cushions": "ng build --prod --output-hashing none && node build-elements.js --app=Pricing-Calculator-Cushions",
+    "build:elements pricing-calculator": "ng build --prod --output-hashing none && node build-elements.js --app=Pricing-Calculator",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
@@ -58,13 +59,15 @@
     "node-mailjet": "^3.3.1",
     "rxjs": "~6.6.2",
     "tslib": "^2.0.0",
+    "yargs": "^16.2.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1000.5",
+    "@angular-devkit/build-angular": "^0.1100.5",
     "@angular/cli": "~10.0.5",
     "@angular/compiler-cli": "~10.0.8",
     "@angular/language-service": "~10.0.8",
+    "@nrwl/cypress": "10.3.0",
     "@nrwl/jest": "10.3.0",
     "@nrwl/workspace": "10.3.0",
     "@types/jasmine": "~3.3.8",
@@ -72,6 +75,7 @@
     "@types/jest": "26.0.8",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
+    "cypress": "^4.1.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "jest": "26.2.2",
@@ -86,8 +90,6 @@
     "ts-jest": "26.4.0",
     "ts-node": "~8.0.2",
     "tslint": "~6.1.0",
-    "typescript": "~3.9.7",
-    "cypress": "^4.1.0",
-    "@nrwl/cypress": "10.3.0"
+    "typescript": "~3.9.7"
   }
 }
