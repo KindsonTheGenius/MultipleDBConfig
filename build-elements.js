@@ -5,16 +5,14 @@ const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
 const argv = yargs(hideBin(process.argv)).argv;
 
-let appName = 'pricing-calculator-cushions';
-console.log(argv.app);
-console.log(appName);
+let appName = argv.app;
 
 (async function build() {
   const files = [
-    './dist/pricing-calculator-cushions/runtime.js',
-    './dist/pricing-calculator-cushions/polyfills.js',
-    './dist/pricing-calculator-cushions/scripts.js',
-    './dist/pricing-calculator-cushions/main.js',
+    `./dist/apps/${appName}/runtime.js`,
+    `./dist/apps/${appName}/polyfills.js`,
+    `./dist/apps/${appName}/styles.js`,
+    `./dist/apps/${appName}/main.js`,
   ];
 
   await fs.ensureDir('elements');

@@ -1,7 +1,7 @@
 cache:
-  key: "$CI_JOB_STAGE-$CI_COMMIT_REF_SLUG rebuild4"
+  key: '$CI_JOB_STAGE-$CI_COMMIT_REF_SLUG rebuild4'
   paths:
-  - node_modules/
+    - node_modules/
 
 stages:
   - test
@@ -39,17 +39,6 @@ lint:
 #  only:
 #    - master
 
-
-build_test:
-  image: trion/ng-cli
-  stage: build
-  before_script:
-    - npm install
-  script: ng build --prod --aot
-  except:
-    - master
-    - tags
-
 release_job_dev:
   image: trion/ng-cli
   stage: build
@@ -57,7 +46,7 @@ release_job_dev:
     - npm install
   script: ng build --aot --buildOptimizer --outputPath=dist
   artifacts:
-    name: "project-dev-$CI_COMMIT_REF_NAME"
+    name: 'project-dev-$CI_COMMIT_REF_NAME'
     paths:
       - dist/
   only:
@@ -70,33 +59,33 @@ release_job:
     - npm install
   script: ng build --prod --outputPath=dist
   artifacts:
-    name: "project-$CI_COMMIT_REF_NAME"
+    name: 'project-$CI_COMMIT_REF_NAME'
     paths:
       - dist/
   only:
     - tags
 
-deploy_dev:
-  stage: deploy
-  image: cytopia/ansible:latest-tools
-  only:
-    - "master"
-  dependencies:
-    - release_job_dev
-  before_script:
-    - "[ ! -z \"${DEV_SERVER_PRIVATE_KEY}\" ]"
-    - "[ ! -z \"${DEV_SERVER_IP}\" ]"
-    - apk add rsync
-    - mkdir -p ~/.ssh
-    - echo "$DEV_SERVER_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
-    - chmod 600 ~/.ssh/id_rsa
-    - eval "$(ssh-agent -s)"
-    - ssh-add ~/.ssh/id_rsa
-    - ssh-keyscan -H $DEV_SERVER_IP >> ~/.ssh/known_hosts
-  script:
-    - mkdir deploy/roles/frontend/files
-    - mv dist deploy/roles/frontend/files/frontend
-    - ansible-playbook -i $DEV_SERVER_IP',' deploy/deploy.yml
+# deploy_dev:
+#   stage: deploy
+#   image: cytopia/ansible:latest-tools
+#   only:
+#     - "master"
+#   dependencies:
+#     - release_job_dev
+#   before_script:
+#     - "[ ! -z \"${DEV_SERVER_PRIVATE_KEY}\" ]"
+#     - "[ ! -z \"${DEV_SERVER_IP}\" ]"
+#     - apk add rsync
+#     - mkdir -p ~/.ssh
+#     - echo "$DEV_SERVER_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+#     - chmod 600 ~/.ssh/id_rsa
+#     - eval "$(ssh-agent -s)"
+#     - ssh-add ~/.ssh/id_rsa
+#     - ssh-keyscan -H $DEV_SERVER_IP >> ~/.ssh/known_hosts
+#   script:
+#     - mkdir deploy/roles/frontend/files
+#     - mv dist deploy/roles/frontend/files/frontend
+#     - ansible-playbook -i $DEV_SERVER_IP',' deploy/deploy.yml
 
 deploy_prod:
   stage: deploy
@@ -104,10 +93,10 @@ deploy_prod:
   dependencies:
     - release_job
   only:
-    - "tags"
+    - 'tags'
   before_script:
-    - "[ ! -z \"${PROD_SERVER_PRIVATE_KEY}\" ]"
-    - "[ ! -z \"${PROD_SERVER_IP}\" ]"
+    - '[ ! -z "${PROD_SERVER_PRIVATE_KEY}" ]'
+    - '[ ! -z "${PROD_SERVER_IP}" ]'
     - apk add rsync
     - mkdir -p ~/.ssh
     - echo "$PROD_SERVER_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
