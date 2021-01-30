@@ -37,7 +37,7 @@ deploy_prod_pcc:
   stage: deploy
   image: cytopia/ansible:latest-tools
   dependencies:
-    - release_job
+    - release_job_pcc
   only:
     - "tags"
   before_script:
@@ -59,7 +59,7 @@ deploy_prod_cfc:
   stage: deploy
   image: cytopia/ansible:latest-tools
   dependencies:
-    - release_job
+    - release_job_cfc
   only:
     - "tags"
   before_script:
