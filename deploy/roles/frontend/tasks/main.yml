@@ -8,6 +8,7 @@
     dest: /home/jl-clean-live/
     rsync_opts:
       - "--exclude=pricing-calculator.js"
+      - "--exclude=pricing-calculator-cushions.js"
       - "--delete"
 - name: restart backend
   command: pm2 restart jl-clean-live
