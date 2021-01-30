@@ -51,8 +51,8 @@ deploy_prod_pcc:
     - ssh-add ~/.ssh/id_rsa
     - ssh-keyscan -H $PROD_SERVER_IP >> ~/.ssh/known_hosts
   script:
-    - mkdir deploy/roles/pricing_calculator/files
-    - mv elements/pricing-calculator-cushions.js deploy/roles/pricing_calculator/files/pricing-calculator-cushions.js
+    - mkdir deploy/roles/pricing_calculator_cushions/files
+    - mv elements/pricing-calculator-cushions.js deploy/roles/pricing_calculator_cushions/files/pricing-calculator-cushions.js
     - ansible-playbook -i $PROD_SERVER_IP',' deploy/deploy.yml
 
 #deploy_prod_cfc:

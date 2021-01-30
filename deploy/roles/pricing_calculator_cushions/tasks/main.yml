@@ -1,0 +1,8 @@
+- name: install rsync
+  package:
+    name: rsync
+    state: present
+- name: synchronize pricing_calculator_cushions
+  synchronize:
+    src: pricing-calculator-cushions.js
+    dest: /home/jl-clean-live/frontend/
