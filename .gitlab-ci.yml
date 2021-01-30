@@ -7,7 +7,7 @@ stages:
   - build
   - deploy
 
-release_job:
+release_job_pcc:
   image: trion/ng-cli
   stage: build
   before_script:
@@ -20,7 +20,20 @@ release_job:
   only:
     - tags
 
-deploy_prod:
+release_job_cfc:
+  image: trion/ng-cli
+  stage: build
+  before_script:
+    - npm install
+  script: ng build contact-form-cushions --prod
+  artifacts:
+    name: "project-$CI_COMMIT_REF_NAME"
+    paths:
+      - dist/apps/contact-form-cushions
+  only:
+    - tags
+
+deploy_prod_pcc:
   stage: deploy
   image: cytopia/ansible:latest-tools
   dependencies:
@@ -40,4 +53,26 @@ deploy_prod:
   script:
     - mkdir deploy/roles/pricing_calculator/files
     - mv elements/pricing-calculator-cushions.js deploy/roles/pricing_calculator/files/pricing-calculator-cushions.js
+    - ansible-playbook -i $PROD_SERVER_IP',' deploy/deploy.yml
+
+deploy_prod_cfc:
+  stage: deploy
+  image: cytopia/ansible:latest-tools
+  dependencies:
+    - release_job
+  only:
+    - "tags"
+  before_script:
+    - "[ ! -z \"${PROD_SERVER_PRIVATE_KEY}\" ]"
+    - "[ ! -z \"${PROD_SERVER_IP}\" ]"
+    - apk add rsync
+    - mkdir -p ~/.ssh
+    - echo "$PROD_SERVER_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - eval "$(ssh-agent -s)"
+    - ssh-add ~/.ssh/id_rsa
+    - ssh-keyscan -H $PROD_SERVER_IP >> ~/.ssh/known_hosts
+  script:
+    - mkdir deploy/roles/frontend/files
+    - mv dist/apps/contact-form-cushions deploy/roles/frontend/files/cfc
     - ansible-playbook -i $PROD_SERVER_IP',' deploy/deploy.yml
