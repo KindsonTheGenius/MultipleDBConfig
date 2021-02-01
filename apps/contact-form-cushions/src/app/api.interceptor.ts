@@ -15,7 +15,7 @@ export class ApiInterceptor implements HttpInterceptor {
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
     if (environment.production) {
-      const apiReq = request.clone({url: `https://contact.jl-clean.de/${request.url}`});
+      const apiReq = request.clone({url: `https://contact.jl-clean.de${request.url}`});
       return next.handle(apiReq);
     } else {
       return next.handle(request);
