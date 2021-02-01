@@ -1,5 +1,5 @@
 import { registerLocaleData } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import localeDe from '@angular/common/locales/de';
 import localeDeExtra from '@angular/common/locales/extra/de';
 import { LOCALE_ID, NgModule } from '@angular/core';
@@ -22,6 +22,7 @@ import { RueckgabeComponent } from './steps/rueckgabe/rueckgabe.component';
 import { SendenComponent } from './steps/senden/senden.component';
 import { UnsupportedAreaComponent } from './steps/unsupported-area/unsupported-area.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { ApiInterceptor } from './api.interceptor';
 
 registerLocaleData(localeDe, 'de', localeDeExtra);
 
@@ -50,7 +51,11 @@ registerLocaleData(localeDe, 'de', localeDeExtra);
     FormsModule,
     CushionCalculatorModule,
   ],
-  providers: [{ provide: LOCALE_ID, useValue: 'de-DE' }],
+  providers: [
+    {provide: LOCALE_ID, useValue: 'de-DE'},
+    {provide: HTTP_INTERCEPTORS, useClass: ApiInterceptor, multi: true},
+  ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}

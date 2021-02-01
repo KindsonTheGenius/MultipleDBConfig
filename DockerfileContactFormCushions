@@ -1,0 +1,11 @@
+FROM node:14 as build
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm i
+COPY . .
+RUN node_modules/.bin/nx build contact-form-cushions --prod
+
+FROM nginx:1.17.1-alpine
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY --from=build /usr/src/app/dist/apps/contact-form-cushions /usr/share/nginx/html
+EXPOSE 80

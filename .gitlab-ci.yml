@@ -13,14 +13,24 @@ build_image_pricing_calculator:
   stage: build
   script:
     - docker login -u $REGISTRY_USER -p $REGISTRY_PASSWORD https://nexus-docker.stackr.de
-    - docker build -f PricingCalculatorDockerfile  -t nexus-docker.stackr.de/jlc/pricing-calculator .
+    - docker build -f DockerfilePricingCalculator -t nexus-docker.stackr.de/jlc/pricing-calculator .
     - docker push nexus-docker.stackr.de/jlc/pricing-calculator
+  only:
+    - tags
+
+build_image_contact_form:
+  stage: build
+  script:
+    - docker login -u $REGISTRY_USER -p $REGISTRY_PASSWORD https://nexus-docker.stackr.de
+    - docker build -f DockerfileContactFormCushions -t nexus-docker.stackr.de/jlc/contact-form-cushions .
+    - docker push nexus-docker.stackr.de/jlc/contact-form-cushions
   only:
     - tags
 
 deploy_service_pricing_calculator:
   stage: deploy
   script:
-    - curl -XPOST $SERVICE_WEBHOOK
+    - curl -XPOST $SERVICE_WEBHOOK_PRICING_CALCULATOR
+    - curl -XPOST $SERVICE_WEBHOOK_CONTACT_FORM_CUSHIONS
   only:
     - tags
