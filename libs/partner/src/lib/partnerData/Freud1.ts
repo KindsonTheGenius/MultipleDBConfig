@@ -14,7 +14,8 @@ export const cushions: Cushion[] = [
   {
     id: 'sessel',
     name: 'Sessel',
-    image: '../assets/Sessel.svg',
+    image:
+      'https://res.cloudinary.com/dsxmo646a/image/upload/v1613482519/Sessel_mvvh2l.svg',
     alt: 'Icon für Sessel',
     price: 139,
     subTotal: 0,
@@ -23,7 +24,8 @@ export const cushions: Cushion[] = [
   {
     id: 'sitzelement',
     name: 'Sitzelement',
-    image: '../assets/Polster-Sitzflaeche.svg',
+    image:
+      'https://res.cloudinary.com/dsxmo646a/image/upload/v1613482519/Polster-Sitzflaeche_w6zemo.svg',
     alt: 'Icon für Sitzelement',
     price: 109,
     offlinePrice: 119.9,
@@ -33,27 +35,19 @@ export const cushions: Cushion[] = [
   {
     id: 'eckelement',
     name: 'Eckelement',
-    image: '../assets/Sofa-Eckteil.svg',
+    image:
+      'https://res.cloudinary.com/dsxmo646a/image/upload/v1613482519/Sofa-Eckteil_xgfriv.svg',
     alt: 'Icon für Eckelement',
     price: 169,
-    offlinePrice: 187.1,
-    subTotal: 0,
-    amount: 0,
-  },
-  {
-    id: 'eckelementLang',
-    name: 'Langes Eckelement',
-    image: '../assets/Sofa-langes-Eckteil.svg',
-    alt: 'Icon für langes Eckelement',
-    price: 169,
-    offlinePrice: 187.1,
+    offlinePrice: 2000,
     subTotal: 0,
     amount: 0,
   },
   {
     id: 'loseKissen',
     name: 'Lose Kissen',
-    image: '../assets/Lose-kissen.svg',
+    image:
+      'https://res.cloudinary.com/dsxmo646a/image/upload/v1613482684/Lose-kissen_iki7zy.svg',
     alt: 'Icon für lose Kissen',
     price: 20,
     offlinePrice: 25,
@@ -61,3 +55,8 @@ export const cushions: Cushion[] = [
     amount: 0,
   },
 ];
+
+export const partnerObject = {
+  partner,
+  cushions,
+};

@@ -1,21 +1,28 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnChanges, OnInit } from '@angular/core';
 import { AnalyticsService } from '@jl-clean/analytics';
 import { DataService } from '@jl-clean/order';
+import { GetPartnerService } from '@jl-clean/partner';
+import { Observable } from 'rxjs';
 import { StepService } from '../step.service';
+
+interface IPartner {
+  partner_number: string;
+}
 
 @Component({
   selector: 'pl-calculator',
   templateUrl: './calculator.component.html',
   styleUrls: ['./calculator.component.scss'],
 })
-export class CalculatorComponent implements AfterViewInit, OnInit {
-  partnername = 'Freud1P';
+export class CalculatorComponent implements AfterViewInit, OnInit, OnChanges {
+  partnerName: Observable<IPartner>;
   sourceApp = 'contactForm';
 
   constructor(
     public s: StepService,
     public d: DataService,
-    private a: AnalyticsService
+    private a: AnalyticsService,
+    private getpartner: GetPartnerService
   ) {
     this.s.step = 3;
     this.a.setStep('Kalkulator', 3);
@@ -25,11 +32,15 @@ export class CalculatorComponent implements AfterViewInit, OnInit {
     this.validate();
   }
 
-  ngOnInit(): void {}
+  ngOnChanges(): void {}
+
+  ngOnInit(): void {
+    this.partnerName = this.getpartner.getPartnerNameByZipCode(this.d.zip);
+    console.log(this.partnerName.subscribe((res) => console.log(res)));
+  }
 
   validate() {
     let orderData = this.d.orderCushionsDTO;
-    console.log(orderData);
     let controlAmount = 0;
     orderData.cushions.map((cushion) => {
       controlAmount += cushion.amount;
@@ -46,7 +57,6 @@ export class CalculatorComponent implements AfterViewInit, OnInit {
 
   saveCalculatorOutput(orderDTO) {
     this.d.orderCushionsDTO = orderDTO;
-    console.log('OrderDTO: ', orderDTO);
     this.validate();
   }
 }

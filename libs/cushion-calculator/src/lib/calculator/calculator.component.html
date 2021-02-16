@@ -1,4 +1,8 @@
-<div class="container" [ngClass]="{ marginBottom: source === 'contactForm' }">
+<div
+  *ngIf="!zipNotCovered"
+  class="container"
+  [ngClass]="{ marginBottom: source === 'contactForm' }"
+>
   <p style="font-size: 18px;" class="text-center mt-3">
     Tragen Sie hier die Anzahl der zu reinigenden Polstermöbel ein:
   </p>
@@ -148,4 +152,7 @@
       </div>
     </div>
   </div>
+</div>
+<div *ngIf="zipNotCovered" class="border border-danger">
+  <h5>Momentan wird Ihre Postleitzahl leider nicht abgedeckt!</h5>
 </div>

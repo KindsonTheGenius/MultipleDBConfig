@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 import { NgbModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import { CalculatorComponent } from './calculator/calculator.component';
 
@@ -14,6 +15,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
     MatSlideToggleModule,
     NgbTooltipModule,
     NgbModule,
+    RouterModule,
   ],
   declarations: [CalculatorComponent],
   exports: [CalculatorComponent],
