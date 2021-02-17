@@ -1,5 +1,4 @@
 image: docker:20.10.2-dind
-
 services:
   - name: docker:20.10.2-dind
     alias: docker
