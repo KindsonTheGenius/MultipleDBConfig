@@ -1,4 +1,7 @@
 image: docker:20.10.2-dind
+services:
+  - name: docker:20.10.2-dind
+  alias: docker
 
 cache:
   key: '$CI_JOB_STAGE-$CI_COMMIT_REF_SLUG rebuild4'
