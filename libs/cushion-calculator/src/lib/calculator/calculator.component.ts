@@ -2,16 +2,28 @@ import {
   Component,
   EventEmitter,
   Input,
+  OnChanges,
   OnInit,
   Output,
   ViewEncapsulation,
 } from '@angular/core';
+import { Router } from '@angular/router';
 import { Cushion } from '../../../../models/src/lib/models/Cushion';
 import {
   Partner,
   TransportCostsType,
 } from '../../../../models/src/lib/models/Partner';
-import * as Freud1P from '../../../../partner/src/lib/partnerData/Freud1P';
+import * as Ensa1 from '../../../../partner/src/lib/partnerData/Ensa1';
+import * as Freud1 from '../../../../partner/src/lib/partnerData/Freud1';
+
+interface IPartner {
+  partner_number: string;
+}
+
+interface IPartnerObject {
+  partner: Partner;
+  cushion: Cushion[];
+}
 
 @Component({
   selector: 'jl-clean-calculator',
@@ -19,16 +31,17 @@ import * as Freud1P from '../../../../partner/src/lib/partnerData/Freud1P';
   styleUrls: ['./calculator.component.scss'],
   encapsulation: ViewEncapsulation.ShadowDom,
 })
-export class CalculatorComponent implements OnInit {
+export class CalculatorComponent implements OnInit, OnChanges {
   title = 'pricing-calculator-cushions';
 
-  @Input() partnername = 'Freud1P';
+  @Input() partnerName: IPartner | string;
   @Input() source;
   @Output() newItemEvent = new EventEmitter<any>();
 
   private partners = {
     //Example Partner
-    Freud1P,
+    Freud1,
+    Ensa1,
     // DELETE THIS ONE!!!!!
   };
 
@@ -40,15 +53,27 @@ export class CalculatorComponent implements OnInit {
   public transportCost: number;
   private sumPriceCushions = 0;
   public specialOrderOption: boolean = false;
+  public zipNotCovered: boolean = false;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
-  ngOnInit() {
-    let partnerData;
+  ngOnInit() {}
+
+  ngOnChanges() {
+    let partnerData: { partner; cushions };
     let storageData = JSON.parse(localStorage.getItem('order'));
 
     if (storageData && this.source === 'contactForm') {
-      partnerData = this.partners[storageData.partnername];
+      if (typeof this.partnerName === 'string') {
+        partnerData = this.partners[this.partnerName];
+      } else {
+        partnerData = this.partners[this.partnerName.partner_number];
+      }
+
+      if (partnerData === undefined) {
+        this.router.navigate(['/unsupported-area']);
+      }
+
       this.partner = partnerData.partner;
       this.cushions = partnerData.cushions;
       this.updateCushionsInfo(storageData.cushions);
@@ -57,7 +82,12 @@ export class CalculatorComponent implements OnInit {
       this.specialOrderOption = false;
       this.saveOrderParentComponent(storageData);
     } else {
-      partnerData = this.partners[this.partnername];
+      if (typeof this.partnerName === 'string') {
+        partnerData = this.partners[this.partnerName];
+      } else {
+        partnerData = this.partners[this.partnerName.partner_number];
+      }
+
       this.partner = partnerData.partner;
       this.cushions = partnerData.cushions;
       this.minPrice = this.partner.basePrice;
@@ -173,7 +203,7 @@ export class CalculatorComponent implements OnInit {
 
   saveOrder() {
     const cushionsDTO: any = {};
-    cushionsDTO.partnername = this.partnername;
+    cushionsDTO.partnername = this.partnerName;
     cushionsDTO.specialOrderOption = this.specialOrderOption;
 
     cushionsDTO.cushions = this.cushions.map((cushion) => {
