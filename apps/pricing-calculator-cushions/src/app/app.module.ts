@@ -29,7 +29,7 @@ registerLocaleData(localeDe, 'de');
 export class AppModule {
   constructor(private injector: Injector) {
     const el = createCustomElement(AppComponent, { injector });
-    customElements.define('cushions', el);
+    // customElements.define('cushions', el);
   }
 
   ngDoBootstrap() {}

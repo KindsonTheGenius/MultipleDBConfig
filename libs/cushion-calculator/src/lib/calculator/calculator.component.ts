@@ -82,6 +82,7 @@ export class CalculatorComponent implements OnInit, OnChanges {
       this.specialOrderOption = false;
       this.saveOrderParentComponent(storageData);
     } else {
+      console.log('Fired!');
       if (typeof this.partnerName === 'string') {
         partnerData = this.partners[this.partnerName];
       } else {
