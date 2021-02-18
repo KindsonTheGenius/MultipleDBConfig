@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   sourceApp: string = 'calculator';
-  partnername: string = 'Freud1P';
+  partnerName: string = 'Freud1';
 
   title = 'pricing-calculator-cushions';
 }
