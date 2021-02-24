@@ -7,7 +7,6 @@ import {
   Output,
   ViewEncapsulation,
 } from '@angular/core';
-import { Router } from '@angular/router';
 import { Cushion } from '../../../../models/src/lib/models/Cushion';
 import {
   Partner,
@@ -55,7 +54,7 @@ export class CalculatorComponent implements OnInit, OnChanges {
   public specialOrderOption: boolean = false;
   public zipNotCovered: boolean = false;
 
-  constructor(private router: Router) {}
+  constructor() {}
 
   ngOnInit() {}
 
@@ -68,10 +67,6 @@ export class CalculatorComponent implements OnInit, OnChanges {
         partnerData = this.partners[this.partnerName];
       } else {
         partnerData = this.partners[this.partnerName.partner_number];
-      }
-
-      if (partnerData === undefined) {
-        this.router.navigate(['/unsupported-area']);
       }
 
       this.partner = partnerData.partner;
