@@ -6,7 +6,7 @@ import {
 
 export const partner: Partner = {
   basePrice: 120,
-  transportCostsType: TransportCostsType.AMAZON_MODEL,
+  transportCostsType: TransportCostsType.MINIMUM_ORDER_VALUE,
   showOfflinePrice: true,
 };
 
