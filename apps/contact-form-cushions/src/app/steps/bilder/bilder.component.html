@@ -27,10 +27,16 @@
           type="file"
           class="form-control-file mr-3"
           name="cushionPic"
+          accept="image/x-png,image/jpeg"
           (change)="selectFile($event); upload()"
           [disabled]="noPicOption || picArray.length >= 8"
         />
       </label>
+
+      <span class="mt-2 px-3">Maximale Dateigröße: 10MB</span>
+      <span class="mt-1 mb-2 px-3"
+        >Akzeptiertes Dateiformat: *.jpg/jpeg | *.png</span
+      >
 
       <div
         class="alert alert-light text-success"
