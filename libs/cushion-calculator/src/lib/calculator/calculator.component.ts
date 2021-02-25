@@ -12,7 +12,6 @@ import {
   Partner,
   TransportCostsType,
 } from '../../../../models/src/lib/models/Partner';
-import * as Ensa1 from '../../../../partner/src/lib/partnerData/Ensa1';
 import * as Freud1 from '../../../../partner/src/lib/partnerData/Freud1';
 
 interface IPartner {
@@ -40,7 +39,6 @@ export class CalculatorComponent implements OnInit, OnChanges {
   private partners = {
     //Example Partner
     Freud1,
-    Ensa1,
     // DELETE THIS ONE!!!!!
   };
 

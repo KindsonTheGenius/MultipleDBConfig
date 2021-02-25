@@ -57,10 +57,17 @@
             class="col-12 col-lg-6 counter d-flex flex-row justify-content-center align-items-center"
           >
             <img
+              *ngIf="cushion.amount !== 0"
               src="https://res.cloudinary.com/dsxmo646a/image/upload/v1613657712/minusIcon_y6liql.svg"
               alt="Reduce amount"
               class="img-fluid mr-3 iconAmount"
               (click)="minusAmount(cushion.id)"
+            />
+            <img
+              *ngIf="cushion.amount === 0"
+              src="https://res.cloudinary.com/dsxmo646a/image/upload/v1614261113/minusIconIdle_bhebkx.svg"
+              alt="Reduce amount"
+              class="img-fluid mr-3 iconAmount"
             />
             <div class="amountDisplay text-center">
               <span class="align-middle">
@@ -106,8 +113,8 @@
       <div class="w-70 d-flex justify-content-between mx-2">
         <span *ngIf="this.specialOrderOption" class="h6">
           <b style="color: darkred;"
-            >Bitte im letzten Schritt des Kontaktformulars in den Kommentaren
-            beschreiben.</b
+            >Bitte am Ende des Kontaktformulars entweder Bilder hochladen oder
+            Gegenstände beschreiben.</b
           >
         </span>
       </div>
@@ -121,7 +128,7 @@
             #t="ngbTooltip"
             (click)="t.open()"
             placement="top"
-            ngbTooltip="Bei einem Bestelltwert von über {{
+            ngbTooltip="Bei einem Auftragswert von über {{
               this.minPrice | currency: 'EUR'
             }} schenken wir Ihnen die
           Anfahrtspauschale."

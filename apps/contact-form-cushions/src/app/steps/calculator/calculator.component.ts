@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, OnChanges, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AnalyticsService } from '@jl-clean/analytics';
 import { DataService } from '@jl-clean/order';
 import { GetPartnerService } from '@jl-clean/partner';
@@ -18,11 +19,14 @@ export class CalculatorComponent implements AfterViewInit, OnInit, OnChanges {
   partnerName: Observable<IPartner>;
   sourceApp = 'contactForm';
 
+  partners = ['Freud1'];
+
   constructor(
     public s: StepService,
     public d: DataService,
     private a: AnalyticsService,
-    private getpartner: GetPartnerService
+    private getpartner: GetPartnerService,
+    private router: Router
   ) {
     this.s.step = 3;
     this.a.setStep('Kalkulator', 3);
@@ -36,7 +40,11 @@ export class CalculatorComponent implements AfterViewInit, OnInit, OnChanges {
 
   ngOnInit(): void {
     this.partnerName = this.getpartner.getPartnerNameByZipCode(this.d.zip);
-    console.log(this.partnerName.subscribe((res) => console.log(res)));
+    this.partnerName.subscribe((res) => {
+      if (!this.partners.includes(res.partner_number)) {
+        this.router.navigate(['/unsupported-area']);
+      }
+    });
   }
 
   validate() {
