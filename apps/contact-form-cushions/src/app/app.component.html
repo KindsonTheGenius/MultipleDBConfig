@@ -10,7 +10,12 @@
 
 <router-outlet></router-outlet>
 
-<div class="controls" *ngIf="!s.done && s.step > 0" [hidden]="s.step === 0">
+<div
+  class="controls"
+  *ngIf="!s.done && s.step > 0"
+  [hidden]="s.step === 0"
+  style="z-index: 10;"
+>
   <button
     type="button"
     class="btn btn-secondary"

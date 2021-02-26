@@ -37,9 +37,7 @@ export class CalculatorComponent implements OnInit, OnChanges {
   @Output() newItemEvent = new EventEmitter<any>();
 
   private partners = {
-    //Example Partner
     Freud1,
-    // DELETE THIS ONE!!!!!
   };
 
   public selectedCushionId: string;

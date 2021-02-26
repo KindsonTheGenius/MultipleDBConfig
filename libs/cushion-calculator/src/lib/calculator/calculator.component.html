@@ -64,7 +64,7 @@
               (click)="minusAmount(cushion.id)"
             />
             <img
-              *ngIf="cushion.amount === 0"
+              *ngIf="cushion.amount === 0 || specialOrderOption"
               src="https://res.cloudinary.com/dsxmo646a/image/upload/v1614261113/minusIconIdle_bhebkx.svg"
               alt="Reduce amount"
               class="img-fluid mr-3 iconAmount"
@@ -75,10 +75,17 @@
               </span>
             </div>
             <img
+              *ngIf="!specialOrderOption"
               src="https://res.cloudinary.com/dsxmo646a/image/upload/v1613657712/plusIcon_digipw.svg"
               alt="Increase amount"
               class="img-fluid ml-3 iconAmount"
               (click)="plusAmount(cushion.id)"
+            />
+            <img
+              *ngIf="specialOrderOption"
+              src="https://res.cloudinary.com/dsxmo646a/image/upload/v1614261113/minusIconIdle_bhebkx.svg"
+              alt="Reduce amount"
+              class="img-fluid ml-3 iconAmount"
             />
           </div>
         </div>
