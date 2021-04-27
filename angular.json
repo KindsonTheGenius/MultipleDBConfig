@@ -87,7 +87,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "contact-form:build"
+            "browserTarget": "contact-form:build",
+            "proxyConfig": "proxy.conf.js"
           },
           "configurations": {
             "production": {
@@ -293,7 +294,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "contact-form-cushions:build"
+            "browserTarget": "contact-form-cushions:build",
+            "proxyConfig": "proxy.conf.js"
           },
           "configurations": {
             "production": {
