@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 export class StepService {
   private _step: number = 1;
 
+  private _imageArray: [];
+
   public stepValid = false;
   public maxSteps = 9;
   public done = false;
@@ -15,6 +17,14 @@ export class StepService {
   public skippedStep2 = false;
 
   constructor(private http: HttpClient, private router: Router) {}
+
+  get imageArray(){
+    return this._imageArray;
+  }
+
+  set imageArray(imageArray: []){
+    this._imageArray = imageArray;
+  }
 
   get step() {
     return this._step;

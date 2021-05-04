@@ -1,8 +1,9 @@
 import { HttpEventType, HttpResponse } from '@angular/common/http';
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, OnInit, Output, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { AnalyticsService } from '@jl-clean/analytics';
 import { DataService } from '@jl-clean/order';
+import { EventEmitter } from 'events';
 import { Observable } from 'rxjs';
 import { UploadFileService } from '../../upload-file.service';
 import { StepService } from '../step.service';
@@ -74,6 +75,7 @@ export class BilderComponent implements AfterViewInit, OnInit {
           this.progress = 0;
           this.validate();
           this.checkForPictures();
+          this.s.imageArray = this.picArray;
         }
       },
       (err) => {
@@ -100,6 +102,7 @@ export class BilderComponent implements AfterViewInit, OnInit {
           this.message = 'Bild wurde erfolgreich entfernt!';
           this.validate();
           this.checkForPictures();
+          this.s.imageArray = this.picArray;
         }
       },
       error: (error) => {
@@ -112,6 +115,10 @@ export class BilderComponent implements AfterViewInit, OnInit {
   }
 
   ngOnInit(): void {
+    if(this.s.imageArray){
+      this.picArray = this.s.imageArray;
+    }
+
     this.fileInfos = this.uploadService.getFiles();
     this.d.pictures = [];
     console.log(this.d.pictures);
